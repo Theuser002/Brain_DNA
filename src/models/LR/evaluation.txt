@@ -1,0 +1,391 @@
+EVALUATION RESULTS:
+[EMBRYONAL] - 1.0 - val_acc: 0.9869281045751634
+[EMBRYONAL] - 1.1 - val_acc: 1.0
+[EMBRYONAL] - 1.2 - val_acc: 1.0
+[EMBRYONAL] - 1.3 - val_acc: 1.0
+[EMBRYONAL] - 1.4 - val_acc: 1.0
+[EMBRYONAL] - 1.5 - val_acc: 1.0
+[EMBRYONAL] - 2.0 - val_acc: 1.0
+[EMBRYONAL] - 2.1 - val_acc: 1.0
+[EMBRYONAL] - 2.2 - val_acc: 1.0
+[EMBRYONAL] - 2.3 - val_acc: 1.0
+[EMBRYONAL] - 2.4 - val_acc: 1.0
+[EMBRYONAL] - 2.5 - val_acc: 1.0
+[EMBRYONAL] - 3.0 - val_acc: 1.0
+[EMBRYONAL] - 3.1 - val_acc: 1.0
+[EMBRYONAL] - 3.2 - val_acc: 1.0
+[EMBRYONAL] - 3.3 - val_acc: 1.0
+[EMBRYONAL] - 3.4 - val_acc: 1.0
+[EMBRYONAL] - 3.5 - val_acc: 1.0
+[EMBRYONAL] - 4.0 - val_acc: 1.0
+[EMBRYONAL] - 4.1 - val_acc: 1.0
+[EMBRYONAL] - 4.2 - val_acc: 1.0
+[EMBRYONAL] - 4.3 - val_acc: 1.0
+[EMBRYONAL] - 4.4 - val_acc: 1.0
+[EMBRYONAL] - 4.5 - val_acc: 1.0
+[EMBRYONAL] - 5.0 - val_acc: 1.0
+[EMBRYONAL] - 5.1 - val_acc: 1.0
+[EMBRYONAL] - 5.2 - val_acc: 1.0
+[EMBRYONAL] - 5.3 - val_acc: 1.0
+[EMBRYONAL] - 5.4 - val_acc: 1.0
+[EMBRYONAL] - 5.5 - val_acc: 1.0
+[GLIOBLASTOMA] - 1.0 - val_acc: 1.0
+[GLIOBLASTOMA] - 1.1 - val_acc: 1.0
+[GLIOBLASTOMA] - 1.2 - val_acc: 1.0
+[GLIOBLASTOMA] - 1.3 - val_acc: 1.0
+[GLIOBLASTOMA] - 1.4 - val_acc: 1.0
+[GLIOBLASTOMA] - 1.5 - val_acc: 1.0
+[GLIOBLASTOMA] - 2.0 - val_acc: 1.0
+[GLIOBLASTOMA] - 2.1 - val_acc: 1.0
+[GLIOBLASTOMA] - 2.2 - val_acc: 1.0
+[GLIOBLASTOMA] - 2.3 - val_acc: 1.0
+[GLIOBLASTOMA] - 2.4 - val_acc: 1.0
+[GLIOBLASTOMA] - 2.5 - val_acc: 1.0
+[GLIOBLASTOMA] - 3.0 - val_acc: 1.0
+[GLIOBLASTOMA] - 3.1 - val_acc: 1.0
+[GLIOBLASTOMA] - 3.2 - val_acc: 1.0
+[GLIOBLASTOMA] - 3.3 - val_acc: 1.0
+[GLIOBLASTOMA] - 3.4 - val_acc: 1.0
+[GLIOBLASTOMA] - 3.5 - val_acc: 1.0
+[GLIOBLASTOMA] - 4.0 - val_acc: 1.0
+[GLIOBLASTOMA] - 4.1 - val_acc: 1.0
+[GLIOBLASTOMA] - 4.2 - val_acc: 1.0
+[GLIOBLASTOMA] - 4.3 - val_acc: 1.0
+[GLIOBLASTOMA] - 4.4 - val_acc: 1.0
+[GLIOBLASTOMA] - 4.5 - val_acc: 1.0
+[GLIOBLASTOMA] - 5.0 - val_acc: 1.0
+[GLIOBLASTOMA] - 5.1 - val_acc: 1.0
+[GLIOBLASTOMA] - 5.2 - val_acc: 1.0
+[GLIOBLASTOMA] - 5.3 - val_acc: 1.0
+[GLIOBLASTOMA] - 5.4 - val_acc: 1.0
+[GLIOBLASTOMA] - 5.5 - val_acc: 1.0
+[GLIO-NEURONAL] - 1.0 - val_acc: 0.9859154929577465
+[GLIO-NEURONAL] - 1.1 - val_acc: 0.9827586206896551
+[GLIO-NEURONAL] - 1.2 - val_acc: 0.9622641509433962
+[GLIO-NEURONAL] - 1.3 - val_acc: 1.0
+[GLIO-NEURONAL] - 1.4 - val_acc: 1.0
+[GLIO-NEURONAL] - 1.5 - val_acc: 1.0
+[GLIO-NEURONAL] - 2.0 - val_acc: 0.9705882352941176
+[GLIO-NEURONAL] - 2.1 - val_acc: 0.9827586206896551
+[GLIO-NEURONAL] - 2.2 - val_acc: 1.0
+[GLIO-NEURONAL] - 2.3 - val_acc: 1.0
+[GLIO-NEURONAL] - 2.4 - val_acc: 0.9777777777777777
+[GLIO-NEURONAL] - 2.5 - val_acc: 1.0
+[GLIO-NEURONAL] - 3.0 - val_acc: 1.0
+[GLIO-NEURONAL] - 3.1 - val_acc: 0.9827586206896551
+[GLIO-NEURONAL] - 3.2 - val_acc: 1.0
+[GLIO-NEURONAL] - 3.3 - val_acc: 0.9591836734693877
+[GLIO-NEURONAL] - 3.4 - val_acc: 0.9555555555555556
+[GLIO-NEURONAL] - 3.5 - val_acc: 1.0
+[GLIO-NEURONAL] - 4.0 - val_acc: 0.9833333333333333
+[GLIO-NEURONAL] - 4.1 - val_acc: 0.9830508474576272
+[GLIO-NEURONAL] - 4.2 - val_acc: 1.0
+[GLIO-NEURONAL] - 4.3 - val_acc: 0.9795918367346939
+[GLIO-NEURONAL] - 4.4 - val_acc: 0.9574468085106383
+[GLIO-NEURONAL] - 4.5 - val_acc: 1.0
+[GLIO-NEURONAL] - 5.0 - val_acc: 1.0
+[GLIO-NEURONAL] - 5.1 - val_acc: 0.9516129032258065
+[GLIO-NEURONAL] - 5.2 - val_acc: 0.9827586206896551
+[GLIO-NEURONAL] - 5.3 - val_acc: 1.0
+[GLIO-NEURONAL] - 5.4 - val_acc: 0.9787234042553191
+[GLIO-NEURONAL] - 5.5 - val_acc: 1.0
+[SELLA] - 1.0 - val_acc: 1.0
+[SELLA] - 1.1 - val_acc: 1.0
+[SELLA] - 1.2 - val_acc: 1.0
+[SELLA] - 1.3 - val_acc: 1.0
+[SELLA] - 1.4 - val_acc: 1.0
+[SELLA] - 1.5 - val_acc: 1.0
+[SELLA] - 2.0 - val_acc: 1.0
+[SELLA] - 2.1 - val_acc: 1.0
+[SELLA] - 2.2 - val_acc: 1.0
+[SELLA] - 2.3 - val_acc: 1.0
+[SELLA] - 2.4 - val_acc: 1.0
+[SELLA] - 2.5 - val_acc: 1.0
+[SELLA] - 3.0 - val_acc: 1.0
+[SELLA] - 3.1 - val_acc: 1.0
+[SELLA] - 3.2 - val_acc: 1.0
+[SELLA] - 3.3 - val_acc: 1.0
+[SELLA] - 3.4 - val_acc: 1.0
+[SELLA] - 3.5 - val_acc: 1.0
+[SELLA] - 4.0 - val_acc: 1.0
+[SELLA] - 4.1 - val_acc: 1.0
+[SELLA] - 4.2 - val_acc: 1.0
+[SELLA] - 4.3 - val_acc: 1.0
+[SELLA] - 4.4 - val_acc: 1.0
+[SELLA] - 4.5 - val_acc: 1.0
+[SELLA] - 5.0 - val_acc: 1.0
+[SELLA] - 5.1 - val_acc: 1.0
+[SELLA] - 5.2 - val_acc: 1.0
+[SELLA] - 5.3 - val_acc: 1.0
+[SELLA] - 5.4 - val_acc: 1.0
+[SELLA] - 5.5 - val_acc: 1.0
+[EPENDYMAL] - 1.0 - val_acc: 1.0
+[EPENDYMAL] - 1.1 - val_acc: 1.0
+[EPENDYMAL] - 1.2 - val_acc: 1.0
+[EPENDYMAL] - 1.3 - val_acc: 1.0
+[EPENDYMAL] - 1.4 - val_acc: 1.0
+[EPENDYMAL] - 1.5 - val_acc: 1.0
+[EPENDYMAL] - 2.0 - val_acc: 1.0
+[EPENDYMAL] - 2.1 - val_acc: 1.0
+[EPENDYMAL] - 2.2 - val_acc: 1.0
+[EPENDYMAL] - 2.3 - val_acc: 1.0
+[EPENDYMAL] - 2.4 - val_acc: 1.0
+[EPENDYMAL] - 2.5 - val_acc: 1.0
+[EPENDYMAL] - 3.0 - val_acc: 1.0
+[EPENDYMAL] - 3.1 - val_acc: 1.0
+[EPENDYMAL] - 3.2 - val_acc: 1.0
+[EPENDYMAL] - 3.3 - val_acc: 1.0
+[EPENDYMAL] - 3.4 - val_acc: 1.0
+[EPENDYMAL] - 3.5 - val_acc: 1.0
+[EPENDYMAL] - 4.0 - val_acc: 1.0
+[EPENDYMAL] - 4.1 - val_acc: 1.0
+[EPENDYMAL] - 4.2 - val_acc: 1.0
+[EPENDYMAL] - 4.3 - val_acc: 1.0
+[EPENDYMAL] - 4.4 - val_acc: 1.0
+[EPENDYMAL] - 4.5 - val_acc: 1.0
+[EPENDYMAL] - 5.0 - val_acc: 1.0
+[EPENDYMAL] - 5.1 - val_acc: 1.0
+[EPENDYMAL] - 5.2 - val_acc: 1.0
+[EPENDYMAL] - 5.3 - val_acc: 1.0
+[EPENDYMAL] - 5.4 - val_acc: 1.0
+[EPENDYMAL] - 5.5 - val_acc: 1.0
+[OTHER GLIOMA] - 1.0 - val_acc: 0.9896907216494846
+[OTHER GLIOMA] - 1.1 - val_acc: 0.9358974358974359
+[OTHER GLIOMA] - 1.2 - val_acc: 0.9863013698630136
+[OTHER GLIOMA] - 1.3 - val_acc: 1.0
+[OTHER GLIOMA] - 1.4 - val_acc: 0.9701492537313433
+[OTHER GLIOMA] - 1.5 - val_acc: 1.0
+[OTHER GLIOMA] - 2.0 - val_acc: 0.9787234042553191
+[OTHER GLIOMA] - 2.1 - val_acc: 0.9871794871794872
+[OTHER GLIOMA] - 2.2 - val_acc: 0.9868421052631579
+[OTHER GLIOMA] - 2.3 - val_acc: 0.9710144927536232
+[OTHER GLIOMA] - 2.4 - val_acc: 0.9850746268656716
+[OTHER GLIOMA] - 2.5 - val_acc: 0.9516129032258065
+[OTHER GLIOMA] - 3.0 - val_acc: 0.9777777777777777
+[OTHER GLIOMA] - 3.1 - val_acc: 0.9743589743589743
+[OTHER GLIOMA] - 3.2 - val_acc: 0.9736842105263158
+[OTHER GLIOMA] - 3.3 - val_acc: 1.0
+[OTHER GLIOMA] - 3.4 - val_acc: 0.9850746268656716
+[OTHER GLIOMA] - 3.5 - val_acc: 1.0
+[OTHER GLIOMA] - 4.0 - val_acc: 0.9534883720930233
+[OTHER GLIOMA] - 4.1 - val_acc: 1.0
+[OTHER GLIOMA] - 4.2 - val_acc: 0.974025974025974
+[OTHER GLIOMA] - 4.3 - val_acc: 0.9857142857142858
+[OTHER GLIOMA] - 4.4 - val_acc: 1.0
+[OTHER GLIOMA] - 4.5 - val_acc: 0.9846153846153847
+[OTHER GLIOMA] - 5.0 - val_acc: 0.9873417721518988
+[OTHER GLIOMA] - 5.1 - val_acc: 1.0
+[OTHER GLIOMA] - 5.2 - val_acc: 0.9487179487179487
+[OTHER GLIOMA] - 5.3 - val_acc: 0.9863013698630136
+[OTHER GLIOMA] - 5.4 - val_acc: 0.9705882352941176
+[OTHER GLIOMA] - 5.5 - val_acc: 0.9850746268656716
+[NERVE] - 1.0 - val_acc: 1.0
+[NERVE] - 1.1 - val_acc: 0.9642857142857143
+[NERVE] - 1.2 - val_acc: 0.9615384615384616
+[NERVE] - 1.3 - val_acc: 1.0
+[NERVE] - 1.4 - val_acc: 1.0
+[NERVE] - 1.5 - val_acc: 1.0
+[NERVE] - 2.0 - val_acc: 1.0
+[NERVE] - 2.1 - val_acc: 1.0
+[NERVE] - 2.2 - val_acc: 1.0
+[NERVE] - 2.3 - val_acc: 1.0
+[NERVE] - 2.4 - val_acc: 0.9523809523809523
+[NERVE] - 2.5 - val_acc: 1.0
+[NERVE] - 3.0 - val_acc: 0.96875
+[NERVE] - 3.1 - val_acc: 1.0
+[NERVE] - 3.2 - val_acc: 1.0
+[NERVE] - 3.3 - val_acc: 1.0
+[NERVE] - 3.4 - val_acc: 1.0
+[NERVE] - 3.5 - val_acc: 1.0
+[NERVE] - 4.0 - val_acc: 0.9629629629629629
+[NERVE] - 4.1 - val_acc: 1.0
+[NERVE] - 4.2 - val_acc: 0.9642857142857143
+[NERVE] - 4.3 - val_acc: 1.0
+[NERVE] - 4.4 - val_acc: 1.0
+[NERVE] - 4.5 - val_acc: 1.0
+[NERVE] - 5.0 - val_acc: 1.0
+[NERVE] - 5.1 - val_acc: 1.0
+[NERVE] - 5.2 - val_acc: 0.9642857142857143
+[NERVE] - 5.3 - val_acc: 1.0
+[NERVE] - 5.4 - val_acc: 0.9565217391304348
+[NERVE] - 5.5 - val_acc: 1.0
+[PINEAL] - 1.0 - val_acc: 1.0
+[PINEAL] - 1.1 - val_acc: 1.0
+[PINEAL] - 1.2 - val_acc: 1.0
+[PINEAL] - 1.3 - val_acc: 1.0
+[PINEAL] - 1.4 - val_acc: 1.0
+[PINEAL] - 1.5 - val_acc: 1.0
+[PINEAL] - 2.0 - val_acc: 1.0
+[PINEAL] - 2.1 - val_acc: 1.0
+[PINEAL] - 2.2 - val_acc: 1.0
+[PINEAL] - 2.3 - val_acc: 1.0
+[PINEAL] - 2.4 - val_acc: 1.0
+[PINEAL] - 2.5 - val_acc: 1.0
+[PINEAL] - 3.0 - val_acc: 1.0
+[PINEAL] - 3.1 - val_acc: 1.0
+[PINEAL] - 3.2 - val_acc: 1.0
+[PINEAL] - 3.3 - val_acc: 1.0
+[PINEAL] - 3.4 - val_acc: 1.0
+[PINEAL] - 3.5 - val_acc: 1.0
+[PINEAL] - 4.0 - val_acc: 1.0
+[PINEAL] - 4.1 - val_acc: 1.0
+[PINEAL] - 4.2 - val_acc: 1.0
+[PINEAL] - 4.3 - val_acc: 1.0
+[PINEAL] - 4.4 - val_acc: 1.0
+[PINEAL] - 4.5 - val_acc: 1.0
+[PINEAL] - 5.0 - val_acc: 1.0
+[PINEAL] - 5.1 - val_acc: 1.0
+[PINEAL] - 5.2 - val_acc: 1.0
+[PINEAL] - 5.3 - val_acc: 1.0
+[PINEAL] - 5.4 - val_acc: 1.0
+[PINEAL] - 5.5 - val_acc: 1.0
+[MESENCHYMAL] - 1.0 - val_acc: 1.0
+[MESENCHYMAL] - 1.1 - val_acc: 1.0
+[MESENCHYMAL] - 1.2 - val_acc: 1.0
+[MESENCHYMAL] - 1.3 - val_acc: 1.0
+[MESENCHYMAL] - 1.4 - val_acc: 1.0
+[MESENCHYMAL] - 1.5 - val_acc: 1.0
+[MESENCHYMAL] - 2.0 - val_acc: 1.0
+[MESENCHYMAL] - 2.1 - val_acc: 1.0
+[MESENCHYMAL] - 2.2 - val_acc: 1.0
+[MESENCHYMAL] - 2.3 - val_acc: 1.0
+[MESENCHYMAL] - 2.4 - val_acc: 1.0
+[MESENCHYMAL] - 2.5 - val_acc: 1.0
+[MESENCHYMAL] - 3.0 - val_acc: 1.0
+[MESENCHYMAL] - 3.1 - val_acc: 1.0
+[MESENCHYMAL] - 3.2 - val_acc: 1.0
+[MESENCHYMAL] - 3.3 - val_acc: 1.0
+[MESENCHYMAL] - 3.4 - val_acc: 1.0
+[MESENCHYMAL] - 3.5 - val_acc: 1.0
+[MESENCHYMAL] - 4.0 - val_acc: 1.0
+[MESENCHYMAL] - 4.1 - val_acc: 1.0
+[MESENCHYMAL] - 4.2 - val_acc: 1.0
+[MESENCHYMAL] - 4.3 - val_acc: 1.0
+[MESENCHYMAL] - 4.4 - val_acc: 1.0
+[MESENCHYMAL] - 4.5 - val_acc: 1.0
+[MESENCHYMAL] - 5.0 - val_acc: 1.0
+[MESENCHYMAL] - 5.1 - val_acc: 1.0
+[MESENCHYMAL] - 5.2 - val_acc: 1.0
+[MESENCHYMAL] - 5.3 - val_acc: 1.0
+[MESENCHYMAL] - 5.4 - val_acc: 1.0
+[MESENCHYMAL] - 5.5 - val_acc: 1.0
+[MELANOCYTIC] - 1.0 - val_acc: 1.0
+[MELANOCYTIC] - 1.1 - val_acc: 1.0
+[MELANOCYTIC] - 1.2 - val_acc: 1.0
+[MELANOCYTIC] - 1.3 - val_acc: 1.0
+[MELANOCYTIC] - 1.4 - val_acc: 1.0
+[MELANOCYTIC] - 1.5 - val_acc: 1.0
+[MELANOCYTIC] - 2.0 - val_acc: 1.0
+[MELANOCYTIC] - 2.1 - val_acc: 1.0
+[MELANOCYTIC] - 2.2 - val_acc: 1.0
+[MELANOCYTIC] - 2.3 - val_acc: 1.0
+[MELANOCYTIC] - 2.4 - val_acc: 1.0
+[MELANOCYTIC] - 2.5 - val_acc: 1.0
+[MELANOCYTIC] - 3.0 - val_acc: 1.0
+[MELANOCYTIC] - 3.1 - val_acc: 1.0
+[MELANOCYTIC] - 3.2 - val_acc: 1.0
+[MELANOCYTIC] - 3.3 - val_acc: 1.0
+[MELANOCYTIC] - 3.4 - val_acc: 1.0
+[MELANOCYTIC] - 3.5 - val_acc: 1.0
+[MELANOCYTIC] - 4.0 - val_acc: 1.0
+[MELANOCYTIC] - 4.1 - val_acc: 1.0
+[MELANOCYTIC] - 4.2 - val_acc: 1.0
+[MELANOCYTIC] - 4.3 - val_acc: 1.0
+[MELANOCYTIC] - 4.4 - val_acc: 1.0
+[MELANOCYTIC] - 4.5 - val_acc: 1.0
+[MELANOCYTIC] - 5.0 - val_acc: 1.0
+[MELANOCYTIC] - 5.1 - val_acc: 1.0
+[MELANOCYTIC] - 5.2 - val_acc: 1.0
+[MELANOCYTIC] - 5.3 - val_acc: 1.0
+[MELANOCYTIC] - 5.4 - val_acc: 1.0
+[MELANOCYTIC] - 5.5 - val_acc: 1.0
+[PLEXUS] - 1.0 - val_acc: 1.0
+[PLEXUS] - 1.1 - val_acc: 1.0
+[PLEXUS] - 1.2 - val_acc: 1.0
+[PLEXUS] - 1.3 - val_acc: 1.0
+[PLEXUS] - 1.4 - val_acc: 1.0
+[PLEXUS] - 1.5 - val_acc: 1.0
+[PLEXUS] - 2.0 - val_acc: 1.0
+[PLEXUS] - 2.1 - val_acc: 1.0
+[PLEXUS] - 2.2 - val_acc: 1.0
+[PLEXUS] - 2.3 - val_acc: 1.0
+[PLEXUS] - 2.4 - val_acc: 1.0
+[PLEXUS] - 2.5 - val_acc: 1.0
+[PLEXUS] - 3.0 - val_acc: 1.0
+[PLEXUS] - 3.1 - val_acc: 1.0
+[PLEXUS] - 3.2 - val_acc: 1.0
+[PLEXUS] - 3.3 - val_acc: 1.0
+[PLEXUS] - 3.4 - val_acc: 1.0
+[PLEXUS] - 3.5 - val_acc: 1.0
+[PLEXUS] - 4.0 - val_acc: 1.0
+[PLEXUS] - 4.1 - val_acc: 1.0
+[PLEXUS] - 4.2 - val_acc: 1.0
+[PLEXUS] - 4.3 - val_acc: 1.0
+[PLEXUS] - 4.4 - val_acc: 1.0
+[PLEXUS] - 4.5 - val_acc: 1.0
+[PLEXUS] - 5.0 - val_acc: 1.0
+[PLEXUS] - 5.1 - val_acc: 1.0
+[PLEXUS] - 5.2 - val_acc: 1.0
+[PLEXUS] - 5.3 - val_acc: 1.0
+[PLEXUS] - 5.4 - val_acc: 1.0
+[PLEXUS] - 5.5 - val_acc: 1.0
+[GLIOMA IDH] - 1.0 - val_acc: 1.0
+[GLIOMA IDH] - 1.1 - val_acc: 1.0
+[GLIOMA IDH] - 1.2 - val_acc: 1.0
+[GLIOMA IDH] - 1.3 - val_acc: 1.0
+[GLIOMA IDH] - 1.4 - val_acc: 1.0
+[GLIOMA IDH] - 1.5 - val_acc: 1.0
+[GLIOMA IDH] - 2.0 - val_acc: 1.0
+[GLIOMA IDH] - 2.1 - val_acc: 1.0
+[GLIOMA IDH] - 2.2 - val_acc: 1.0
+[GLIOMA IDH] - 2.3 - val_acc: 1.0
+[GLIOMA IDH] - 2.4 - val_acc: 1.0
+[GLIOMA IDH] - 2.5 - val_acc: 1.0
+[GLIOMA IDH] - 3.0 - val_acc: 1.0
+[GLIOMA IDH] - 3.1 - val_acc: 1.0
+[GLIOMA IDH] - 3.2 - val_acc: 1.0
+[GLIOMA IDH] - 3.3 - val_acc: 1.0
+[GLIOMA IDH] - 3.4 - val_acc: 1.0
+[GLIOMA IDH] - 3.5 - val_acc: 1.0
+[GLIOMA IDH] - 4.0 - val_acc: 1.0
+[GLIOMA IDH] - 4.1 - val_acc: 1.0
+[GLIOMA IDH] - 4.2 - val_acc: 1.0
+[GLIOMA IDH] - 4.3 - val_acc: 1.0
+[GLIOMA IDH] - 4.4 - val_acc: 1.0
+[GLIOMA IDH] - 4.5 - val_acc: 1.0
+[GLIOMA IDH] - 5.0 - val_acc: 1.0
+[GLIOMA IDH] - 5.1 - val_acc: 1.0
+[GLIOMA IDH] - 5.2 - val_acc: 1.0
+[GLIOMA IDH] - 5.3 - val_acc: 1.0
+[GLIOMA IDH] - 5.4 - val_acc: 1.0
+[GLIOMA IDH] - 5.5 - val_acc: 1.0
+[HAEMATOPOIETIC] - 1.0 - val_acc: 1.0
+[HAEMATOPOIETIC] - 1.1 - val_acc: 1.0
+[HAEMATOPOIETIC] - 1.2 - val_acc: 1.0
+[HAEMATOPOIETIC] - 1.3 - val_acc: 1.0
+[HAEMATOPOIETIC] - 1.4 - val_acc: 1.0
+[HAEMATOPOIETIC] - 1.5 - val_acc: 1.0
+[HAEMATOPOIETIC] - 2.0 - val_acc: 1.0
+[HAEMATOPOIETIC] - 2.1 - val_acc: 1.0
+[HAEMATOPOIETIC] - 2.2 - val_acc: 1.0
+[HAEMATOPOIETIC] - 2.3 - val_acc: 1.0
+[HAEMATOPOIETIC] - 2.4 - val_acc: 1.0
+[HAEMATOPOIETIC] - 2.5 - val_acc: 1.0
+[HAEMATOPOIETIC] - 3.0 - val_acc: 1.0
+[HAEMATOPOIETIC] - 3.1 - val_acc: 1.0
+[HAEMATOPOIETIC] - 3.2 - val_acc: 1.0
+[HAEMATOPOIETIC] - 3.3 - val_acc: 1.0
+[HAEMATOPOIETIC] - 3.4 - val_acc: 1.0
+[HAEMATOPOIETIC] - 3.5 - val_acc: 1.0
+[HAEMATOPOIETIC] - 4.0 - val_acc: 1.0
+[HAEMATOPOIETIC] - 4.1 - val_acc: 1.0
+[HAEMATOPOIETIC] - 4.2 - val_acc: 1.0
+[HAEMATOPOIETIC] - 4.3 - val_acc: 1.0
+[HAEMATOPOIETIC] - 4.4 - val_acc: 1.0
+[HAEMATOPOIETIC] - 4.5 - val_acc: 1.0
+[HAEMATOPOIETIC] - 5.0 - val_acc: 1.0
+[HAEMATOPOIETIC] - 5.1 - val_acc: 1.0
+[HAEMATOPOIETIC] - 5.2 - val_acc: 1.0
+[HAEMATOPOIETIC] - 5.3 - val_acc: 1.0
+[HAEMATOPOIETIC] - 5.4 - val_acc: 1.0
+[HAEMATOPOIETIC] - 5.5 - val_acc: 1.0
