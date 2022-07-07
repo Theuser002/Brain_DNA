@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/media/data/hungnt/work/SourceCode/Brain_DNA/src/')
+sys.path.append('../../src/')
 
 import os
 import numpy as np
