@@ -1,10 +1,10 @@
 import sys
-sys.path.append('../..')
+sys.path.append('D:/#Study/Thesis/Code/Brain_DNA/Project/Brain_DNA/src')
 
+import config
 import numpy as np
 import torch
 import torch.nn as nn
-import config
 
 from torch.nn import CrossEntropyLoss
 from sklearn.metrics import roc_auc_score
