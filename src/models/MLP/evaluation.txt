@@ -1,139 +1,91 @@
 EVALUATION RESULTS:
 
->>>>>>[EMBRYONAL] - 1.0 - 1/30: train_loss: 0.40282 | train_acc: 84.444 | train_precision: 0.000 | train_recall: 0.000 | train_auc: 0.500
-val_loss: 0.48628 | val_acc: 82.353 | val_precision: 0.000 | val_recall: 0.000 | val_auc: 0.500
+>>>>>>[EMBRYONAL] - 1.0 - 1/30: train_loss: 0.32281 | train_acc: 88.889 | train_precision: 0.625 | train_recall: 0.714 | train_auc: 0.818
+val_loss: 0.64178 | val_acc: 82.353 | val_precision: 0.000 | val_recall: 0.000 | val_auc: 0.500
 
->>>>>>[EMBRYONAL] - 1.0 - 2/30: train_loss: 0.32959 | train_acc: 84.444 | train_precision: 0.000 | train_recall: 0.000 | train_auc: 0.500
-val_loss: 0.31014 | val_acc: 82.353 | val_precision: 0.000 | val_recall: 0.000 | val_auc: 0.500
+>>>>>>[EMBRYONAL] - 1.0 - 2/30: train_loss: 0.44503 | train_acc: 84.444 | train_precision: 0.000 | train_recall: 0.000 | train_auc: 0.500
+val_loss: 0.60468 | val_acc: 82.353 | val_precision: 0.000 | val_recall: 0.000 | val_auc: 0.500
 
->>>>>>[EMBRYONAL] - 1.0 - 3/30: train_loss: 0.22603 | train_acc: 86.667 | train_precision: 1.000 | train_recall: 0.143 | train_auc: 0.571
-val_loss: 0.23167 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 3/30: train_loss: 0.28776 | train_acc: 84.444 | train_precision: 0.000 | train_recall: 0.000 | train_auc: 0.500
+val_loss: 0.29334 | val_acc: 82.353 | val_precision: 0.000 | val_recall: 0.000 | val_auc: 0.500
 
->>>>>>[EMBRYONAL] - 1.0 - 4/30: train_loss: 0.15066 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.19282 | val_acc: 91.503 | val_precision: 1.000 | val_recall: 0.519 | val_auc: 0.759
+>>>>>>[EMBRYONAL] - 1.0 - 4/30: train_loss: 0.17289 | train_acc: 97.778 | train_precision: 1.000 | train_recall: 0.857 | train_auc: 0.929
+val_loss: 0.22152 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
 
->>>>>>[EMBRYONAL] - 1.0 - 5/30: train_loss: 0.10827 | train_acc: 97.778 | train_precision: 1.000 | train_recall: 0.857 | train_auc: 0.929
-val_loss: 0.19024 | val_acc: 88.889 | val_precision: 1.000 | val_recall: 0.370 | val_auc: 0.685
+>>>>>>[EMBRYONAL] - 1.0 - 5/30: train_loss: 0.13946 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.18490 | val_acc: 93.464 | val_precision: 1.000 | val_recall: 0.630 | val_auc: 0.815
 
->>>>>>[EMBRYONAL] - 1.0 - 6/30: train_loss: 0.10245 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.16132 | val_acc: 92.810 | val_precision: 1.000 | val_recall: 0.593 | val_auc: 0.796
+>>>>>>[EMBRYONAL] - 1.0 - 6/30: train_loss: 0.11732 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.20150 | val_acc: 88.235 | val_precision: 1.000 | val_recall: 0.333 | val_auc: 0.667
 
->>>>>>[EMBRYONAL] - 1.0 - 7/30: train_loss: 0.08390 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.11564 | val_acc: 98.693 | val_precision: 1.000 | val_recall: 0.926 | val_auc: 0.963
+>>>>>>[EMBRYONAL] - 1.0 - 7/30: train_loss: 0.08283 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.14843 | val_acc: 94.771 | val_precision: 1.000 | val_recall: 0.704 | val_auc: 0.852
 
->>>>>>[EMBRYONAL] - 1.0 - 8/30: train_loss: 0.06116 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.10670 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 8/30: train_loss: 0.06403 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.12065 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 9/30: train_loss: 0.04506 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.10530 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 9/30: train_loss: 0.05627 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.11295 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 10/30: train_loss: 0.03968 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.10726 | val_acc: 96.732 | val_precision: 1.000 | val_recall: 0.815 | val_auc: 0.907
+>>>>>>[EMBRYONAL] - 1.0 - 10/30: train_loss: 0.04895 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.11259 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 11/30: train_loss: 0.03704 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.10637 | val_acc: 96.732 | val_precision: 1.000 | val_recall: 0.815 | val_auc: 0.907
+>>>>>>[EMBRYONAL] - 1.0 - 11/30: train_loss: 0.04279 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.11258 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 12/30: train_loss: 0.03290 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.09302 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 12/30: train_loss: 0.03737 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.10533 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 13/30: train_loss: 0.02972 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.08486 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 13/30: train_loss: 0.03149 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.09371 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 14/30: train_loss: 0.02711 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.07734 | val_acc: 98.693 | val_precision: 1.000 | val_recall: 0.926 | val_auc: 0.963
+>>>>>>[EMBRYONAL] - 1.0 - 14/30: train_loss: 0.03040 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.08831 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 15/30: train_loss: 0.02575 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.07710 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
+>>>>>>[EMBRYONAL] - 1.0 - 15/30: train_loss: 0.02769 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.08774 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 16/30: train_loss: 0.02379 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.07448 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
+>>>>>>[EMBRYONAL] - 1.0 - 16/30: train_loss: 0.02478 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.09064 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 17/30: train_loss: 0.02103 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.07720 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 17/30: train_loss: 0.02307 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.09195 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 18/30: train_loss: 0.02021 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.07306 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 18/30: train_loss: 0.02289 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.08627 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 19/30: train_loss: 0.01777 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.07173 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 19/30: train_loss: 0.01930 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.08242 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 20/30: train_loss: 0.01739 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.07023 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 20/30: train_loss: 0.01831 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.08008 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 21/30: train_loss: 0.01745 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.07094 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 21/30: train_loss: 0.01778 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07700 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 22/30: train_loss: 0.01421 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.06792 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+>>>>>>[EMBRYONAL] - 1.0 - 22/30: train_loss: 0.01605 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07485 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 23/30: train_loss: 0.01386 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.06514 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
+>>>>>>[EMBRYONAL] - 1.0 - 23/30: train_loss: 0.01668 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07287 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 24/30: train_loss: 0.01274 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.06193 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
+>>>>>>[EMBRYONAL] - 1.0 - 24/30: train_loss: 0.01541 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07329 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 25/30: train_loss: 0.01210 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.06127 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
+>>>>>>[EMBRYONAL] - 1.0 - 25/30: train_loss: 0.01369 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07304 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 26/30: train_loss: 0.01141 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.05957 | val_acc: 98.693 | val_precision: 1.000 | val_recall: 0.926 | val_auc: 0.963
+>>>>>>[EMBRYONAL] - 1.0 - 26/30: train_loss: 0.01336 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07183 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 27/30: train_loss: 0.01211 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.05942 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
+>>>>>>[EMBRYONAL] - 1.0 - 27/30: train_loss: 0.01337 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.06944 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 28/30: train_loss: 0.01053 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.05923 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
+>>>>>>[EMBRYONAL] - 1.0 - 28/30: train_loss: 0.01200 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.06717 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 29/30: train_loss: 0.00997 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.05965 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
+>>>>>>[EMBRYONAL] - 1.0 - 29/30: train_loss: 0.01155 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.06725 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
 
->>>>>>[EMBRYONAL] - 1.0 - 30/30: train_loss: 0.01028 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.05831 | val_acc: 98.039 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
-
->>>>>>[EMBRYONAL] - 1.1 - 1/30: train_loss: 0.17309 | train_acc: 93.764 | train_precision: 0.938 | train_recall: 0.643 | train_auc: 0.817
-val_loss: 0.09394 | val_acc: 97.581 | val_precision: 1.000 | val_recall: 0.864 | val_auc: 0.932
-
->>>>>>[EMBRYONAL] - 1.1 - 2/30: train_loss: 0.05249 | train_acc: 99.332 | train_precision: 0.986 | train_recall: 0.971 | train_auc: 0.984
-val_loss: 0.03650 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 3/30: train_loss: 0.02997 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.02636 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 4/30: train_loss: 0.01934 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.01875 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 5/30: train_loss: 0.01628 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.01499 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 6/30: train_loss: 0.01299 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.01398 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 7/30: train_loss: 0.00965 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.01290 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 8/30: train_loss: 0.00837 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.00984 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 9/30: train_loss: 0.00693 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.00848 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 10/30: train_loss: 0.00623 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.00844 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 11/30: train_loss: 0.00571 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.00693 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 12/30: train_loss: 0.00491 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.00644 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 13/30: train_loss: 0.00449 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.00553 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 14/30: train_loss: 0.00396 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.00505 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 15/30: train_loss: 0.00354 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.00484 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
-
->>>>>>[EMBRYONAL] - 1.1 - 16/30: train_loss: 0.00346 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
-val_loss: 0.00559 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+>>>>>>[EMBRYONAL] - 1.0 - 30/30: train_loss: 0.01135 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.06658 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
