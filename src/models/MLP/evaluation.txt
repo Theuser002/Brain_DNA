@@ -413,3 +413,273 @@ val_loss: 0.00276 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 
 
 >>>>>>[EMBRYONAL] - 2.3 - 18/30: train_loss: 0.00316 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
 val_loss: 0.00268 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[PLEXUS] - 2.4 - 1/30: train_loss: 0.59635 | train_acc: 72.152 | train_precision: 0.731 | train_recall: 0.925 | train_auc: 0.616
+val_loss: 0.45804 | val_acc: 88.608 | val_precision: 1.000 | val_recall: 0.769 | val_auc: 0.885
+
+>>>>>>[PLEXUS] - 2.4 - 2/30: train_loss: 0.35537 | train_acc: 92.405 | train_precision: 0.927 | train_recall: 0.962 | train_auc: 0.904
+val_loss: 0.40814 | val_acc: 79.747 | val_precision: 0.709 | val_recall: 1.000 | val_auc: 0.800
+
+>>>>>>[PLEXUS] - 2.4 - 3/30: train_loss: 0.20476 | train_acc: 96.203 | train_precision: 0.946 | train_recall: 1.000 | train_auc: 0.942
+val_loss: 0.26180 | val_acc: 91.139 | val_precision: 0.848 | val_recall: 1.000 | val_auc: 0.912
+
+>>>>>>[PLEXUS] - 2.4 - 4/30: train_loss: 0.16035 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.24498 | val_acc: 88.608 | val_precision: 0.812 | val_recall: 1.000 | val_auc: 0.888
+
+>>>>>>[PLEXUS] - 2.4 - 5/30: train_loss: 0.11866 | train_acc: 98.734 | train_precision: 0.981 | train_recall: 1.000 | train_auc: 0.981
+val_loss: 0.23265 | val_acc: 88.608 | val_precision: 0.812 | val_recall: 1.000 | val_auc: 0.888
+
+>>>>>>[PLEXUS] - 2.4 - 6/30: train_loss: 0.09989 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.17712 | val_acc: 93.671 | val_precision: 0.886 | val_recall: 1.000 | val_auc: 0.938
+
+>>>>>>[PLEXUS] - 2.4 - 7/30: train_loss: 0.08437 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.19452 | val_acc: 88.608 | val_precision: 0.812 | val_recall: 1.000 | val_auc: 0.888
+
+>>>>>>[PLEXUS] - 2.4 - 8/30: train_loss: 0.07162 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.15776 | val_acc: 93.671 | val_precision: 0.886 | val_recall: 1.000 | val_auc: 0.938
+
+>>>>>>[PLEXUS] - 2.4 - 9/30: train_loss: 0.06031 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.14597 | val_acc: 93.671 | val_precision: 0.886 | val_recall: 1.000 | val_auc: 0.938
+
+>>>>>>[PLEXUS] - 2.4 - 10/30: train_loss: 0.05214 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.14092 | val_acc: 93.671 | val_precision: 0.886 | val_recall: 1.000 | val_auc: 0.938
+
+>>>>>>[PLEXUS] - 2.4 - 11/30: train_loss: 0.04706 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.12979 | val_acc: 94.937 | val_precision: 0.907 | val_recall: 1.000 | val_auc: 0.950
+
+>>>>>>[PLEXUS] - 2.4 - 12/30: train_loss: 0.04198 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.12537 | val_acc: 94.937 | val_precision: 0.907 | val_recall: 1.000 | val_auc: 0.950
+
+>>>>>>[PLEXUS] - 2.4 - 13/30: train_loss: 0.03844 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.11738 | val_acc: 94.937 | val_precision: 0.907 | val_recall: 1.000 | val_auc: 0.950
+
+>>>>>>[PLEXUS] - 2.4 - 14/30: train_loss: 0.03448 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.10469 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 15/30: train_loss: 0.03141 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.10492 | val_acc: 96.203 | val_precision: 0.929 | val_recall: 1.000 | val_auc: 0.963
+
+>>>>>>[PLEXUS] - 2.4 - 16/30: train_loss: 0.02935 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.10835 | val_acc: 94.937 | val_precision: 0.907 | val_recall: 1.000 | val_auc: 0.950
+
+>>>>>>[PLEXUS] - 2.4 - 17/30: train_loss: 0.02691 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.10282 | val_acc: 94.937 | val_precision: 0.907 | val_recall: 1.000 | val_auc: 0.950
+
+>>>>>>[PLEXUS] - 2.4 - 18/30: train_loss: 0.02444 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.09003 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 19/30: train_loss: 0.02342 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.08921 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 20/30: train_loss: 0.02144 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.09033 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 21/30: train_loss: 0.02054 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.09233 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 22/30: train_loss: 0.01875 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.08132 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 23/30: train_loss: 0.01771 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07998 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 24/30: train_loss: 0.01664 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.08176 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 25/30: train_loss: 0.01575 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07946 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 26/30: train_loss: 0.01496 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07992 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 27/30: train_loss: 0.01400 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07405 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 28/30: train_loss: 0.01364 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07463 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 29/30: train_loss: 0.01270 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.06963 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[PLEXUS] - 2.4 - 30/30: train_loss: 0.01208 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07036 | val_acc: 97.468 | val_precision: 0.951 | val_recall: 1.000 | val_auc: 0.975
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 1/30: train_loss: 0.54913 | train_acc: 74.317 | train_precision: 1.000 | train_recall: 0.113 | train_auc: 0.557
+val_loss: 0.43250 | val_acc: 83.152 | val_precision: 0.840 | val_recall: 0.438 | val_auc: 0.704
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 2/30: train_loss: 0.39718 | train_acc: 86.339 | train_precision: 0.938 | train_recall: 0.566 | train_auc: 0.775
+val_loss: 0.34355 | val_acc: 80.978 | val_precision: 1.000 | val_recall: 0.271 | val_auc: 0.635
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 3/30: train_loss: 0.33081 | train_acc: 87.978 | train_precision: 0.943 | train_recall: 0.623 | train_auc: 0.804
+val_loss: 0.30173 | val_acc: 83.696 | val_precision: 1.000 | val_recall: 0.375 | val_auc: 0.688
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 4/30: train_loss: 0.28943 | train_acc: 91.257 | train_precision: 0.974 | train_recall: 0.717 | train_auc: 0.855
+val_loss: 0.29757 | val_acc: 80.978 | val_precision: 1.000 | val_recall: 0.271 | val_auc: 0.635
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 5/30: train_loss: 0.25783 | train_acc: 90.710 | train_precision: 0.875 | train_recall: 0.792 | train_auc: 0.873
+val_loss: 0.24350 | val_acc: 89.130 | val_precision: 0.967 | val_recall: 0.604 | val_auc: 0.798
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 6/30: train_loss: 0.22773 | train_acc: 93.989 | train_precision: 0.938 | train_recall: 0.849 | train_auc: 0.913
+val_loss: 0.23989 | val_acc: 88.587 | val_precision: 1.000 | val_recall: 0.562 | val_auc: 0.781
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 7/30: train_loss: 0.20807 | train_acc: 95.628 | train_precision: 0.979 | train_recall: 0.868 | train_auc: 0.930
+val_loss: 0.21940 | val_acc: 93.478 | val_precision: 0.846 | val_recall: 0.917 | val_auc: 0.929
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 8/30: train_loss: 0.20550 | train_acc: 92.350 | train_precision: 0.898 | train_recall: 0.830 | train_auc: 0.896
+val_loss: 0.19676 | val_acc: 94.565 | val_precision: 0.880 | val_recall: 0.917 | val_auc: 0.936
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 9/30: train_loss: 0.17884 | train_acc: 95.082 | train_precision: 0.940 | train_recall: 0.887 | train_auc: 0.932
+val_loss: 0.18156 | val_acc: 95.652 | val_precision: 0.955 | val_recall: 0.875 | val_auc: 0.930
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 10/30: train_loss: 0.17915 | train_acc: 94.536 | train_precision: 0.939 | train_recall: 0.868 | train_auc: 0.922
+val_loss: 0.17361 | val_acc: 95.652 | val_precision: 0.935 | val_recall: 0.896 | val_auc: 0.937
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 11/30: train_loss: 0.18433 | train_acc: 93.989 | train_precision: 0.920 | train_recall: 0.868 | train_auc: 0.919
+val_loss: 0.16287 | val_acc: 95.652 | val_precision: 0.935 | val_recall: 0.896 | val_auc: 0.937
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 12/30: train_loss: 0.14468 | train_acc: 96.721 | train_precision: 0.927 | train_recall: 0.962 | train_auc: 0.966
+val_loss: 0.20665 | val_acc: 89.130 | val_precision: 1.000 | val_recall: 0.583 | val_auc: 0.792
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 13/30: train_loss: 0.14757 | train_acc: 96.175 | train_precision: 0.979 | train_recall: 0.887 | train_auc: 0.940
+val_loss: 0.15300 | val_acc: 95.652 | val_precision: 0.917 | val_recall: 0.917 | val_auc: 0.944
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 14/30: train_loss: 0.13711 | train_acc: 95.628 | train_precision: 0.941 | train_recall: 0.906 | train_auc: 0.941
+val_loss: 0.15376 | val_acc: 95.109 | val_precision: 0.898 | val_recall: 0.917 | val_auc: 0.940
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 15/30: train_loss: 0.12647 | train_acc: 97.268 | train_precision: 0.962 | train_recall: 0.943 | train_auc: 0.964
+val_loss: 0.14340 | val_acc: 96.196 | val_precision: 1.000 | val_recall: 0.854 | val_auc: 0.927
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 16/30: train_loss: 0.12181 | train_acc: 97.268 | train_precision: 0.962 | train_recall: 0.943 | train_auc: 0.964
+val_loss: 0.13426 | val_acc: 95.652 | val_precision: 0.955 | val_recall: 0.875 | val_auc: 0.930
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 17/30: train_loss: 0.11748 | train_acc: 97.814 | train_precision: 0.980 | train_recall: 0.943 | train_auc: 0.968
+val_loss: 0.13342 | val_acc: 96.739 | val_precision: 1.000 | val_recall: 0.875 | val_auc: 0.938
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 18/30: train_loss: 0.11954 | train_acc: 97.814 | train_precision: 0.980 | train_recall: 0.943 | train_auc: 0.968
+val_loss: 0.12568 | val_acc: 96.196 | val_precision: 0.956 | val_recall: 0.896 | val_auc: 0.941
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 19/30: train_loss: 0.10813 | train_acc: 97.268 | train_precision: 0.980 | train_recall: 0.925 | train_auc: 0.958
+val_loss: 0.12317 | val_acc: 96.196 | val_precision: 0.936 | val_recall: 0.917 | val_auc: 0.947
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 20/30: train_loss: 0.10398 | train_acc: 97.268 | train_precision: 0.962 | train_recall: 0.943 | train_auc: 0.964
+val_loss: 0.11858 | val_acc: 96.739 | val_precision: 0.957 | val_recall: 0.917 | val_auc: 0.951
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 21/30: train_loss: 0.09803 | train_acc: 97.814 | train_precision: 0.980 | train_recall: 0.943 | train_auc: 0.968
+val_loss: 0.11636 | val_acc: 96.196 | val_precision: 0.936 | val_recall: 0.917 | val_auc: 0.947
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 22/30: train_loss: 0.09383 | train_acc: 97.814 | train_precision: 0.980 | train_recall: 0.943 | train_auc: 0.968
+val_loss: 0.11312 | val_acc: 96.196 | val_precision: 0.956 | val_recall: 0.896 | val_auc: 0.941
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 23/30: train_loss: 0.10177 | train_acc: 96.721 | train_precision: 0.943 | train_recall: 0.943 | train_auc: 0.960
+val_loss: 0.12030 | val_acc: 96.196 | val_precision: 1.000 | val_recall: 0.854 | val_auc: 0.927
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 24/30: train_loss: 0.08936 | train_acc: 98.361 | train_precision: 0.963 | train_recall: 0.981 | train_auc: 0.983
+val_loss: 0.10809 | val_acc: 96.739 | val_precision: 0.977 | val_recall: 0.896 | val_auc: 0.944
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 25/30: train_loss: 0.09285 | train_acc: 97.814 | train_precision: 0.962 | train_recall: 0.962 | train_auc: 0.973
+val_loss: 0.11419 | val_acc: 97.283 | val_precision: 0.939 | val_recall: 0.958 | val_auc: 0.968
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 26/30: train_loss: 0.09136 | train_acc: 97.814 | train_precision: 0.962 | train_recall: 0.962 | train_auc: 0.973
+val_loss: 0.10314 | val_acc: 96.196 | val_precision: 0.936 | val_recall: 0.917 | val_auc: 0.947
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 27/30: train_loss: 0.07864 | train_acc: 98.361 | train_precision: 1.000 | train_recall: 0.943 | train_auc: 0.972
+val_loss: 0.10049 | val_acc: 96.739 | val_precision: 0.977 | val_recall: 0.896 | val_auc: 0.944
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 28/30: train_loss: 0.07736 | train_acc: 98.361 | train_precision: 0.981 | train_recall: 0.962 | train_auc: 0.977
+val_loss: 0.09879 | val_acc: 96.196 | val_precision: 0.936 | val_recall: 0.917 | val_auc: 0.947
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 29/30: train_loss: 0.07378 | train_acc: 98.361 | train_precision: 0.981 | train_recall: 0.962 | train_auc: 0.977
+val_loss: 0.09993 | val_acc: 96.196 | val_precision: 0.936 | val_recall: 0.917 | val_auc: 0.947
+
+>>>>>>[OTHER GLIOMA] - 5.4 - 30/30: train_loss: 0.07328 | train_acc: 98.907 | train_precision: 1.000 | train_recall: 0.962 | train_auc: 0.981
+val_loss: 0.09467 | val_acc: 96.739 | val_precision: 0.957 | val_recall: 0.917 | val_auc: 0.951
+
+>>>>>>[NERVE] - 5.1 - 1/30: train_loss: 0.56632 | train_acc: 76.000 | train_precision: 0.760 | train_recall: 0.760 | train_auc: 0.760
+val_loss: 0.32810 | val_acc: 98.438 | val_precision: 0.981 | val_recall: 1.000 | val_auc: 0.962
+
+>>>>>>[NERVE] - 5.1 - 2/30: train_loss: 0.35567 | train_acc: 91.000 | train_precision: 0.956 | train_recall: 0.860 | train_auc: 0.910
+val_loss: 0.36141 | val_acc: 82.812 | val_precision: 1.000 | val_recall: 0.784 | val_auc: 0.892
+
+>>>>>>[NERVE] - 5.1 - 3/30: train_loss: 0.24475 | train_acc: 96.000 | train_precision: 1.000 | train_recall: 0.920 | train_auc: 0.960
+val_loss: 0.19425 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 4/30: train_loss: 0.19256 | train_acc: 99.000 | train_precision: 1.000 | train_recall: 0.980 | train_auc: 0.990
+val_loss: 0.20208 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 5/30: train_loss: 0.15197 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.14585 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 6/30: train_loss: 0.12730 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.11462 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 7/30: train_loss: 0.10737 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.13091 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 8/30: train_loss: 0.09081 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.09852 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 9/30: train_loss: 0.07608 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.10178 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 10/30: train_loss: 0.06532 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.07947 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 11/30: train_loss: 0.05959 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.06921 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 12/30: train_loss: 0.05385 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.08368 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 13/30: train_loss: 0.04857 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.06304 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 14/30: train_loss: 0.04487 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.06300 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 15/30: train_loss: 0.04073 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.05848 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 16/30: train_loss: 0.03785 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.05049 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 17/30: train_loss: 0.03540 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.05260 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 18/30: train_loss: 0.03132 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.04856 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 19/30: train_loss: 0.02860 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.05008 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 20/30: train_loss: 0.02723 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.04262 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 21/30: train_loss: 0.02531 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.04301 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 22/30: train_loss: 0.02397 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.03946 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 23/30: train_loss: 0.02256 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.03993 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 24/30: train_loss: 0.02151 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.03646 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 25/30: train_loss: 0.01979 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.03647 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 26/30: train_loss: 0.01910 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.03545 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 27/30: train_loss: 0.01750 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.03390 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 28/30: train_loss: 0.01643 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.03048 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 29/30: train_loss: 0.01554 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.03357 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[NERVE] - 5.1 - 30/30: train_loss: 0.01583 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.03210 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000

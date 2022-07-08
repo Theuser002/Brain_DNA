@@ -156,7 +156,7 @@ def run(class_name, fold, train_loader, val_loader, model, criterion, optimizer,
         history['val_accs'].append(val_acc)
         history['val_losses'].append(val_loss)
         
-        tqdm.write(f'{class_name.upper()}] - {fold} - {epoch}/{n_epochs}')
+        tqdm.write(f'[{class_name.upper()}] - {fold} - {epoch}/{n_epochs}')
         tqdm.write('train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %.3f' % (train_loss, train_acc, train_precision, train_bs, train_auc))
         tqdm.write('val_loss: %.5f | val_acc: %.3f | val_precision: %.3f | val_recall: %.3f | val_auc: %.3f' % (val_loss, val_acc, val_precision, val_recall, val_auc))
         
