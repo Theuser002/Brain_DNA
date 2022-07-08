@@ -40,8 +40,6 @@ def train_epoch(epoch, model, train_loader, criterion, optimizer, device):
         
         # Forward pass
         logits = model(features)
-        # print(f'DJIWOEDJEWOD: {logits} - {labels}')
-        # print(f'HDUHOAWDHEOE: {logits.shape} - {labels.shape}')
         loss = criterion(logits, labels)
         # print(logits.shape, labels.shape)
         

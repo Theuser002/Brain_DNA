@@ -89,3 +89,327 @@ val_loss: 0.06725 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 |
 
 >>>>>>[EMBRYONAL] - 1.0 - 30/30: train_loss: 0.01135 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
 val_loss: 0.06658 | val_acc: 97.386 | val_precision: 1.000 | val_recall: 0.852 | val_auc: 0.926
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 1/30: train_loss: 0.60469 | train_acc: 68.182 | train_precision: 0.596 | train_recall: 0.459 | train_auc: 0.637
+val_loss: 0.50946 | val_acc: 70.833 | val_precision: 1.000 | val_recall: 0.222 | val_auc: 0.611
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 2/30: train_loss: 0.49207 | train_acc: 76.768 | train_precision: 0.818 | train_recall: 0.486 | train_auc: 0.711
+val_loss: 0.42078 | val_acc: 75.000 | val_precision: 0.875 | val_recall: 0.389 | val_auc: 0.678
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 3/30: train_loss: 0.42588 | train_acc: 82.323 | train_precision: 0.868 | train_recall: 0.622 | train_auc: 0.783
+val_loss: 0.36511 | val_acc: 93.750 | val_precision: 0.941 | val_recall: 0.889 | val_auc: 0.928
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 4/30: train_loss: 0.36478 | train_acc: 89.394 | train_precision: 0.884 | train_recall: 0.824 | train_auc: 0.880
+val_loss: 0.32638 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 5/30: train_loss: 0.31933 | train_acc: 92.424 | train_precision: 0.915 | train_recall: 0.878 | train_auc: 0.915
+val_loss: 0.30805 | val_acc: 89.583 | val_precision: 0.810 | val_recall: 0.944 | val_auc: 0.906
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 6/30: train_loss: 0.29907 | train_acc: 92.424 | train_precision: 0.904 | train_recall: 0.892 | train_auc: 0.918
+val_loss: 0.27352 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 7/30: train_loss: 0.28192 | train_acc: 91.919 | train_precision: 0.903 | train_recall: 0.878 | train_auc: 0.911
+val_loss: 0.31423 | val_acc: 81.250 | val_precision: 0.909 | val_recall: 0.556 | val_auc: 0.761
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 8/30: train_loss: 0.24816 | train_acc: 94.444 | train_precision: 0.932 | train_recall: 0.919 | train_auc: 0.939
+val_loss: 0.24859 | val_acc: 93.750 | val_precision: 0.941 | val_recall: 0.889 | val_auc: 0.928
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 9/30: train_loss: 0.23325 | train_acc: 94.949 | train_precision: 0.944 | train_recall: 0.919 | train_auc: 0.943
+val_loss: 0.21902 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 10/30: train_loss: 0.20161 | train_acc: 96.970 | train_precision: 0.925 | train_recall: 1.000 | train_auc: 0.976
+val_loss: 0.20862 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 11/30: train_loss: 0.18921 | train_acc: 97.980 | train_precision: 0.949 | train_recall: 1.000 | train_auc: 0.984
+val_loss: 0.19564 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 12/30: train_loss: 0.18437 | train_acc: 97.475 | train_precision: 0.948 | train_recall: 0.986 | train_auc: 0.977
+val_loss: 0.19087 | val_acc: 97.917 | val_precision: 0.947 | val_recall: 1.000 | val_auc: 0.983
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 13/30: train_loss: 0.16715 | train_acc: 97.475 | train_precision: 0.937 | train_recall: 1.000 | train_auc: 0.980
+val_loss: 0.17983 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 14/30: train_loss: 0.15745 | train_acc: 98.990 | train_precision: 0.974 | train_recall: 1.000 | train_auc: 0.992
+val_loss: 0.17098 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 15/30: train_loss: 0.14872 | train_acc: 98.485 | train_precision: 0.961 | train_recall: 1.000 | train_auc: 0.988
+val_loss: 0.16469 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 16/30: train_loss: 0.14656 | train_acc: 96.970 | train_precision: 0.959 | train_recall: 0.959 | train_auc: 0.968
+val_loss: 0.15880 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 17/30: train_loss: 0.13349 | train_acc: 98.485 | train_precision: 0.961 | train_recall: 1.000 | train_auc: 0.988
+val_loss: 0.15257 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 18/30: train_loss: 0.13084 | train_acc: 98.990 | train_precision: 0.974 | train_recall: 1.000 | train_auc: 0.992
+val_loss: 0.15105 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 19/30: train_loss: 0.11750 | train_acc: 98.990 | train_precision: 0.974 | train_recall: 1.000 | train_auc: 0.992
+val_loss: 0.15602 | val_acc: 97.917 | val_precision: 0.947 | val_recall: 1.000 | val_auc: 0.983
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 20/30: train_loss: 0.12753 | train_acc: 97.475 | train_precision: 0.973 | train_recall: 0.959 | train_auc: 0.972
+val_loss: 0.15498 | val_acc: 97.917 | val_precision: 0.947 | val_recall: 1.000 | val_auc: 0.983
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 21/30: train_loss: 0.11714 | train_acc: 98.485 | train_precision: 0.961 | train_recall: 1.000 | train_auc: 0.988
+val_loss: 0.13932 | val_acc: 97.917 | val_precision: 0.947 | val_recall: 1.000 | val_auc: 0.983
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 22/30: train_loss: 0.11207 | train_acc: 98.990 | train_precision: 0.986 | train_recall: 0.986 | train_auc: 0.989
+val_loss: 0.15564 | val_acc: 97.917 | val_precision: 0.947 | val_recall: 1.000 | val_auc: 0.983
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 23/30: train_loss: 0.09790 | train_acc: 98.990 | train_precision: 0.974 | train_recall: 1.000 | train_auc: 0.992
+val_loss: 0.13168 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 24/30: train_loss: 0.09393 | train_acc: 99.495 | train_precision: 0.987 | train_recall: 1.000 | train_auc: 0.996
+val_loss: 0.12456 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 25/30: train_loss: 0.09075 | train_acc: 99.495 | train_precision: 0.987 | train_recall: 1.000 | train_auc: 0.996
+val_loss: 0.12551 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 26/30: train_loss: 0.08505 | train_acc: 99.495 | train_precision: 0.987 | train_recall: 1.000 | train_auc: 0.996
+val_loss: 0.11854 | val_acc: 97.917 | val_precision: 0.947 | val_recall: 1.000 | val_auc: 0.983
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 27/30: train_loss: 0.08359 | train_acc: 99.495 | train_precision: 0.987 | train_recall: 1.000 | train_auc: 0.996
+val_loss: 0.11766 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 28/30: train_loss: 0.07842 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.11550 | val_acc: 95.833 | val_precision: 0.944 | val_recall: 0.944 | val_auc: 0.956
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 29/30: train_loss: 0.07771 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.11690 | val_acc: 93.750 | val_precision: 0.941 | val_recall: 0.889 | val_auc: 0.928
+
+>>>>>>[GLIO-NEURONAL] - 1.3 - 30/30: train_loss: 0.07715 | train_acc: 98.990 | train_precision: 0.974 | train_recall: 1.000 | train_auc: 0.992
+val_loss: 0.15266 | val_acc: 95.833 | val_precision: 1.000 | val_recall: 0.889 | val_auc: 0.944
+
+>>>>>>[SELLA] - 1.4 - 1/30: train_loss: 0.60810 | train_acc: 70.492 | train_precision: 0.662 | train_recall: 0.573 | train_auc: 0.685
+val_loss: 0.39335 | val_acc: 92.683 | val_precision: 1.000 | val_recall: 0.824 | val_auc: 0.912
+
+>>>>>>[SELLA] - 1.4 - 2/30: train_loss: 0.33800 | train_acc: 92.896 | train_precision: 0.970 | train_recall: 0.853 | train_auc: 0.917
+val_loss: 0.31599 | val_acc: 87.805 | val_precision: 0.800 | val_recall: 0.941 | val_auc: 0.887
+
+>>>>>>[SELLA] - 1.4 - 3/30: train_loss: 0.25724 | train_acc: 93.443 | train_precision: 0.920 | train_recall: 0.920 | train_auc: 0.932
+val_loss: 0.23147 | val_acc: 92.683 | val_precision: 0.889 | val_recall: 0.941 | val_auc: 0.929
+
+>>>>>>[SELLA] - 1.4 - 4/30: train_loss: 0.21468 | train_acc: 95.082 | train_precision: 0.958 | train_recall: 0.920 | train_auc: 0.946
+val_loss: 0.19433 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 5/30: train_loss: 0.18841 | train_acc: 96.721 | train_precision: 1.000 | train_recall: 0.920 | train_auc: 0.960
+val_loss: 0.17466 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 6/30: train_loss: 0.17035 | train_acc: 96.721 | train_precision: 1.000 | train_recall: 0.920 | train_auc: 0.960
+val_loss: 0.15333 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 7/30: train_loss: 0.15106 | train_acc: 96.721 | train_precision: 1.000 | train_recall: 0.920 | train_auc: 0.960
+val_loss: 0.17746 | val_acc: 95.122 | val_precision: 0.941 | val_recall: 0.941 | val_auc: 0.950
+
+>>>>>>[SELLA] - 1.4 - 8/30: train_loss: 0.15078 | train_acc: 96.175 | train_precision: 0.986 | train_recall: 0.920 | train_auc: 0.955
+val_loss: 0.16042 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 9/30: train_loss: 0.13241 | train_acc: 96.721 | train_precision: 1.000 | train_recall: 0.920 | train_auc: 0.960
+val_loss: 0.16081 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 10/30: train_loss: 0.12214 | train_acc: 96.721 | train_precision: 1.000 | train_recall: 0.920 | train_auc: 0.960
+val_loss: 0.11327 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 11/30: train_loss: 0.10688 | train_acc: 96.721 | train_precision: 1.000 | train_recall: 0.920 | train_auc: 0.960
+val_loss: 0.10783 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 12/30: train_loss: 0.10088 | train_acc: 96.721 | train_precision: 1.000 | train_recall: 0.920 | train_auc: 0.960
+val_loss: 0.10654 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 13/30: train_loss: 0.10577 | train_acc: 97.814 | train_precision: 1.000 | train_recall: 0.947 | train_auc: 0.973
+val_loss: 0.09136 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 14/30: train_loss: 0.08783 | train_acc: 97.268 | train_precision: 1.000 | train_recall: 0.933 | train_auc: 0.967
+val_loss: 0.08660 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 15/30: train_loss: 0.07913 | train_acc: 97.268 | train_precision: 1.000 | train_recall: 0.933 | train_auc: 0.967
+val_loss: 0.08724 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 16/30: train_loss: 0.07274 | train_acc: 97.814 | train_precision: 1.000 | train_recall: 0.947 | train_auc: 0.973
+val_loss: 0.08014 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 17/30: train_loss: 0.08437 | train_acc: 97.268 | train_precision: 1.000 | train_recall: 0.933 | train_auc: 0.967
+val_loss: 0.07434 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 18/30: train_loss: 0.07024 | train_acc: 97.268 | train_precision: 1.000 | train_recall: 0.933 | train_auc: 0.967
+val_loss: 0.06973 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 19/30: train_loss: 0.06149 | train_acc: 97.814 | train_precision: 1.000 | train_recall: 0.947 | train_auc: 0.973
+val_loss: 0.08298 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[SELLA] - 1.4 - 20/30: train_loss: 0.05856 | train_acc: 98.361 | train_precision: 1.000 | train_recall: 0.960 | train_auc: 0.980
+val_loss: 0.06570 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 21/30: train_loss: 0.05307 | train_acc: 98.907 | train_precision: 1.000 | train_recall: 0.973 | train_auc: 0.987
+val_loss: 0.06216 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 22/30: train_loss: 0.05130 | train_acc: 98.361 | train_precision: 1.000 | train_recall: 0.960 | train_auc: 0.980
+val_loss: 0.06557 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[SELLA] - 1.4 - 23/30: train_loss: 0.04593 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.06678 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 24/30: train_loss: 0.06145 | train_acc: 97.268 | train_precision: 1.000 | train_recall: 0.933 | train_auc: 0.967
+val_loss: 0.05442 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 25/30: train_loss: 0.04397 | train_acc: 98.907 | train_precision: 1.000 | train_recall: 0.973 | train_auc: 0.987
+val_loss: 0.05191 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 26/30: train_loss: 0.04072 | train_acc: 99.454 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.993
+val_loss: 0.05072 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 27/30: train_loss: 0.04029 | train_acc: 99.454 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.993
+val_loss: 0.05429 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[SELLA] - 1.4 - 28/30: train_loss: 0.03975 | train_acc: 99.454 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.993
+val_loss: 0.04635 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 29/30: train_loss: 0.03705 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.04620 | val_acc: 97.561 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 1.4 - 30/30: train_loss: 0.03519 | train_acc: 99.454 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.993
+val_loss: 0.04367 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[SELLA] - 3.4 - 1/30: train_loss: 0.52628 | train_acc: 73.797 | train_precision: 0.700 | train_recall: 0.636 | train_auc: 0.723
+val_loss: 0.37102 | val_acc: 92.857 | val_precision: 1.000 | val_recall: 0.824 | val_auc: 0.912
+
+>>>>>>[SELLA] - 3.4 - 2/30: train_loss: 0.33493 | train_acc: 89.305 | train_precision: 0.890 | train_recall: 0.844 | train_auc: 0.886
+val_loss: 0.25679 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 3/30: train_loss: 0.24633 | train_acc: 95.187 | train_precision: 0.959 | train_recall: 0.922 | train_auc: 0.947
+val_loss: 0.20798 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 4/30: train_loss: 0.21391 | train_acc: 95.187 | train_precision: 0.959 | train_recall: 0.922 | train_auc: 0.947
+val_loss: 0.18761 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 5/30: train_loss: 0.18686 | train_acc: 96.257 | train_precision: 0.986 | train_recall: 0.922 | train_auc: 0.956
+val_loss: 0.15776 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 6/30: train_loss: 0.16022 | train_acc: 96.791 | train_precision: 1.000 | train_recall: 0.922 | train_auc: 0.961
+val_loss: 0.14214 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 7/30: train_loss: 0.13928 | train_acc: 96.791 | train_precision: 1.000 | train_recall: 0.922 | train_auc: 0.961
+val_loss: 0.13076 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 8/30: train_loss: 0.13009 | train_acc: 96.791 | train_precision: 1.000 | train_recall: 0.922 | train_auc: 0.961
+val_loss: 0.13944 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 9/30: train_loss: 0.12349 | train_acc: 96.791 | train_precision: 1.000 | train_recall: 0.922 | train_auc: 0.961
+val_loss: 0.11166 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 10/30: train_loss: 0.10918 | train_acc: 96.791 | train_precision: 1.000 | train_recall: 0.922 | train_auc: 0.961
+val_loss: 0.10289 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 11/30: train_loss: 0.10428 | train_acc: 96.791 | train_precision: 1.000 | train_recall: 0.922 | train_auc: 0.961
+val_loss: 0.12155 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 12/30: train_loss: 0.09908 | train_acc: 96.791 | train_precision: 1.000 | train_recall: 0.922 | train_auc: 0.961
+val_loss: 0.09337 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 13/30: train_loss: 0.08951 | train_acc: 97.326 | train_precision: 1.000 | train_recall: 0.935 | train_auc: 0.968
+val_loss: 0.08614 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 14/30: train_loss: 0.07771 | train_acc: 97.326 | train_precision: 1.000 | train_recall: 0.935 | train_auc: 0.968
+val_loss: 0.08285 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 15/30: train_loss: 0.07749 | train_acc: 97.861 | train_precision: 1.000 | train_recall: 0.948 | train_auc: 0.974
+val_loss: 0.07861 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 16/30: train_loss: 0.07045 | train_acc: 97.326 | train_precision: 1.000 | train_recall: 0.935 | train_auc: 0.968
+val_loss: 0.07336 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 17/30: train_loss: 0.06259 | train_acc: 98.930 | train_precision: 1.000 | train_recall: 0.974 | train_auc: 0.987
+val_loss: 0.07315 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 18/30: train_loss: 0.06943 | train_acc: 97.326 | train_precision: 1.000 | train_recall: 0.935 | train_auc: 0.968
+val_loss: 0.06701 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 19/30: train_loss: 0.05501 | train_acc: 99.465 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.994
+val_loss: 0.06614 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 20/30: train_loss: 0.06187 | train_acc: 97.861 | train_precision: 1.000 | train_recall: 0.948 | train_auc: 0.974
+val_loss: 0.07167 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 21/30: train_loss: 0.04877 | train_acc: 98.930 | train_precision: 1.000 | train_recall: 0.974 | train_auc: 0.987
+val_loss: 0.05871 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 22/30: train_loss: 0.04515 | train_acc: 99.465 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.994
+val_loss: 0.05666 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 23/30: train_loss: 0.04372 | train_acc: 99.465 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.994
+val_loss: 0.05614 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 24/30: train_loss: 0.04044 | train_acc: 99.465 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.994
+val_loss: 0.05323 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 25/30: train_loss: 0.03789 | train_acc: 99.465 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.994
+val_loss: 0.05147 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 26/30: train_loss: 0.03848 | train_acc: 99.465 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.994
+val_loss: 0.04975 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 27/30: train_loss: 0.03720 | train_acc: 99.465 | train_precision: 1.000 | train_recall: 0.987 | train_auc: 0.994
+val_loss: 0.04921 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 28/30: train_loss: 0.03510 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.04795 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 29/30: train_loss: 0.03093 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.04718 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[SELLA] - 3.4 - 30/30: train_loss: 0.02985 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.04449 | val_acc: 97.619 | val_precision: 1.000 | val_recall: 0.941 | val_auc: 0.971
+
+>>>>>>[EMBRYONAL] - 2.3 - 1/30: train_loss: 0.20105 | train_acc: 92.826 | train_precision: 0.936 | train_recall: 0.595 | train_auc: 0.793
+val_loss: 0.08560 | val_acc: 97.368 | val_precision: 1.000 | val_recall: 0.833 | val_auc: 0.917
+
+>>>>>>[EMBRYONAL] - 2.3 - 2/30: train_loss: 0.05556 | train_acc: 98.913 | train_precision: 0.986 | train_recall: 0.946 | train_auc: 0.972
+val_loss: 0.04360 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 3/30: train_loss: 0.03440 | train_acc: 99.783 | train_precision: 1.000 | train_recall: 0.986 | train_auc: 0.993
+val_loss: 0.02787 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 4/30: train_loss: 0.02403 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.01968 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 5/30: train_loss: 0.01884 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.01463 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 6/30: train_loss: 0.01391 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.01551 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 7/30: train_loss: 0.01190 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.01020 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 8/30: train_loss: 0.00989 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00845 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 9/30: train_loss: 0.00888 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.01134 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 10/30: train_loss: 0.00796 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00596 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 11/30: train_loss: 0.00632 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00649 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 12/30: train_loss: 0.00595 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00673 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 13/30: train_loss: 0.00496 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00443 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 14/30: train_loss: 0.00481 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00425 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 15/30: train_loss: 0.00399 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00368 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 16/30: train_loss: 0.00384 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00315 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 17/30: train_loss: 0.00331 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00276 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
+
+>>>>>>[EMBRYONAL] - 2.3 - 18/30: train_loss: 0.00316 | train_acc: 100.000 | train_precision: 1.000 | train_recall: 1.000 | train_auc: 1.000
+val_loss: 0.00268 | val_acc: 100.000 | val_precision: 1.000 | val_recall: 1.000 | val_auc: 1.000
