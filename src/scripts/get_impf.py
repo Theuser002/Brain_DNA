@@ -13,6 +13,7 @@ from models.MLP.Model import DNAMLP
 from tqdm import tqdm
 from tqdm.auto import trange
 from xgboost import XGBClassifier
+from collections import defaultdict
 
 dat_cfg = config.data_config
 clf_cfg = config.classifier_config
@@ -132,9 +133,30 @@ def outer_fold_impf(alg, group, outer_fold, save = False):
     
     return impf_set
 
+def ranked_impf_features(alg, group, outer_fold, save = False):
+    fold_index = outer_fold.split('.')[0]
+    outer_fold_ranked_impf = defaultdict(int)
+    combined_impf = []
+    ranked_impf = defaultdict(int)
+    for i in tqdm(range(0,6)):
+        fold = f'{fold_index}.{i}'
+        impf = choose_impf_alg(alg, group, fold)
+        combined_impf.append(set(impf))
+    impf_set = set.intersection(*combined_impf)
+    for i in tqdm(range(0,6)):
+        fold = f'{fold_index}.{i}'
+        impf = choose_impf_alg(alg, group, fold)
+        for j in range(len(impf)):
+            if impf[j] not in impf_set:
+                continue
+            else:
+                ranked_impf[impf[j]] += ((j+1) * len(impf))
+    return ranked_impf
+        
+    
 if __name__ == "__main__": 
     print(f'Getting {impf_cfg["N_IMPF"]} important features')
-    algs = ['MLP', 'RF', 'LR', 'XGB']
+    algs = utils.algs
     groups = utils.positive_groups
     outer_folds = utils.outer_folds
     group = groups[np.random.randint(len(groups))]
@@ -155,12 +177,12 @@ if __name__ == "__main__":
     #                 with open (os.path.join(IMPF_DIR, group, f'{out_fold}-{in_fold}.pkl'), 'wb') as handle:
     #                     pickle.dump(impf, handle, protocol = pickle.HIGHEST_PROTOCOL)
     
-    dump_impf(algs, groups)
-    for alg in tqdm(algs, desc = 'Algs: ', position = 0):
-        for group in tqdm(groups, desc = 'Groups', position = 1):
-            for outer_fold in tqdm(outer_folds, desc = 'Outer folds', position = 2):
-                tqdm.write(f'{alg}-{group}-{outer_fold}:')
-                tqdm.write(f'{len(outer_fold_impf(alg, group, outer_fold, True))}')
+    # dump_impf(algs, groups)
+    # for alg in tqdm(algs, desc = 'Algs: ', position = 0):
+    #     for group in tqdm(groups, desc = 'Groups', position = 1):
+    #         for outer_fold in tqdm(outer_folds, desc = 'Outer folds', position = 2):
+    #             tqdm.write(f'{alg}-{group}-{outer_fold}:')
+    #             tqdm.write(f'{len(outer_fold_impf(alg, group, outer_fold, True))}')
     
     # group = 'Pineal'
     # fold = '1.1'
@@ -178,3 +200,13 @@ if __name__ == "__main__":
     #         print(f'{algs[i]}-{algs[j]}: ', len(set(choose_impf_alg(algs[i], group, fold)).intersection(set(choose_impf_alg(algs[j], group, fold)))))
     
     # print('(XGB-RF)-MLP: ', len(set(choose_impf_alg(algs[3], group, fold)).intersection(set(choose_impf_alg(algs[1], group, fold)).intersection(set(choose_impf_alg(algs[0], group, fold))))))
+
+    alg = algs[0]
+    fold_index = outer_fold.split('.')[0]
+    impf = outer_fold_impf(alg, group, outer_fold)
+    impf_dict = ranked_impf_features(alg, group, outer_fold)
+    for i in range(0, 6):
+        fold = f'{fold_index}.{i}'
+        print(f'\nFOLD {fold}: {choose_impf_alg(alg, group, fold)}\n')
+    print(impf_dict, '\n', impf)
+    print(len(impf), len(impf_dict))
