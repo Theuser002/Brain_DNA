@@ -207,6 +207,6 @@ if __name__ == "__main__":
     impf_dict = ranked_impf_features(alg, group, outer_fold)
     for i in range(0, 6):
         fold = f'{fold_index}.{i}'
-        print(f'\nFOLD {fold}: {choose_impf_alg(alg, group, fold)}\n')
+        # print(f'\nFOLD {fold}: {choose_impf_alg(alg, group, fold)}\n')
     print(impf_dict, '\n', impf)
     print(len(impf), len(impf_dict))
