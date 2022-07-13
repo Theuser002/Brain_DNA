@@ -84,6 +84,8 @@ folds = ['1.0', '1.1', '1.2', '1.3', '1.4', '1.5',
 outer_folds = ['1.0', '2.0', '3.0', '4.0', '5.0']
 inner_folds = [x for x in folds if x not in outer_folds]
 
+algs = ['MLP', 'RF', 'LR', 'XGB']
+
 def map_class_to_group (methyl_class):
     methyl_class_index = methyl_class_list.index(methyl_class)
     for i in range(len(group_index_range)):
