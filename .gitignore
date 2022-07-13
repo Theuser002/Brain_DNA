@@ -97,3 +97,4 @@ target/
 *.joblib
 *.out
 *.json
+*.xlsx
