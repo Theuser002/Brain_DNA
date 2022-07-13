@@ -98,3 +98,6 @@ target/
 *.out
 *.json
 *.xlsx
+
+# Web folders
+Web/
