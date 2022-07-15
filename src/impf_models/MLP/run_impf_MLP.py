@@ -61,7 +61,7 @@ if __name__ == "__main__":
             else:
                 class_weights = None
             if use_SMOTE == True:
-                smote = SMOTE(sampling_strategy = "auto", random_state = 42, k_neighbors = max(1, min(value_counts) - 1)))
+                smote = SMOTE(sampling_strategy = "auto", random_state = 42, k_neighbors = max(1, min(value_counts) - 1))
                 train_features, train_labels = smote.fit_resample(train_features, train_labels)
             
             # Encode the labels
