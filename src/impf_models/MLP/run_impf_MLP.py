@@ -19,11 +19,15 @@ from torch.utils.data import DataLoader
 from torch.nn import CrossEntropyLoss
 from torch.optim import Adam
 from tqdm import tqdm
+from imblearn.over_sampling import SMOTE
+from sklearn.utils.class_weight import compute_class_weight
 
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--save', type = str, default = 'no_save')
     parser.add_argument('--alg', type = str, default = 'mlp')
+    parser.add_argument('-use_smote', type = str, action = 'store_true')
+    parser.add_argument('-use_weight', type = bool, action = 'store_true')
     args, _ = parser.parse_known_args()
     return args
 
@@ -52,6 +56,14 @@ if __name__ == "__main__":
             train_features, train_labels, val_features, val_labels = impf_make_ndarray_from_csv(group, fold, impf)
             test_features, test_labels = impf_make_ndarray_from_csv(group, outer_fold, impf, mode = 'test')
             
+            if use_weights == True:
+                torch.Tensor(compute_class_weight(class_weight='balanced', classes=np.unique(train_labels), y = train_labels )).to(device)
+            else:
+                class_weights = None
+            if use_SMOTE == True:
+                smote = SMOTE(sampling_strategy = "auto", random_state = 42, k_neighbors = max(1, min(value_counts) - 1)))
+                train_features, train_labels = smote.fit_resample(train_features, train_labels)
+            
             # Encode the labels
             train_labels_int = np.array([get_int_label(label, group) for label in train_labels])
             val_labels_int = np.array([get_int_label(label, group) for label in val_labels])
@@ -70,11 +82,11 @@ if __name__ == "__main__":
             model = Impf_DNAMLP(in_features, impf_cfg['n_classes'])
             if impf_cfg['MLP_FIRST_TIME'] == False:
                 # Load model based on fold
-                BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], group, f'{fold}.pth')
+                BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg, group, f'{fold}.pth')
                 model.load_state_dict(torch.load(BEST_STATE_PATH))
                 
             # Define training and validating hyperparams
-            criterion = CrossEntropyLoss(weight=None)
+            criterion = CrossEntropyLoss(weight=class_weights)
             optimizer = Adam(model.parameters(), lr = impf_cfg['mlp_lr'], weight_decay = impf_cfg['mlp_weight_decay'])
             
             tqdm.write(f'Running in {save} mode')

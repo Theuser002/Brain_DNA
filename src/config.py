@@ -33,7 +33,8 @@ classifier_config = {
     'LR_MODELS_DIR': os.path.join(root_dir, 'models/binary_classification/lr_models'),
     'LR_EVALUATION_RESULTS': os.path.join(root_dir, 'src/models/LR/evaluation.txt'),
     
-    'XGB_MODELS_DIR': os.path.join(root_dir, 'models/binary_classification/xgb_models')
+    'XGB_MODELS_DIR': os.path.join(root_dir, 'models/binary_classification/xgb_models'),
+    'XGB_EVALUATION_RESULTS': os.path.join(root_dir, 'src/models/XGBoost/evaluation.txt')
 }
 
 impf_config = {

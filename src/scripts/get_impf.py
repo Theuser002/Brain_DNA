@@ -177,7 +177,7 @@ if __name__ == "__main__":
     #                 with open (os.path.join(IMPF_DIR, group, f'{out_fold}-{in_fold}.pkl'), 'wb') as handle:
     #                     pickle.dump(impf, handle, protocol = pickle.HIGHEST_PROTOCOL)
     
-    # dump_impf(algs, groups)
+    dump_impf(algs, groups)
     # for alg in tqdm(algs, desc = 'Algs: ', position = 0):
     #     for group in tqdm(groups, desc = 'Groups', position = 1):
     #         for outer_fold in tqdm(outer_folds, desc = 'Outer folds', position = 2):
@@ -201,12 +201,12 @@ if __name__ == "__main__":
     
     # print('(XGB-RF)-MLP: ', len(set(choose_impf_alg(algs[3], group, fold)).intersection(set(choose_impf_alg(algs[1], group, fold)).intersection(set(choose_impf_alg(algs[0], group, fold))))))
 
-    alg = algs[0]
-    fold_index = outer_fold.split('.')[0]
-    impf = outer_fold_impf(alg, group, outer_fold)
-    impf_dict = ranked_impf_features(alg, group, outer_fold)
-    for i in range(0, 6):
-        fold = f'{fold_index}.{i}'
-        # print(f'\nFOLD {fold}: {choose_impf_alg(alg, group, fold)}\n')
-    print(impf_dict, '\n', impf)
-    print(len(impf), len(impf_dict))
+    # alg = algs[0]
+    # fold_index = outer_fold.split('.')[0]
+    # impf = outer_fold_impf(alg, group, outer_fold)
+    # impf_dict = ranked_impf_features(alg, group, outer_fold)
+    # for i in range(0, 6):
+    #     fold = f'{fold_index}.{i}'
+    #     # print(f'\nFOLD {fold}: {choose_impf_alg(alg, group, fold)}\n')
+    # print(impf_dict, '\n', impf)
+    # print(len(impf), len(impf_dict))

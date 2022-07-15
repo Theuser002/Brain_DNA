@@ -8,7 +8,7 @@ class Impf_DNAMLP(nn.Module):
         
         self.n_classes = n_classes
         self.densenet = nn.Sequential(
-            nn.Linear(self.in_features, n_classes),
+            nn.Linear(self.in_features, self.n_classes),
         )
         
     def forward (self, x):

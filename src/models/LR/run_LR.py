@@ -45,11 +45,9 @@ if __name__ == "__main__":
     # Remove some folds that are not going to be trained
     trained_folds = folds
     
-    groups = utils.groups
+    groups = utils.positive_groups
      
     for group in tqdm(groups, desc = 'Groups: ', position = 0):
-        if group == 'Control':
-            break
         for fold in tqdm(trained_folds, desc = 'Folds: ', position = 1):
             train_features, train_labels = make_ndarray_from_csv(group, fold, mode = 'train')
             val_features, val_labels = make_ndarray_from_csv(group, fold, mode = 'test')
