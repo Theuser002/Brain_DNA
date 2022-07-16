@@ -31,7 +31,7 @@ def impf_train_epoch(epoch, model, train_loader, criterion, optimizer, device):
     # For loop through all batches
     all_labels = []
     all_logits = []
-    for features, labels in tqdm(train_loader, desc= 'Training process', position=3):
+    for features, labels in train_loader:
         # Move tensors to device
         features = features.to(device)
         labels = labels.to(device)
@@ -41,8 +41,6 @@ def impf_train_epoch(epoch, model, train_loader, criterion, optimizer, device):
         
         # Forward pass
         logits = model(features)
-        # print(f'DJIWOEDJEWOD: {logits} - {labels}')
-        # print(f'HDUHOAWDHEOE: {logits.shape} - {labels.shape}')
         loss = criterion(logits, labels)
 
         # Backward pass
@@ -80,9 +78,9 @@ def impf_train_epoch(epoch, model, train_loader, criterion, optimizer, device):
     train_auc = roc_auc_score(all_labels, all_preds)
     train_precision = precision_score(all_labels, all_preds)
     train_recall = recall_score(all_labels, all_preds)
-    # print(confusion_matrix(all_labels, all_preds))
+    train_cfs = confusion_matrix(all_labels, all_preds)
     
-    return train_loss, train_acc, train_me, train_bs, train_auc, train_precision, train_recall
+    return train_loss, train_acc, train_me, train_bs, train_auc, train_precision, train_recall, train_cfs
 
 def impf_val_epoch(epoch, model, val_loader, criterion, device):
     correct = 0
@@ -95,10 +93,9 @@ def impf_val_epoch(epoch, model, val_loader, criterion, device):
         # For loop through all batches
         all_labels = []
         all_logits = []
-        for features, labels in tqdm(val_loader, desc='Validating process: ', position=3):
+        for features, labels in val_loader:
             # Move tensors to device
             features, labels = features.to(device), labels.to(device)
-            
             # Forward pass
             logits = model(features)
             
@@ -134,11 +131,12 @@ def impf_val_epoch(epoch, model, val_loader, criterion, device):
         val_auc = roc_auc_score(all_labels, all_preds)
         val_precision = precision_score(all_labels, all_preds)
         val_recall = recall_score(all_labels, all_preds)
+        val_cfs = confusion_matrix(all_labels, all_preds)
          
-    return val_loss, val_acc, val_me, val_bs, val_auc, val_precision, val_recall
+    return val_loss, val_acc, val_me, val_bs, val_auc, val_precision, val_recall, val_cfs
 
 def impf_run(class_name, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, config, save):
-    history = {'train_accs': [], 'train_losses': [], 'val_accs': [], 'val_losses': []}
+    history = {'val_accs': [], 'val_losses': [], 'val_precisions': [], 'val_recalls': [], 'val_aucs': [], 'test_accs': [], 'test_losses': [], 'test_precisions': [], 'test_recalls': [], 'test_aucs': []}
     
     model.to(config['device'])
     n_epochs = config['mlp_n_epochs']
@@ -147,31 +145,36 @@ def impf_run(class_name, alg, fold, train_loader, val_loader, test_loader, model
     diff_threshold = config['mlp_diff_threshold']
     max_patience = config['mlp_max_patience']
     patience = 0
+    selected_metrics = ['train_precision', 'train_recall', 'train_auc', 'train_cfs', 'val_precision', 'val_recall', 'val_auc', 'val_cfs', 'test_precision', 'test_recall', 'test_auc', 'test_cfs']
     
     for epoch in tqdm(range(1, n_epochs + 1), desc='Epochs: ', position=2):
         # tqdm.write(f'Epoch {epoch}/{n_epochs} of fold {fold} of group {class_name}')
         
-        train_loss, train_acc, train_me, train_bs, train_auc, train_precision, train_recall = impf_train_epoch(epoch, model, train_loader, criterion, optimizer, config['device'])
-        val_loss, val_acc, val_me, val_bs, val_auc, val_precision, val_recall = impf_val_epoch(epoch, model, val_loader, criterion, config['device'])
-        test_loss, test_acc, test_me, test_bs, test_auc, test_precision, test_recall = impf_val_epoch(epoch, model, test_loader, criterion, config['device'])
+        # GET EPOCH'S RESULTS FROM TRAINING AND VALIDATING AND TESTING MODEL
+        train_loss, train_acc, train_me, train_bs, train_auc, train_precision, train_recall, train_cfs = impf_train_epoch(epoch, model, train_loader, criterion, optimizer, config['device'])
+        val_loss, val_acc, val_me, val_bs, val_auc, val_precision, val_recall, val_cfs = impf_val_epoch(epoch, model, val_loader, criterion, config['device'])
+        test_loss, test_acc, test_me, test_bs, test_auc, test_precision, test_recall, test_cfs = impf_val_epoch(epoch, model, test_loader, criterion, config['device'])
         
-        history['train_accs'].append(train_acc)
-        history['train_losses'].append(train_loss)
-        history['val_accs'].append(val_acc)
+        # history['val_accs'].append(val_acc)
         history['val_losses'].append(val_loss)
+        # history['val_precisions'].append(val_precision)
+        # history['val_recalls'].append(val_recall)
+        # history['val_aucs'].append(val_auc)
+        # history['test_accs'].append(test_acc)
+        # history['test_losses'].append(test_loss)
+        # history['test_precisions'].append(test_precision)
+        # history['test_recalls'].append(test_recall)
+        # history['test_aucs'].append(test_auc)
         
+        # PRINT EPOCH'S RESULTS OUT TO CONSOLE
         tqdm.write(f'[{class_name.upper()}] - {fold} - {epoch}/{n_epochs}')
-        tqdm.write('train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %.3f' % (train_loss, train_acc, train_precision, train_bs, train_auc))
+        tqdm.write('train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %.3f' % (train_loss, train_acc, train_precision, train_recall, train_auc))
         tqdm.write('val_loss: %.5f | val_acc: %.3f | val_precision: %.3f | val_recall: %.3f | val_auc: %.3f' % (val_loss, val_acc, val_precision, val_recall, val_auc))
         tqdm.write('test_loss: %.5f | test_acc: %.3f | test_precision: %.3f | test_recall: %.3f | test_auc: %.3f' % (test_loss, test_acc, test_precision, test_recall, test_auc))
-        
-        eval_file = open(config[f'MLP_{alg}_EVALUATION_RESULTS'], 'a+')
-        eval_file.write(
-            f'\n>>>>>>[{class_name.upper()}] - {fold} - {epoch}/{n_epochs}: train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %.3f\nval_loss: %.5f | val_acc: %.3f | val_precision: %.3f | val_recall: %.3f | val_auc: %.3f\ntest_loss: %.5f | test_acc: %.3f | test_precision: %.3f | test_recall: %.3f | test_auc: %.3f\n' % (train_loss, train_acc, train_precision, train_recall, train_auc, val_loss, val_acc, val_precision, val_recall, val_auc, test_loss, test_acc, test_precision, test_recall, test_auc)
-        )
-        eval_file.close()
             
         if val_loss == min(history['val_losses']):
+            # GET BEST EPOCH'S RESULTS AND WRITE IT TO AN EVALUATION FILE
+            best_epoch_results = {'train_loss: ': train_loss, 'train_accs': train_acc, 'train_me': train_me, 'train_bs': train_bs, 'train_precision': train_precision, 'train_recall': train_recall, 'train_auc': train_auc, 'train_cfs': train_cfs, 'val_loss: ': val_loss, 'val_accs': val_acc, 'val_me': val_me, 'val_bs': val_bs, 'val_precision': val_precision, 'val_recall': val_recall, 'val_auc': val_auc, 'val_cfs': val_cfs, 'test_loss: ': test_loss, 'test_accs': test_acc, 'test_me': test_me, 'test_bs': test_bs, 'test_precision': test_precision, 'test_recall': test_recall, 'test_auc': test_auc, 'test_cfs': test_cfs}
             if save.lower() == 'save':
                 tqdm.write('Lowest validation loss => saving model weights...')
                 torch.save(model.state_dict(), BEST_STATE_PATH)
@@ -185,7 +188,17 @@ def impf_run(class_name, alg, fold, train_loader, val_loader, test_loader, model
             else:
                 patience = 0
         tqdm.write('---------------------------------------------')
-    return max(history['val_accs'])
+
+    eval_file = open(config[f'MLP_{alg}_EVALUATION_RESULTS'], 'a+')
+    eval_file.write(f'\n-------------------------------\n[{class_name.upper()} - {alg} - {fold}]\n: ')
+    for key, value in best_epoch_results.items():
+        if key in selected_metrics:
+            if 'cfs' in key:
+                eval_file.write(f'{key}:\n{value}\n')
+            else:
+                eval_file.write(f'{key}: {value} | ')
+    eval_file.close()
+    return best_epoch_results
 
 if __name__ == "__main__":
     print('Train MLP.py running...')

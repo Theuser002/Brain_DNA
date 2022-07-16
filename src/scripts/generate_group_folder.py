@@ -10,10 +10,10 @@ from tqdm import tqdm
 
 if __name__ == "__main__":
     groups = utils.groups
-    parent_folders = ['/media/data/hungnt/work/SourceCode/Brain_DNA/models/binary_classification_with_impf/mlp_best_states/LR',
-'/media/data/hungnt/work/SourceCode/Brain_DNA/models/binary_classification_with_impf/mlp_best_states/MLP',
-'/media/data/hungnt/work/SourceCode/Brain_DNA/models/binary_classification_with_impf/mlp_best_states/RF',
-'/media/data/hungnt/work/SourceCode/Brain_DNA/models/binary_classification_with_impf/mlp_best_states/XGB']
+    parent_folders = ['/media/data/hungnt/work/SourceCode/Brain_DNA/data/processed/important_features/LR',
+'/media/data/hungnt/work/SourceCode/Brain_DNA/data/processed/important_features/MLP',
+'/media/data/hungnt/work/SourceCode/Brain_DNA/data/processed/important_features/RF',
+'/media/data/hungnt/work/SourceCode/Brain_DNA/data/processed/important_features/XGB']
     
     for folder in parent_folders:
         if not os.path.isdir(folder):

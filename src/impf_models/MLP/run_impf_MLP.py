@@ -11,6 +11,7 @@ import utils
 import pickle
 import argparse
 import train_impf_MLP
+import joblib
 
 from utils import impf_make_ndarray_from_csv, get_int_label
 from Model import Impf_DNAMLP
@@ -26,8 +27,8 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--save', type = str, default = 'no_save')
     parser.add_argument('--alg', type = str, default = 'mlp')
-    parser.add_argument('-use_smote', type = str, action = 'store_true')
-    parser.add_argument('-use_weight', type = bool, action = 'store_true')
+    parser.add_argument('-use_smote', action = 'store_true')
+    parser.add_argument('-use_weights', action = 'store_true')
     args, _ = parser.parse_known_args()
     return args
 
@@ -36,6 +37,8 @@ if __name__ == "__main__":
     args = parse_args()
     save = args.save
     alg = args.alg.upper()
+    use_SMOTE = args.use_smote
+    use_weights = args.use_weights
     clf_cfg = config.classifier_config
     impf_cfg = config.impf_config
     
@@ -44,8 +47,11 @@ if __name__ == "__main__":
     
     eval_file = open(impf_cfg[f'MLP_{alg}_EVALUATION_RESULTS'], 'w')
     eval_file.write('EVALUATION RESULTS:\n')
+    eval_file.write(f'SMOTE: {use_SMOTE} | weights: {use_weights}\n')
     eval_file.close()
     MLP_BEST_STATES_DIR = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg)
+    
+    print(f'SMOTE: {use_SMOTE} | weights: {use_weights}\n')
     
     for group in tqdm(groups, desc = 'Groups: ', position = 0):
         for fold in tqdm(trained_folds, desc = 'Fols: ', position = 1):
@@ -55,7 +61,7 @@ if __name__ == "__main__":
             tqdm.write(f'[MLP] | {group} - {fold} - {alg} ({len(impf)})')                        
             train_features, train_labels, val_features, val_labels = impf_make_ndarray_from_csv(group, fold, impf)
             test_features, test_labels = impf_make_ndarray_from_csv(group, outer_fold, impf, mode = 'test')
-            
+            value_counts = pd.Series(train_labels).value_counts()
             if use_weights == True:
                 torch.Tensor(compute_class_weight(class_weight='balanced', classes=np.unique(train_labels), y = train_labels )).to(device)
             else:
@@ -90,9 +96,8 @@ if __name__ == "__main__":
             optimizer = Adam(model.parameters(), lr = impf_cfg['mlp_lr'], weight_decay = impf_cfg['mlp_weight_decay'])
             
             tqdm.write(f'Running in {save} mode')
-            best_accs = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
-            # break
-        # break            
+            best_epoch_results = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
+ 
             
             
             

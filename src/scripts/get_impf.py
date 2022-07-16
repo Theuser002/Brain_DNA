@@ -177,12 +177,12 @@ if __name__ == "__main__":
     #                 with open (os.path.join(IMPF_DIR, group, f'{out_fold}-{in_fold}.pkl'), 'wb') as handle:
     #                     pickle.dump(impf, handle, protocol = pickle.HIGHEST_PROTOCOL)
     
-    dump_impf(algs, groups)
-    # for alg in tqdm(algs, desc = 'Algs: ', position = 0):
-    #     for group in tqdm(groups, desc = 'Groups', position = 1):
-    #         for outer_fold in tqdm(outer_folds, desc = 'Outer folds', position = 2):
-    #             tqdm.write(f'{alg}-{group}-{outer_fold}:')
-    #             tqdm.write(f'{len(outer_fold_impf(alg, group, outer_fold, True))}')
+    # dump_impf(algs, groups)
+    for alg in tqdm(algs, desc = 'Algs: ', position = 0):
+        for group in tqdm(groups, desc = 'Groups', position = 1):
+            for outer_fold in tqdm(outer_folds, desc = 'Outer folds', position = 2):
+                tqdm.write(f'{alg}-{group}-{outer_fold}:')
+                tqdm.write(f'{len(outer_fold_impf(alg, group, outer_fold, True))}')
     
     # group = 'Pineal'
     # fold = '1.1'
