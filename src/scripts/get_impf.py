@@ -128,7 +128,7 @@ def outer_fold_impf(alg, group, outer_fold, save = False):
         combined_impf.append(set(impf))
     impf_set = set.intersection(*combined_impf)
     if save == True:
-        impf_file = open(IMPF_FILE, 'wb');
+        impf_file = open(IMPF_FILE, 'wb')
         pickle.dump(impf_set, impf_file, protocol = pickle.HIGHEST_PROTOCOL)
     
     return impf_set

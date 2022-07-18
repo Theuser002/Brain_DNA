@@ -1,0 +1,6 @@
+primaryColor="#e0e0e0"
+backgroundColor="#31333f"
+secondaryBackgroundColor="#ea6b6b"
+textColor="#ffffff"
+font="monospace"
+
