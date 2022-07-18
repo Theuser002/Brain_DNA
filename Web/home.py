@@ -1,16 +1,17 @@
 import sys
-sys.path.append('../')
+sys.path.append('../src')
 
 import streamlit as st
 import os
 import pandas as pd
 import numpy as np
 import pickle
-import src.config as config
-import src.impf_models.MLP as impf_MLP
+import config
+import impf_models.MLP as impf_MLP
+import scripts.get_impf as get_impf
 import torch
 
-from src.impf_models.MLP.Model import Impf_DNAMLP
+from impf_models.MLP.Model import Impf_DNAMLP
 from torch.nn.functional import softmax
 
 # Globals
@@ -34,6 +35,9 @@ def get_impf_dataframe(df, outer_fold = '1.0', alg = 'MLP', group = 'Unknown'):
     df = df.loc[:, list(impf)]
     return df, len(impf)
 
+def get_ranked_impf(df, outer_fold = '1.0', alg = 'MLP', group = 'Unknown'):
+    return get_impf.ranked_impf_features(alg, group, outer_fold)    
+
 # MAIN
 ## Main page
 title = 'DNA methylation-based classification of central nervous system tumours'
@@ -46,11 +50,13 @@ try:
         st.write('---')
         df = pd.read_csv(uploaded_file, nrows=1)
         st.write(df)
-        alg = st.selectbox('Select alg: ', algs)
+        # Get user's input
+        alg = st.selectbox('Select important features algorithm: ', algs)
         group = st.selectbox('Select tissue origin: ', tissue_groups)
-        df, n_impf = get_impf_dataframe(df, '1.0', alg, group)
-        st.write(df)
+        outer_fold = st.selectbox('Select fold ***(development only)***: ', outer_folds)
 
+        df, n_impf = get_impf_dataframe(df, outer_fold, alg, group)
+        st.write(df)
         sample = np.expand_dims(np.array(df.iloc[0,:]).astype(float), axis = 0)
         sample = torch.Tensor(sample).to(device)
 
@@ -64,11 +70,29 @@ try:
             model.load_state_dict(torch.load(BEST_STATE_PATH))
         model.to(device)
 
-        res = softmax(model(sample), dim = 1)
-        
         st.write('---')
-        st.write('**DIAGNOSIS RESULTS:**')
-        st.write(res.detach().cpu().numpy())
+
+        # Frontpage column layout
+        col1, col2, col3 = st.columns(3)
+
+        # Calculate diagnosis results and display
+        res = softmax(model(sample), dim = 1)
+        columns = [group, 'Control']
+        row = res.detach().cpu().numpy()
+        res_df = pd.DataFrame(row)
+        res_df.columns = columns
+        col1.write('**DIAGNOSIS RESULTS**')
+        col1.write(res_df)
+
+        # Get ranked important features
+        ranked_impf = get_ranked_impf(df, outer_fold, alg, group)
+        ranked_impf = dict(sorted(ranked_impf.items(), key = lambda item:item[1]))
+        ranked_impf = pd.DataFrame(list(ranked_impf.keys()))
+        col2.write('*Important CpGs*')
+        col2.write(ranked_impf)
+
+        # Get user's input
+        selected_cpg = st.selectbox
     except Exception as e:
         st.write("Caught an error:", e)
 except:
