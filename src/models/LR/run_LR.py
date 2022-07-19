@@ -43,7 +43,7 @@ def eval(clf, features, labels_int):
 
 
 if __name__ == "__main__":
-    print("Running linear regression classifiers")
+    print("Running logisitc regression classifiers")
     args = parse_args()
     save = args.save
     use_SMOTE = args.use_smote

@@ -1,0 +1,38 @@
+EVALUATION RESULTS:
+SMOTE: False | weights: False
+
+-------------------------------
+[EMBRYONAL - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[481   0]
+ [  0  92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[126   0]
+ [  0  27]]
+
+-------------------------------
+[EMBRYONAL - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[379   0]
+ [  0  70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[102   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[384   0]
+ [  0  71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[97  0]
+ [ 0 21]]
+
+-------------------------------
+[EMBRYONAL - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[385   0]
+ [  0  74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
