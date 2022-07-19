@@ -44,7 +44,6 @@ if __name__ == "__main__":
     
     groups = utils.positive_groups
     trained_folds = utils.inner_folds
-    histories = {}
     
     eval_file = open(impf_cfg[f'MLP_{alg}_EVALUATION_RESULTS'], 'w')
     eval_file.write('EVALUATION RESULTS:\n')
@@ -97,7 +96,7 @@ if __name__ == "__main__":
             optimizer = Adam(model.parameters(), lr = impf_cfg['mlp_lr'], weight_decay = impf_cfg['mlp_weight_decay'])
             
             tqdm.write(f'Running in {save} mode')
-            best_epoch_results, history = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
+            best_epoch_results = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
  
             
             

@@ -41,6 +41,7 @@ if __name__ == "__main__":
     
     trained_folds = folds
     groups = utils.positive_groups
+    threshold = clf_cfg['xgb_threshold']
     
     for group in tqdm(groups, desc = 'Groups: ', position = 0):
         for fold in tqdm(trained_folds, desc = 'Folds: ', position = 1):

@@ -1,11 +1,13 @@
 F1 vs AUC:
 	https://neptune.ai/blog/f1-score-accuracy-roc-auc-pr-auc#:~:text=to%20Content%20List-,8.,your%20observations%20to%20those%20classes.
 	Threshold for RF:
-		https://stackoverflow.com/questions/49785904/how-to-set-threshold-to-scikit-learn-random-forest-model
+		https://stackoverflow.com/questions/49785904/show-to-set-threshold-to-scikit-learn-random-forest-model
 	Threshold for LR:
 		https://stackoverflow.com/questions/28716241/controlling-the-threshold-in-logistic-regression-in-scikit-learn
 	Threshold for MLP:
 		https://www.projectpro.io/recipes/develop-mlp-for-multiclass-classification-pytorch
+	5-Fold and threshold relation:
+		https://stats.stackexchange.com/questions/469801/does-a-threshold-effect-the-training-or-testing-fold-in-cross-validation
 Cancer Tommorow (Predictive data):
 	https://gco.iarc.fr/tomorrow/en/dataviz/isotype?types=0&sexes=0&mode=population&group_populations=1&multiple_populations=1&multiple_cancers=0&cancers=39&populations=903_904_905_908_909_935`
 Illumina Bead Chip information:
@@ -13,6 +15,10 @@ Illumina Bead Chip information:
 
 =========================
 VIỆC CÒN PHẢI LÀM:
-F1-Score, Threshold (Code)
+F1-Score, Threshold, Model riêng cho Glio-neuronal và Other gliomas, điều chỉnh lại clf MLP (thêm lớp dropout để giảm overfit maybe? hoặc tra gg tìm xem có cách nào đó tăng precision và recall hay k (cả hai thằng này MLP đều tụt)) (Code)
 Sau đó phân loại các features theo từng gen (Web) 
 Sau khi đã đưa ra một tập các features quan trọng cho từng bệnh, vẽ phân bố của features theo các bệnh nhân (Web)
+=========================
+Pick mlp làm final classier vì:
+	clf MLP có kết quả tốt trước khi đưa qua cpg filtering, trên web ở phần chọn alg cho thêm option None, nếu ng dùng chọn thì đưa thẳng qua clf MLP để dự đoán (vì kq nó tốt)
+	lấy đc probs của từng class

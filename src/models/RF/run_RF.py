@@ -46,6 +46,7 @@ if __name__ == "__main__":
     # Remove some folds that are not going to be trained
     trained_folds = folds
     groups = utils.positive_groups
+    threshold = clf_cfg['rf_threshold']
     
     for group in tqdm(groups, desc = 'Groups: ', position = 0):
         for fold in tqdm(trained_folds, desc = 'Folds: ', position = 1):

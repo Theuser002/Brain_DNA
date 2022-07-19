@@ -26,15 +26,20 @@ classifier_config = {
     'mlp_weight_decay': 0,
     'mlp_n_epochs': 30,
     'MLP_EVALUATION_RESULTS': os.path.join(root_dir, 'src/models/MLP/evaluation.txt'),
+    'mlp_threshold': 0.5,
+    'mlp_dropout_rate': 0,
     
     'RF_MODELS_DIR': os.path.join(root_dir, 'models/binary_classification/rf_models'),
     'RF_EVALUATION_RESULTS': os.path.join(root_dir, 'src/models/RF/evaluation.txt'),
+    'rf_threshold': 0.5,
     
     'LR_MODELS_DIR': os.path.join(root_dir, 'models/binary_classification/lr_models'),
     'LR_EVALUATION_RESULTS': os.path.join(root_dir, 'src/models/LR/evaluation.txt'),
+    'lr_threshold': 0.5,
     
     'XGB_MODELS_DIR': os.path.join(root_dir, 'models/binary_classification/xgb_models'),
-    'XGB_EVALUATION_RESULTS': os.path.join(root_dir, 'src/models/XGBoost/evaluation.txt')
+    'XGB_EVALUATION_RESULTS': os.path.join(root_dir, 'src/models/XGBoost/evaluation.txt'),
+    'xgb_threshold': 0.5
 }
 
 impf_config = {

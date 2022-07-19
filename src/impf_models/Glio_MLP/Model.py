@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-class Impf_DNAMLP(nn.Module):
+class Impf_GlioMLP(nn.Module):
     def __init__ (self, in_features, n_classes):
         super(Impf_DNAMLP, self).__init__()
         self.in_features = in_features

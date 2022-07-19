@@ -44,9 +44,9 @@ if __name__ == "__main__":
     inner_folds = [x for x in folds if x not in outer_folds]
     # Remove some folds that are not going to be trained
     trained_folds = folds
-    
     groups = utils.positive_groups
-     
+    threshold = clf_cfg['lr_threshold']
+
     for group in tqdm(groups, desc = 'Groups: ', position = 0):
         for fold in tqdm(trained_folds, desc = 'Folds: ', position = 1):
             train_features, train_labels = make_ndarray_from_csv(group, fold, mode = 'train')
