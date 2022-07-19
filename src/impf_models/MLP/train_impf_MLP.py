@@ -146,7 +146,7 @@ def impf_run(class_name, alg, fold, train_loader, val_loader, test_loader, model
     diff_threshold = config['mlp_diff_threshold']
     max_patience = config['mlp_max_patience']
     patience = 0
-    selected_metrics = ['train_acc', 'train_precision', 'train_recall', 'train_auc', 'train_f1','train_cfs', 'val_acc', 'val_precision', 'val_recall', 'val_auc', 'val_f1', 'val_cfs', 'test_acc', 'test_precision', 'test_recall', 'test_auc', 'test_f1', 'test_cfs']
+    selected_metrics = ['train_acc', 'train_precision', 'train_recall', 'train_auc', 'train_f1', 'train_cfs', 'val_acc', 'val_precision', 'val_recall', 'val_auc', 'val_f1', 'val_cfs', 'test_acc', 'test_precision', 'test_recall', 'test_auc', 'test_f1', 'test_cfs']
     
     for epoch in tqdm(range(1, n_epochs + 1), desc='Epochs: ', position=2):
         # tqdm.write(f'Epoch {epoch}/{n_epochs} of fold {fold} of group {class_name}')

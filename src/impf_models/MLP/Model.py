@@ -14,7 +14,7 @@ class Impf_DNAMLP(nn.Module):
 
 class Impf_GlioMLP(nn.Module):
     def __init__ (self, in_features, n_classes, dropout_rate = 0):
-        super(Impf_DNAMLP, self).__init__()        
+        super(Impf_GlioMLP, self).__init__()        
         self.densenet = nn.Sequential(
             nn.Linear(in_features, 64),
             nn.ReLU(),
