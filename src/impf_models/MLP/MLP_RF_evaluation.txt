@@ -1,29 +1,386 @@
 EVALUATION RESULTS:
-SMOTE: True | weights: False
+SMOTE: False | weights: False
 
 -------------------------------
-[EMBRYONAL - RF - 1.1]
-: train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[EMBRYONAL - RF - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[379   0]
- [  0 379]]
-val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+ [  0  70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[102   0]
+ [  0  22]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[126   0]
  [  0  27]]
 
 -------------------------------
-[EMBRYONAL - RF - 1.2]
-: train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[EMBRYONAL - RF - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[384   0]
- [  0 384]]
-val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+ [  0  71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[97  0]
+ [ 0 21]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[126   0]
  [  0  27]]
 
 -------------------------------
-[EMBRYONAL - RF - 1.3]
-: train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[EMBRYONAL - RF - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[385   0]
- [  0 385]]
-val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+ [  0  74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[126   0]
  [  0  27]]
+
+-------------------------------
+[EMBRYONAL - RF - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[387   0]
+ [  0  75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 17]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[126   0]
+ [  0  27]]
+
+-------------------------------
+[EMBRYONAL - RF - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[389   0]
+ [  0  78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[92  0]
+ [ 0 14]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[126   0]
+ [  0  27]]
+
+-------------------------------
+[EMBRYONAL - RF - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[380   0]
+ [  0  70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[102   0]
+ [  0  22]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[125   0]
+ [  0  27]]
+
+-------------------------------
+[EMBRYONAL - RF - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[384   0]
+ [  0  71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[98  0]
+ [ 0 21]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[125   0]
+ [  0  27]]
+
+-------------------------------
+[EMBRYONAL - RF - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[386   0]
+ [  0  74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
+test_precision: 1.0 | test_recall: 0.9629629629629629 | test_auc: 0.9814814814814814 | test_f1: 0.9811320754716981 | test_cfs:
+[[125   0]
+ [  1  26]]
+
+-------------------------------
+[EMBRYONAL - RF - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[388   0]
+ [  0  75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 17]]
+test_precision: 1.0 | test_recall: 0.9259259259259259 | test_auc: 0.962962962962963 | test_f1: 0.9615384615384615 | test_cfs:
+[[125   0]
+ [  2  25]]
+
+-------------------------------
+[EMBRYONAL - RF - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[390   0]
+ [  0  78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[92  0]
+ [ 0 14]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[125   0]
+ [  0  27]]
+
+-------------------------------
+[EMBRYONAL - RF - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[383   0]
+ [  0  72]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[102   0]
+ [  0  22]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[122   0]
+ [  0  25]]
+
+-------------------------------
+[EMBRYONAL - RF - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[385   0]
+ [  0  73]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[100   0]
+ [  0  21]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[122   0]
+ [  0  25]]
+
+-------------------------------
+[EMBRYONAL - RF - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[389   0]
+ [  0  76]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[122   0]
+ [  0  25]]
+
+-------------------------------
+[EMBRYONAL - RF - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[391   0]
+ [  0  77]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 17]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[122   0]
+ [  0  25]]
+
+-------------------------------
+[EMBRYONAL - RF - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[392   0]
+ [  0  78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[93  0]
+ [ 0 16]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[122   0]
+ [  0  25]]
+
+-------------------------------
+[EMBRYONAL - RF - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[385   0]
+ [  0  74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[103   0]
+ [  0  23]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[119   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - RF - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[388   0]
+ [  0  75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[100   0]
+ [  0  22]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[119   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - RF - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[392   0]
+ [  0  79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[119   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - RF - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[393   0]
+ [  0  79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[95  0]
+ [ 0 18]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[119   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - RF - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[394   0]
+ [  0  81]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 16]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[119   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - RF - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[389   0]
+ [  0  78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[103   0]
+ [  0  23]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[115   0]
+ [  0  18]]
+
+-------------------------------
+[EMBRYONAL - RF - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[390   0]
+ [  0  79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[102   0]
+ [  0  22]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[115   0]
+ [  0  18]]
+
+-------------------------------
+[EMBRYONAL - RF - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[395   0]
+ [  0  80]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[97  0]
+ [ 0 21]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[115   0]
+ [  0  18]]
+
+-------------------------------
+[EMBRYONAL - RF - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[396   0]
+ [  0  83]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[115   0]
+ [  0  18]]
+
+-------------------------------
+[EMBRYONAL - RF - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[398   0]
+ [  0  84]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 17]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[115   0]
+ [  0  18]]
+
+-------------------------------
+[GLIOBLASTOMA - RF - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[265   0]
+ [  0  70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[71  0]
+ [ 0 22]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[89  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOBLASTOMA - RF - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[267   0]
+ [  0  71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[69  0]
+ [ 0 21]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[89  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOBLASTOMA - RF - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[270   0]
+ [  0  74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 18]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[89  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOBLASTOMA - RF - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[270   0]
+ [  0  75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 17]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[89  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOBLASTOMA - RF - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[272   0]
+ [  0  78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[64  0]
+ [ 0 14]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[89  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOBLASTOMA - RF - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[268   0]
+ [  0  70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[71  0]
+ [ 0 22]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[86  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOBLASTOMA - RF - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[270   0]
+ [  0  71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[69  0]
+ [ 0 21]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[86  0]
+ [ 0 27]]
