@@ -71,6 +71,9 @@ positive_groups = [
     'Embryonal', 'Glioblastoma', 'Glio-neuronal', 'Sella', 'Ependymal', 'Other glioma', 'Nerve', 'Pineal', 'Mesenchymal', 'Melanocytic', 'Plexus', 'Glioma IDH', 'Haematopoietic'
 ]
 
+low_performance_group = [
+    'Glio-neuronal', 'Other glioma'
+]
 
 n_classes_per_group = [11, 8, 11, 10, 9, 10, 2, 5, 6, 2, 3, 3, 2, 9],
 group_index_range = [11, 19, 30, 40, 49, 59, 61, 66, 72, 74, 77, 80, 82, 91]
@@ -107,7 +110,6 @@ def brier_score_tensor(logits, categorical_labels):
     return np.mean(np.sum((class_probs - one_hot_labels)**2, axis=1))
 
 def make_ndarray_from_csv(group, fold, mode = 'None'):
-    clf_cfg = config.classifier_config
     dat_cfg = config.data_config
     
     if mode.lower() == 'train':
@@ -160,11 +162,9 @@ def make_ndarray_from_csv(group, fold, mode = 'None'):
 
 def impf_make_ndarray_from_csv(group, fold, impf, mode = 'None'):
     dat_cfg = config.data_config
-    clf_cfg = config.classifier_config
-    impf_cfg = config.impf_config
     
     if mode.lower() == 'train':
-        train_csv_path = os.path.join(clf_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
+        train_csv_path = os.path.join(dat_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
         df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)    
         
         train_features = np.array(df_train.loc[:,impf])

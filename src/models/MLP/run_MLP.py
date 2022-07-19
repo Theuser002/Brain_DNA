@@ -25,56 +25,72 @@ from torch.optim import Adam
 from utils import make_ndarray_from_csv, get_int_label
 from imblearn.over_sampling import SMOTE
 from sklearn.utils.class_weight import compute_class_weight
+from sklearn import preprocessing
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--save', type = str, default='no_save')
     parser.add_argument('-use_smote', action = 'store_true')
     parser.add_argument('-use_weights', action = 'store_true')
+    parser.add_argument('-scale_data', action = 'store_true')
+    parser.add_argument('--single_fold', default = 'disabled')
+    parser.add_argument('--save', type = str, default='no_save')
     args, _ = parser.parse_known_args()
     return args
 
 if __name__ == "__main__":
-    print("Running mlp classifiers")
     args = parse_args()
     save = args.save
     use_SMOTE = args.use_smote
     use_weights = args.use_weights
+    scale_data = args.scale_data
+    single_fold = args.single_fold
     clf_cfg = config.classifier_config
+    device = clf_cfg['device']
     
     eval_file = open(clf_cfg['MLP_EVALUATION_RESULTS'], 'w')
     eval_file.write('EVALUATION RESULTS:\n')
+    eval_file.write(f'SMOTE: {use_SMOTE} | weights: {use_weights}\n')
     eval_file.close()
     
+    print("Running mlp classifiers")
     print(f'root: {config.root_dir}')
-    print(f"device: {clf_cfg['device']}")
+    print(f"device: {device}")
     print(f'save mode: {save}')
-    # All folds
-    folds = ['1.0', '1.1', '1.2', '1.3', '1.4', '1.5', 
-             '2.0', '2.1', '2.2', '2.3', '2.4', '2.5', 
-             '3.0', '3.1', '3.2', '3.3', '3.4', '3.5',
-             '4.0', '4.1', '4.2', '4.3', '4.4', '4.5',
-             '5.0', '5.1', '5.2', '5.3', '5.4', '5.5']
-    outer_folds = ['1.0', '2.0', '3.0', '4.0', '5.0']
-    inner_folds = [x for x in folds if x not in outer_folds]
-    # Remove some folds that are not going to be trained
-    trained_folds = folds
+    print(f'SMOTE: {use_SMOTE} | weights: {use_weights}')
+    print(f'single fold: {single_fold}')
+    print('\n')
+
+    folds = utils.folds
+    outer_folds = utils.outer_folds
+    inner_folds = utils.inner_folds
+    if single_fold.lower() == 'disabled':
+        trained_folds = folds
+    else:
+        trained_folds = [single_fold]
     
     groups = utils.positive_groups
     
     # Train the inner folds
     for group in tqdm(groups, desc='Groups: ', position=0):
         for fold in tqdm(trained_folds, desc='Folds: ', position=1):
+
             # Read from csv to dataframe
-            train_features, train_labels, val_features, val_labels = make_ndarray_from_csv(group, fold)
+            train_features, train_labels = make_ndarray_from_csv(group, fold, mode = 'train')
+            val_features, val_labels = make_ndarray_from_csv(group, fold, mode = 'test')
+            # SCALE DATA TO STANDARD DISTRIBUTION (MEAN 0. AND STD DEVIATION = 1.)
+            if scale_data == True:
+                scaler = preprocessing.StandardScaler().fit(train_features)
+                train_features = scaler.transform(train_features)
+                val_features = scaler.transform(val_features)
+
             value_counts = pd.Series(train_labels).value_counts()
-            if use_weights == True:
-                torch.Tensor(compute_class_weight(class_weight='balanced', classes=np.unique(train_labels), y = train_labels )).to(device)
-            else:
-                class_weights = None
             if use_SMOTE == True:
                 smote = SMOTE(sampling_strategy = "auto", random_state = 42, k_neighbors = max(1, min(value_counts) - 1))
                 train_features, train_labels = smote.fit_resample(train_features, train_labels)
+            if use_weights == True:
+                class_weights = torch.Tensor(compute_class_weight(class_weight='balanced', classes=np.unique(train_labels), y = train_labels )).to(device)
+            else:
+                class_weights = None
             
             # Encode the labels
             train_labels_int = np.array([get_int_label(label, group) for label in train_labels])
@@ -98,7 +114,7 @@ if __name__ == "__main__":
             criterion = CrossEntropyLoss(weight=None)
             optimizer = Adam(model.parameters(), lr = clf_cfg['mlp_lr'], weight_decay = clf_cfg['mlp_weight_decay'])
             tqdm.write(f'Running in {save} mode')
-            best_epoch_results, history = train_MLP.run(group, fold, train_loader, val_loader, model, criterion, optimizer, clf_cfg, save)
+            fold_results = train_MLP.run(group, fold, train_loader, val_loader, model, criterion, optimizer, clf_cfg, save)
         
 
         

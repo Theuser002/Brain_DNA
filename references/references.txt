@@ -12,13 +12,36 @@ Cancer Tommorow (Predictive data):
 	https://gco.iarc.fr/tomorrow/en/dataviz/isotype?types=0&sexes=0&mode=population&group_populations=1&multiple_populations=1&multiple_cancers=0&cancers=39&populations=903_904_905_908_909_935`
 Illumina Bead Chip information:
 	https://support.illumina.com/array/array_kits/infinium_humanmethylation450_beadchip_kit/downloads.html
-
+Scaling data:
+	https://scikit-learn.org/stable/modules/preprocessing.html
+Should scaling be done on both training data and test data for machine learning? Can one do scaling on only the training data?:
+	https://www.quora.com/Should-scaling-be-done-on-both-training-data-and-test-data-for-machine-learning-Can-one-do-scaling-on-only-the-training-data
+XGBClassifier feature importance:
+	https://mljar.com/blog/feature-importance-xgboost/#:~:text=About%20Xgboost%20Built%2Din%20Feature,learn%20like%20API%20(docs). (parameter: importance_type => default = gain) => Outdated -> New answer: https://stackoverflow.com/a/63267636
+XGboost python - classifier class weight option?:
+	https://stackoverflow.com/questions/42192227/xgboost-python-classifier-class-weight-option
 =========================
 VIỆC CÒN PHẢI LÀM:
-F1-Score, Threshold, Model riêng cho Glio-neuronal và Other gliomas, điều chỉnh lại clf MLP (thêm lớp dropout để giảm overfit maybe? hoặc tra gg tìm xem có cách nào đó tăng precision và recall hay k (cả hai thằng này MLP đều tụt)) (Code)
+Model riêng cho Glio-neuronal và Other gliomas, điều chỉnh lại clf MLP (thêm lớp dropout để giảm overfit maybe? hoặc tra gg tìm xem có cách nào đó tăng precision và recall hay k (cả hai thằng này MLP đều tụt)) (Code)
+Precision, Recall, AUC, F1 cho 3 thằng ML clf:
+	RF predict_proba:
+		https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html#sklearn.ensemble.RandomForestClassifier.predict_proba
+	LR predict_proba:
+		https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression.predict_proba
+	XGB predict_proba:
+		https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression.predict_proba
+Tính các evaluation metrics trung bình trên 5 fold con và 5 fold to (dựa vào histories mà mình đã record lại) - lưu histories và pkl và viết một file ở trong script để load nó ra r tính trung bình của evaluatation trên 5 fold con và 5 fold to, sau đó có thể lưu vào csv tùy ý
+
 Sau đó phân loại các features theo từng gen (Web) 
 Sau khi đã đưa ra một tập các features quan trọng cho từng bệnh, vẽ phân bố của features theo các bệnh nhân (Web)
+
+Nếu còn thời gian (seriously doubt this) thì grid search để parameter tuning cho 3 thằng RF, LR và XGB -> bổ sung sau
+Calibration model -> bổ sung sau
+Thêm kiểu importance features criteria cho RF -> bổ sung sau
+Thêm kiểu importance feature criteria cho XGB -> bổ sung sau
+
 =========================
+NOTE:
 Pick mlp làm final classier vì:
-	clf MLP có kết quả tốt trước khi đưa qua cpg filtering, trên web ở phần chọn alg cho thêm option None, nếu ng dùng chọn thì đưa thẳng qua clf MLP để dự đoán (vì kq nó tốt)
-	lấy đc probs của từng class
+	> clf MLP có kết quả OK trước khi đưa qua cpg filtering, trên web ở phần chọn alg cho thêm option None, nếu ng dùng chọn thì đưa thẳng qua clf MLP để dự đoán (vì kq nó tốt)
+	> lấy đc probs của từng class 

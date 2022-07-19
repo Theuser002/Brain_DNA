@@ -150,7 +150,7 @@ def run(class_name, fold, train_loader, val_loader, model, criterion, optimizer,
     diff_threshold = config['mlp_diff_threshold']
     max_patience = config['mlp_max_patience']
     patience = 0
-    selected_metrics = ['train_precision', 'train_recall', 'train_auc', 'train_f1','train_cfs', 'val_precision', 'val_recall', 'val_auc', 'val_f1', 'val_cfs']
+    selected_metrics = ['train_acc', 'train_precision', 'train_recall', 'train_auc', 'train_f1','train_cfs', 'val_acc', 'val_precision', 'val_recall', 'val_auc', 'val_f1', 'val_cfs']
 
     for epoch in tqdm(range(1, n_epochs + 1), desc='Epochs: ', position=2):
         # tqdm.write(f'Epoch {epoch}/{n_epochs} of fold {fold}')
@@ -158,18 +158,18 @@ def run(class_name, fold, train_loader, val_loader, model, criterion, optimizer,
         train_loss, train_acc, train_me, train_bs, train_auc, train_f1, train_precision, train_recall, train_cfs = train_epoch(epoch, model, train_loader, criterion, optimizer, config['device'])
         val_loss, val_acc, val_me, val_bs, val_auc, val_f1, val_precision, val_recall, val_cfs = val_epoch(epoch, model, val_loader, criterion, config['device'])
         
-        history['train_accs'].append(train_acc)
-        history['train_losses'].append(train_loss)
-        history['train_precisions'].append(train_precision)
-        history['train_recalls'].append(train_precision)
-        history['train_aucs'].append(train_auc)
-        history['train_f1s'].append(train_f1)
-        history['val_accs'].append(val_acc)
+        # history['train_accs'].append(train_acc)
+        # history['train_losses'].append(train_loss)
+        # history['train_precisions'].append(train_precision)
+        # history['train_recalls'].append(train_precision)
+        # history['train_aucs'].append(train_auc)
+        # history['train_f1s'].append(train_f1)
+        # history['val_accs'].append(val_acc)
         history['val_losses'].append(val_loss)
-        history['val_precisions'].append(val_precision)
-        history['val_recalls'].append(val_precision)
-        history['val_aucs'].append(val_auc)
-        history['val_f1s'].append(val_f1)
+        # history['val_precisions'].append(val_precision)
+        # history['val_recalls'].append(val_precision)
+        # history['val_aucs'].append(val_auc)
+        # history['val_f1s'].append(val_f1)
         
         tqdm.write(f'[{class_name.upper()}] - {fold} - {epoch}/{n_epochs}')
         tqdm.write('train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %.3f | train_f1: %.3f' % (train_loss, train_acc, train_precision, train_recall, train_auc, train_f1))
@@ -192,16 +192,15 @@ def run(class_name, fold, train_loader, val_loader, model, criterion, optimizer,
                 patience = 0
         tqdm.write('---------------------------------------------')
     eval_file = open(config[f'MLP_EVALUATION_RESULTS'], 'a+')
-    eval_file.write(f'\n-------------------------------\n[{class_name.upper()} - {fold}]\n: ')
+    eval_file.write(f'\n-------------------------------\n[{class_name.upper()} - {fold}]:\n')
     for key, value in best_epoch_results.items():
-        # eval_file.write(str(best_epoch_results))
         if key in selected_metrics:
             if 'cfs' in key:
                 eval_file.write(f'{key}:\n{value}\n')
             else:
                 eval_file.write(f'{key}: {value} | ')
     eval_file.close()
-    return best_epoch_results, history
+    return best_epoch_results
 
 if __name__ == "__main__":
     print('Train MLP.py running...')

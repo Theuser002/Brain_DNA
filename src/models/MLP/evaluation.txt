@@ -1,8 +1,9 @@
 EVALUATION RESULTS:
+SMOTE: False | weights: False
 
 -------------------------------
-[EMBRYONAL - 1.0]
-: train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[EMBRYONAL - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[481   0]
  [  0  92]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
