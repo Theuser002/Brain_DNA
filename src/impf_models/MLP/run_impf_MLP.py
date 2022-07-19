@@ -15,7 +15,7 @@ import joblib
 import torch
 
 from utils import impf_make_ndarray_from_csv, get_int_label
-from Model import Impf_DNAMLP
+from Model import Impf_DNAMLP, Impf_GlioMLP
 from Dataset import CNS
 from torch.utils.data import DataLoader
 from torch.nn import CrossEntropyLoss
@@ -50,6 +50,8 @@ if __name__ == "__main__":
     device = impf_cfg['device']
     
     groups = utils.positive_groups
+    low_performance_groups = utils.low_performance_groups
+
     if single_fold.lower() == 'disabled':
         trained_folds = utils.inner_folds
     else:
@@ -66,7 +68,7 @@ if __name__ == "__main__":
     print(f"device: {impf_cfg['device']}")
     print(f'save mode: {save}')
     print(f'SMOTE: {use_SMOTE} | weights: {use_weights}\n')
-    
+
     for group in tqdm(groups, desc = 'Groups: ', position = 0):
         for fold in tqdm(trained_folds, desc = 'Fols: ', position = 1):
             outer_fold = f'{fold.split(".")[0]}.0'
@@ -108,18 +110,35 @@ if __name__ == "__main__":
 
             # Init model object
             in_features = len(impf)
-            model = Impf_DNAMLP(in_features, impf_cfg['n_classes'])
-            if impf_cfg['MLP_FIRST_TIME'] == False:
-                # Load model based on fold
-                BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg, group, f'{fold}.pth')
-                model.load_state_dict(torch.load(BEST_STATE_PATH))
+            if group in low_performance_groups:
+                model = Impf_GlioMLP(in_features, impf_cfg['n_classes'])
+
+                if impf_cfg['MLP_FIRST_TIME'] == False:
+                    # Load model based on fold
+                    BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg, group, f'{fold}.pth')
+                    model.load_state_dict(torch.load(BEST_STATE_PATH))
+                    
+                # Define training and validating hyperparams
+                criterion = CrossEntropyLoss(weight=class_weights)
+                optimizer = Adam(model.parameters(), lr = impf_cfg['mlp_lr'], weight_decay = impf_cfg['mlp_weight_decay'])
                 
-            # Define training and validating hyperparams
-            criterion = CrossEntropyLoss(weight=class_weights)
-            optimizer = Adam(model.parameters(), lr = impf_cfg['mlp_lr'], weight_decay = impf_cfg['mlp_weight_decay'])
+                tqdm.write(f'Running in {save} mode')
+                fold_results = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
+
+            else:
+                model = Impf_DNAMLP(in_features, impf_cfg['n_classes'])
             
-            tqdm.write(f'Running in {save} mode')
-            fold_results = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
+                if impf_cfg['MLP_FIRST_TIME'] == False:
+                    # Load model based on fold
+                    BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg, group, f'{fold}.pth')
+                    model.load_state_dict(torch.load(BEST_STATE_PATH))
+                    
+                # Define training and validating hyperparams
+                criterion = CrossEntropyLoss(weight=class_weights)
+                optimizer = Adam(model.parameters(), lr = impf_cfg['mlp_lr'], weight_decay = impf_cfg['mlp_weight_decay'])
+                
+                tqdm.write(f'Running in {save} mode')
+                fold_results = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
  
             
             
