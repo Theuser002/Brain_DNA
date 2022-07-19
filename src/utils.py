@@ -71,7 +71,7 @@ positive_groups = [
     'Embryonal', 'Glioblastoma', 'Glio-neuronal', 'Sella', 'Ependymal', 'Other glioma', 'Nerve', 'Pineal', 'Mesenchymal', 'Melanocytic', 'Plexus', 'Glioma IDH', 'Haematopoietic'
 ]
 
-low_performance_group = [
+low_performance_groups = [
     'Glio-neuronal', 'Other glioma'
 ]
 
