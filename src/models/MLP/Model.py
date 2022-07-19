@@ -2,12 +2,11 @@ import torch
 import torch.nn as nn
 
 class DNAMLP(nn.Module):
-    def __init__ (self, in_features, n_classes):
+    def __init__ (self, in_features, n_classes, dropout_rate = 0.0):
         super(DNAMLP, self).__init__()
-        self.in_features = in_features
-        self.n_classes = n_classes
         self.densenet = nn.Sequential(
-            nn.Linear(self.in_features, n_classes),
+            nn.Linear(in_features, n_classes),
+            nn.Dropout(p = dropout_rate)
         )
         
     def forward (self, x):

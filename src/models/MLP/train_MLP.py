@@ -17,6 +17,7 @@ from torch.optim import Adam
 from utils import brier_score_tensor
 from sklearn.metrics import precision_score, recall_score, f1_score, roc_auc_score 
 from torch.nn.functional import softmax, one_hot
+from sklearn.metrics import confusion_matrix
     
 
 def train_epoch(epoch, model, train_loader, criterion, optimizer, device):
@@ -75,11 +76,14 @@ def train_epoch(epoch, model, train_loader, criterion, optimizer, device):
     # train_auc = roc_auc_score(all_labels_one_hot, all_probs)
     
     all_preds = [np.argmax(prob) for prob in all_probs]
+    
     train_auc = roc_auc_score(all_labels, all_preds)
+    train_f1 = f1_score(all_labels, all_preds)
     train_precision = precision_score(all_labels, all_preds)
     train_recall = recall_score(all_labels, all_preds)
-    
-    return train_loss, train_acc, train_me, train_bs, train_auc, train_precision, train_recall
+    train_cfs = confusion_matrix(all_labels, all_preds)
+
+    return train_loss, train_acc, train_me, train_bs, train_auc, train_f1, train_precision, train_recall, train_cfs
 
 def val_epoch(epoch, model, val_loader, criterion, device):
     correct = 0
@@ -129,13 +133,15 @@ def val_epoch(epoch, model, val_loader, criterion, device):
         
         all_preds = [np.argmax(prob) for prob in all_probs]
         val_auc = roc_auc_score(all_labels, all_preds)
+        val_f1 = f1_score(all_labels, all_preds)
         val_precision = precision_score(all_labels, all_preds)
         val_recall = recall_score(all_labels, all_preds)
+        val_cfs = confusion_matrix(all_labels, all_preds)
          
-    return val_loss, val_acc, val_me, val_bs, val_auc, val_precision, val_recall
+    return val_loss, val_acc, val_me, val_bs, val_auc, val_f1, val_precision, val_recall, val_cfs
 
 def run(class_name, fold, train_loader, val_loader, model, criterion, optimizer, config, save):
-    history = {'train_accs': [], 'train_losses': [], 'val_accs': [], 'val_losses': []}
+    history = {'train_accs': [], 'train_losses': [], 'train_precisions': [], 'train_recalls': [], 'train_aucs': [], 'train_f1s':[], 'val_accs': [], 'val_losses': [], 'val_precisions': [], 'val_recalls': [], 'val_aucs': [], 'val_f1s':[]}
     
     model.to(config['device'])
     n_epochs = config['mlp_n_epochs']
@@ -144,29 +150,34 @@ def run(class_name, fold, train_loader, val_loader, model, criterion, optimizer,
     diff_threshold = config['mlp_diff_threshold']
     max_patience = config['mlp_max_patience']
     patience = 0
-    
+    selected_metrics = ['train_precision', 'train_recall', 'train_auc', 'train_f1','train_cfs', 'val_precision', 'val_recall', 'val_auc', 'val_f1', 'val_cfs']
+
     for epoch in tqdm(range(1, n_epochs + 1), desc='Epochs: ', position=2):
         # tqdm.write(f'Epoch {epoch}/{n_epochs} of fold {fold}')
         
-        train_loss, train_acc, train_me, train_bs, train_auc, train_precision, train_recall = train_epoch(epoch, model, train_loader, criterion, optimizer, config['device'])
-        val_loss, val_acc, val_me, val_bs, val_auc, val_precision, val_recall = val_epoch(epoch, model, val_loader, criterion, config['device'])
+        train_loss, train_acc, train_me, train_bs, train_auc, train_f1, train_precision, train_recall, train_cfs = train_epoch(epoch, model, train_loader, criterion, optimizer, config['device'])
+        val_loss, val_acc, val_me, val_bs, val_auc, val_f1, val_precision, val_recall, val_cfs = val_epoch(epoch, model, val_loader, criterion, config['device'])
         
         history['train_accs'].append(train_acc)
         history['train_losses'].append(train_loss)
+        history['train_precisions'].append(train_precision)
+        history['train_recalls'].append(train_precision)
+        history['train_aucs'].append(train_auc)
+        history['train_f1s'].append(train_f1)
         history['val_accs'].append(val_acc)
         history['val_losses'].append(val_loss)
+        history['val_precisions'].append(val_precision)
+        history['val_recalls'].append(val_precision)
+        history['val_aucs'].append(val_auc)
+        history['val_f1s'].append(val_f1)
         
         tqdm.write(f'[{class_name.upper()}] - {fold} - {epoch}/{n_epochs}')
-        tqdm.write('train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %.3f' % (train_loss, train_acc, train_precision, train_bs, train_auc))
-        tqdm.write('val_loss: %.5f | val_acc: %.3f | val_precision: %.3f | val_recall: %.3f | val_auc: %.3f' % (val_loss, val_acc, val_precision, val_recall, val_auc))
-        
-        eval_file = open(config['MLP_EVALUATION_RESULTS'], 'a+')
-        eval_file.write(
-            f'\n>>>>>>[{class_name.upper()}] - {fold} - {epoch}/{n_epochs}: train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %.3f\nval_loss: %.5f | val_acc: %.3f | val_precision: %.3f | val_recall: %.3f | val_auc: %.3f\n' % (train_loss, train_acc, train_precision, train_recall, train_auc, val_loss, val_acc, val_precision, val_recall, val_auc)
-        )
-        eval_file.close()
+        tqdm.write('train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %.3f | train_f1: %.3f' % (train_loss, train_acc, train_precision, train_recall, train_auc, train_f1))
+        tqdm.write('val_loss: %.5f | val_acc: %.3f | val_precision: %.3f | val_recall: %.3f | val_auc: %.3f | val_f1: %.3f' % (val_loss, val_acc, val_precision, val_recall, val_auc, val_f1))
             
         if val_loss == min(history['val_losses']):
+            # GET BEST EPOCH'S RESULTS AND WRITE IT TO AN EVALUATION FILE
+            best_epoch_results = {'train_loss:': train_loss, 'train_accs': train_acc, 'train_me': train_me, 'train_bs': train_bs, 'train_precision': train_precision, 'train_recall': train_recall, 'train_auc': train_auc, 'train_f1': train_f1, 'train_cfs': train_cfs, 'val_loss:': val_loss, 'val_accs': val_acc, 'val_me': val_me, 'val_bs': val_bs, 'val_precision': val_precision,  'val_recall': val_recall, 'val_auc': val_auc, 'val_f1': val_f1, 'val_cfs': val_cfs}
             if save.lower() == 'save':
                 tqdm.write('Lowest validation loss => saving model weights...')
                 torch.save(model.state_dict(), BEST_STATE_PATH)
@@ -180,7 +191,17 @@ def run(class_name, fold, train_loader, val_loader, model, criterion, optimizer,
             else:
                 patience = 0
         tqdm.write('---------------------------------------------')
-    return max(history['val_accs'])
+    eval_file = open(config[f'MLP_EVALUATION_RESULTS'], 'a+')
+    eval_file.write(f'\n-------------------------------\n[{class_name.upper()} - {fold}]\n: ')
+    for key, value in best_epoch_results.items():
+        # eval_file.write(str(best_epoch_results))
+        if key in selected_metrics:
+            if 'cfs' in key:
+                eval_file.write(f'{key}:\n{value}\n')
+            else:
+                eval_file.write(f'{key}: {value} | ')
+    eval_file.close()
+    return best_epoch_results, history
 
 if __name__ == "__main__":
     print('Train MLP.py running...')
