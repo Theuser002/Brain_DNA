@@ -129,8 +129,9 @@ if __name__ == "__main__":
                 fold_results = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
 
             else:
-                model = Impf_DNAMLP(in_features, impf_cfg['n_classes'])
-            
+                # model = Impf_DNAMLP(in_features, impf_cfg['n_classes'])
+                model = Impf_GlioMLP(in_features, impf_cfg['n_classes'])
+                
                 if impf_cfg['MLP_FIRST_TIME'] == False: 
                     # Load model based on fold
                     BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg, group, f'{fold}.pth')
