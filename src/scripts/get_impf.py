@@ -158,55 +158,11 @@ if __name__ == "__main__":
     print(f'Getting {impf_cfg["N_IMPF"]} important features')
     algs = utils.algs
     groups = utils.positive_groups
-    outer_folds = utils.outer_folds
-    group = groups[np.random.randint(len(groups))]
-    outer_fold = outer_folds[np.random.randint(len(utils.outer_folds))]    
+    outer_folds = utils.outer_folds 
     
-    # for alg in tqdm(algs, desc= 'Algorithms',  position=0):
-    #     IMPF_DIR =  os.path.join(impf_cfg['IMPORTANT_FEATURES_DIR'], alg)
-    #     for group in tqdm(groups, desc='Class groups', position=1):
-    #         for i in tqdm(range(1, 6), desc='Outer folds', position=2):
-    #             out_fold = f'{i}.0'
-    #             out_impf = set(choose_impf_alg(alg, group, out_fold))
-    #             for j in tqdm(range(0, 6), desc='Inner folds', position=3):
-    #                 in_fold = f'{i}.{j}'
-    #                 in_impf = set(choose_impf_alg(alg, group, in_fold))
-    #                 impf = sedt(in_impf).intersection(set(out_impf))
-    #                 with open (os.path.join(IMPF_DIR, group, f'{in_fold}.pkl'), 'wb') as handle:
-    #                     pickle.dump(in_impf, handle, protocol = pickle.HIGHEST_PROTOCOL)
-    #                 with open (os.path.join(IMPF_DIR, group, f'{out_fold}-{in_fold}.pkl'), 'wb') as handle:
-    #                     pickle.dump(impf, handle, protocol = pickle.HIGHEST_PROTOCOL)
-    
-    # dump_impf(algs, groups)
+    dump_impf(algs, groups)
     for alg in tqdm(algs, desc = 'Algs: ', position = 0):
         for group in tqdm(groups, desc = 'Groups', position = 1):
             for outer_fold in tqdm(outer_folds, desc = 'Outer folds', position = 2):
                 tqdm.write(f'{alg}-{group}-{outer_fold}:')
                 tqdm.write(f'{len(outer_fold_impf(alg, group, outer_fold, True))}')
-    
-    # group = 'Pineal'
-    # fold = '1.1'
-    # print(choose_impf_alg(algs[0], group, fold))
-    # print(choose_impf_alg(algs[1], group, fold))
-    # print(choose_impf_alg(algs[2], group, fold))
-    # print(choose_impf_alg(algs[3], group, fold))
-    
-    # fold = '1.1'
-    # group = 'Pineal'
-    # i = 0
-    # j = 0
-    # for i in range(len(algs)):
-    #     for j in range(i+1, len(algs)):
-    #         print(f'{algs[i]}-{algs[j]}: ', len(set(choose_impf_alg(algs[i], group, fold)).intersection(set(choose_impf_alg(algs[j], group, fold)))))
-    
-    # print('(XGB-RF)-MLP: ', len(set(choose_impf_alg(algs[3], group, fold)).intersection(set(choose_impf_alg(algs[1], group, fold)).intersection(set(choose_impf_alg(algs[0], group, fold))))))
-
-    # alg = algs[0]
-    # fold_index = outer_fold.split('.')[0]
-    # impf = outer_fold_impf(alg, group, outer_fold)
-    # impf_dict = ranked_impf_features(alg, group, outer_fold)
-    # for i in range(0, 6):
-    #     fold = f'{fold_index}.{i}'
-    #     # print(f'\nFOLD {fold}: {choose_impf_alg(alg, group, fold)}\n')
-    # print(impf_dict, '\n', impf)
-    # print(len(impf), len(impf_dict))

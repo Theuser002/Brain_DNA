@@ -62,5 +62,10 @@ impf_config = {
     'MLP_MLP_EVALUATION_RESULTS': os.path.join(root_dir, 'src/impf_models/MLP/MLP_MLP_evaluation.txt'),
     'MLP_LR_EVALUATION_RESULTS': os.path.join(root_dir, 'src/impf_models/MLP/MLP_LR_evaluation.txt'),
     'MLP_RF_EVALUATION_RESULTS': os.path.join(root_dir, 'src/impf_models/MLP/MLP_RF_evaluation.txt'),
-    'MLP_XGB_EVALUATION_RESULTS': os.path.join(root_dir, 'src/impf_models/MLP/MLP_XGB_evaluation.txt')
+    'MLP_XGB_EVALUATION_RESULTS': os.path.join(root_dir, 'src/impf_models/MLP/MLP_XGB_evaluation.txt'),
+    'MLP_MLP_EVALUATION_RESULTS_JSON': os.path.join(root_dir, 'src/impf_models/MLP/MLP_MLP_evaluation.json'),
+    'MLP_LR_EVALUATION_RESULTS_JSON': os.path.join(root_dir, 'src/impf_models/MLP/MLP_LR_evaluation.json'),
+    'MLP_RF_EVALUATION_RESULTS_JSON': os.path.join(root_dir, 'src/impf_models/MLP/MLP_RF_evaluation.json'),
+    'MLP_XGB_EVALUATION_RESULTS_JSON': os.path.join(root_dir, 'src/impf_models/MLP/MLP_XGB_evaluation.json'),   
 }
+

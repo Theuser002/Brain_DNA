@@ -18,21 +18,31 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 
 # Globals
 outer_folds = web_config.outer_folds
-temp_fold = web_config.temp_fold
 algs = web_config.algs
+inner_fold_indexes = web_config.inner_fold_indexes
 tissue_groups = web_config.tissue_groups
 impf_cfg = config.impf_config
 device = impf_cfg['device']
 
 @st.cache
-def get_impf_dataframe(df, outer_fold = '1.0', alg = 'MLP', group = 'Unknown'):
+def get_impf_dataframe(df, outer_fold = '1.0', alg = 'RF', group = 'Embryonal'):
     with open(os.path.join(impf_cfg['IMPORTANT_FEATURES_DIR'], alg, group, f'{outer_fold}_combined.pkl'), 'rb') as file:
         impf = pickle.load(file)
     df = df.loc[:, list(impf)]
     return df, len(impf)
 
 @st.cache
-def get_ranked_impf(df, outer_fold = '1.0', alg = 'MLP', group = 'Unknown'):
+def get_impf(outer_fold = '1.0', alg = 'RF', group = 'Embryonal'):
+        with open(os.path.join(impf_cfg['IMPORTANT_FEATURES_DIR'], alg, group, f'{outer_fold}_combined.pkl'), 'rb') as file:
+            impf = pickle.load(file)
+        return impf
+
+@st.cache
+def check_contain_features(df, impf):
+    return set(df.columns).issuperset(impf)
+
+@st.cache
+def get_ranked_impf(df, outer_fold = '1.0', alg = 'RF', group = 'Embryonal'):
     return get_impf.ranked_impf_features(alg, group, outer_fold)    
 
 @st.cache
@@ -52,25 +62,52 @@ try:
     st.write(f'File ***{uploaded_file.name}*** received.')
     try:
         st.write('---')
-        df = pd.read_csv(uploaded_file, nrows=1)
         st.write('### CpG filtering')
+        # df = pd.read_csv(uploaded_file, nrows=1)
+        df = pd.read_csv(uploaded_file)
+        n_samples = df.shape[0]
+        
+        if df.shape[0] > 1:
+            sample_index = st.selectbox('Multiple samples detected, select the sample you want to get diagnosed:', range(n_samples))
+        else:
+            sample_index = 0
+
+        df = pd.DataFrame(df.iloc[sample_index,:]).T
         st.write('**Sample:**')
         st.write(df)
         # Get user's input
         with st.form(key = 'form_0'):
             alg = st.selectbox('Select important features algorithm: ', algs)
             group = st.selectbox('Select tissue origin: ', tissue_groups)
-            outer_fold = st.selectbox('Select fold (development only): ', outer_folds)
-            submit_btn = st.form_submit_button(label='Finish')
+            # outer_fold = st.selectbox('Select fold (development only): ', outer_folds)
+            # inner_fold_index = st.selectbox("Select inner fold's index", inner_fold_indexes)
+            submit_btn = st.form_submit_button(label = 'Submit')
+        
+        matched_outer_folds = []
+        matched_folds = []
+        for outer_fold in outer_folds:
+            fold_impf = get_impf(outer_fold, alg, group)
+            if check_contain_features(df, fold_impf):
+                matched_outer_folds.append(outer_fold)
 
-        df, n_impf = get_impf_dataframe(df, outer_fold, alg, group)
+        for matched_outer_fold in matched_outer_folds:
+            outer_fold_index = matched_outer_fold.split('.')[0]
+            for i in range(1,6):
+                matched_fold = f'{outer_fold_index}.{i}'
+                matched_folds.append(matched_fold)
+        with st.form(key = 'form_1'):
+            selected_fold = st.selectbox('Select a fold model: ', matched_folds)
+            submit_btn = st.form_submit_button(label = 'Submit')
+
+        selected_outer_fold = f"{selected_fold.split('.')[0]}.0"
+        df, n_impf = get_impf_dataframe(df, selected_outer_fold, alg, group)
         st.write('**Sample after CpG filtering:**')
         st.write(df)
         sample = np.expand_dims(np.array(df.iloc[0,:]).astype(float), axis = 0)
         sample = torch.Tensor(sample).to(device)
 
         model = Impf_DNAMLP(n_impf, impf_cfg['n_classes'])
-        BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg, group, f'{temp_fold}.pth')
+        BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg, group, f'{selected_fold}.pth')
         
         if torch.cuda.is_available() is False:
             model.load_state_dict(torch.load(BEST_STATE_PATH, map_location = torch.device('cpu')))
