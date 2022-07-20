@@ -13,6 +13,7 @@ import argparse
 import train_impf_MLP
 import joblib
 import torch
+import json
 
 from utils import impf_make_ndarray_from_csv, get_int_label
 from Model import Impf_DNAMLP, Impf_GlioMLP
@@ -24,6 +25,7 @@ from tqdm import tqdm
 from imblearn.over_sampling import SMOTE
 from sklearn.utils.class_weight import compute_class_weight
 from sklearn import preprocessing
+from collections import defaultdict
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -56,7 +58,6 @@ if __name__ == "__main__":
         trained_folds = utils.inner_folds
     else:
         trained_folds = [single_fold]
-    histories = {}
     
     eval_file = open(impf_cfg[f'MLP_{alg}_EVALUATION_RESULTS'], 'w')
     eval_file.write('EVALUATION RESULTS:\n')
@@ -68,8 +69,10 @@ if __name__ == "__main__":
     print(f"device: {impf_cfg['device']}")
     print(f'save mode: {save}')
     print(f'SMOTE: {use_SMOTE} | weights: {use_weights}\n')
-
+    
+    folds_results = {}
     for group in tqdm(groups, desc = 'Groups: ', position = 0):
+        folds_results[f'{group}'] = {}
         for fold in tqdm(trained_folds, desc = 'Fols: ', position = 1):
             outer_fold = f'{fold.split(".")[0]}.0'
             with open(os.path.join(impf_cfg['IMPORTANT_FEATURES_DIR'], alg, group, f'{outer_fold}_combined.pkl'), 'rb') as file:
@@ -128,7 +131,7 @@ if __name__ == "__main__":
             else:
                 model = Impf_DNAMLP(in_features, impf_cfg['n_classes'])
             
-                if impf_cfg['MLP_FIRST_TIME'] == False:
+                if impf_cfg['MLP_FIRST_TIME'] == False: 
                     # Load model based on fold
                     BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg, group, f'{fold}.pth')
                     model.load_state_dict(torch.load(BEST_STATE_PATH))
@@ -139,6 +142,17 @@ if __name__ == "__main__":
                 
                 tqdm.write(f'Running in {save} mode')
                 fold_results = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
+                fold_results['train_cfs'] = fold_results['train_cfs'].tolist()
+                fold_results['val_cfs'] = fold_results['val_cfs'].tolist()
+                fold_results['test_cfs'] = fold_results['test_cfs'].tolist()
+                folds_results[f'{group}'][f'{fold}'] = fold_results
+    
+    print(folds_results, type(fold_results))
+    
+    with open(impf_cfg[f'MLP_{alg}_EVALUATION_RESULTS_JSON'], 'w') as fp:
+        json.dump(folds_results, fp)
+    fp.close()
+                
  
             
             

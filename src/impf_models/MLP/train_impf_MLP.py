@@ -19,7 +19,6 @@ from sklearn.metrics import precision_score, recall_score, f1_score, roc_auc_sco
 from torch.nn.functional import softmax, one_hot
 from sklearn.metrics import confusion_matrix
     
-
 def impf_train_epoch(epoch, model, train_loader, criterion, optimizer, device):
     correct = 0
     total = 0
@@ -160,7 +159,7 @@ def impf_run(class_name, alg, fold, train_loader, val_loader, test_loader, model
         # history['train_accs'].append(train_acc)
         # history['train_losses'].append(train_loss)
         # history['train_precisions'].append(train_precision)
-        # history['train_recalls'].append(train_precision)
+        # history['train_recalls'].append(train_precision) 
         # history['train_aucs'].append(train_auc)
         # history['train_f1s'].append(train_f1)
         # history['val_accs'].append(val_acc)
