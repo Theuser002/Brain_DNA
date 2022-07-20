@@ -52,7 +52,7 @@ if __name__ == "__main__":
     device = impf_cfg['device']
     
     groups = utils.positive_groups
-    low_performance_groups = utils.low_performance_groups
+    low_perf_groups = utils.low_perf_groups
 
     if single_fold.lower() == 'disabled':
         trained_folds = utils.inner_folds
@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
             # Init model object
             in_features = len(impf)
-            if group in low_performance_groups:
+            if group in low_perf_groups:
                 model = Impf_GlioMLP(in_features, impf_cfg['n_classes'])
 
                 if impf_cfg['MLP_FIRST_TIME'] == False:

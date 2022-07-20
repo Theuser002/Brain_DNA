@@ -7,12 +7,13 @@ import pandas as pd
 import numpy as np
 import pickle
 import config
+import utils
 import impf_models.MLP as impf_MLP
 import scripts.get_impf as get_impf
 import torch
 import web_config
 
-from impf_models.MLP.Model import Impf_DNAMLP
+from impf_models.MLP.Model import Impf_DNAMLP, Impf_GlioMLP
 from torch.nn.functional import softmax
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 
@@ -89,8 +90,11 @@ try:
             st.write(df)
             sample = np.expand_dims(np.array(df.iloc[0,:]).astype(float), axis = 0)
             sample = torch.Tensor(sample).to(device)
-
-            model = Impf_DNAMLP(n_impf, impf_cfg['n_classes'])
+            
+            if group in utils.low_perf_groups:
+                model = Impf_GlioMLP(n_impf, impf_cfg['n_classes'])
+            else:
+                model = Impf_DNAMLP(n_impf, impf_cfg['n_classes'])
             BEST_STATE_PATH = os.path.join(impf_cfg['MLP_BEST_STATES_DIR'], alg, group, f'{selected_fold}.pth')
             
             if torch.cuda.is_available() is False:
@@ -103,13 +107,17 @@ try:
             st.write('---  \n---')
             res = softmax(model(sample), dim = 1)
             columns = [group, 'Control']
-            row = res.detach().cpu().numpy()
-            res_df = pd.DataFrame(row)
+            probs = res.detach().cpu().numpy()
+            res_df = pd.DataFrame(probs)
             res_df.columns = columns
             st.write('### Diagnostic results')
             col1, col2 = st.columns(2)
-            col1.write(f'|| **{group}**:  \n~{round(row[0][0]*100, 2)}%')
-            col2.write(f'|| **Non-tumour**:  \n~{round(row[0][1]*100, 2)}%')
+            if alg == 'LR':
+                col1.write(f'|| **{group}**:  \n~{round((1 - probs[0][0])*100, 2)}%')
+                col2.write(f'|| **Non-tumour**:  \n~{round((1 - probs[0][1])*100, 2)}%')
+            else:
+                col1.write(f'|| **{group}**:  \n~{round(probs[0][0]*100, 2)}%')
+                col2.write(f'|| **Non-tumour**:  \n~{round(probs[0][1]*100, 2)}%')
 
             # Get ranked important features
             st.write('---  \n---')
