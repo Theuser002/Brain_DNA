@@ -68,7 +68,7 @@ if __name__ == "__main__":
     print(f'root: {config.root_dir}')
     print(f"device: {impf_cfg['device']}")
     print(f'save mode: {save}')
-    print(f'SMOTE: {use_SMOTE} | weights: {use_weights}\n')
+    print(f'SMOTE: {use_SMOTE} | weights: {use_weights} | scale: {scale_data}\n')
     
     folds_results = {}
     for group in tqdm(groups, desc = 'Groups: ', position = 0):
