@@ -161,55 +161,55 @@ def make_ndarray_from_csv(group, fold, mode = 'None'):
         return train_features, train_labels, test_features, test_labels
 
 # def impf_make_ndarray_from_csv(group, fold, impf, mode = 'None'):
-    dat_cfg = config.data_config
+    # dat_cfg = config.data_config
     
-    if mode.lower() == 'train':
-        train_csv_path = os.path.join(dat_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
-        df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)    
+    # if mode.lower() == 'train':
+    #     train_csv_path = os.path.join(dat_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
+    #     df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)    
         
-        train_features = np.array(df_train.loc[:, df_train.columns.isin(impf)])
-        train_labels = np.array(df_train.iloc[:,-1])
-        return train_features, train_labels    
+    #     train_features = np.array(df_train.loc[:, df_train.columns.isin(impf)])
+    #     train_labels = np.array(df_train.iloc[:,-1])
+    #     return train_features, train_labels    
     
-    elif mode.lower() == 'test' or mode.lower() == 'val':
-        test_csv_path = os.path.join(dat_cfg['TEST_CSV_DIR'], group, f'{fold}_test.csv')
-        df_test = pd.read_csv(test_csv_path, index_col = 0).fillna(0)
+    # elif mode.lower() == 'test' or mode.lower() == 'val':
+    #     test_csv_path = os.path.join(dat_cfg['TEST_CSV_DIR'], group, f'{fold}_test.csv')
+    #     df_test = pd.read_csv(test_csv_path, index_col = 0).fillna(0)
         
-        test_features = np.array(df_test.loc[:, df_test.columns.isin(impf)])
-        test_labels = np.array(df_test.iloc[:,-1])
-        return test_features, test_labels
+    #     test_features = np.array(df_test.loc[:, df_test.columns.isin(impf)])
+    #     test_labels = np.array(df_test.iloc[:,-1])
+    #     return test_features, test_labels
     
-    elif mode.lower() == 'all':
-        train_csv_path = os.path.join(dat_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
-        df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)    
+    # elif mode.lower() == 'all':
+    #     train_csv_path = os.path.join(dat_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
+    #     df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)    
         
-        train_features = np.array(df_train.loc[:, df_train.columns.isin(impf)])
-        train_labels = np.array(df_train.iloc[:,-1])
+    #     train_features = np.array(df_train.loc[:, df_train.columns.isin(impf)])
+    #     train_labels = np.array(df_train.iloc[:,-1])
         
-        test_csv_path = os.path.join(dat_cfg['TEST_CSV_DIR'], group, f'{fold}_test.csv')
-        df_test = pd.read_csv(test_csv_path, index_col = 0).fillna(0)
+    #     test_csv_path = os.path.join(dat_cfg['TEST_CSV_DIR'], group, f'{fold}_test.csv')
+    #     df_test = pd.read_csv(test_csv_path, index_col = 0).fillna(0)
         
-        test_features = np.array(df_test.loc[:, df_test.columns.isin(impf)])
-        test_labels = np.array(df_test.iloc[:,-1])
+    #     test_features = np.array(df_test.loc[:, df_test.columns.isin(impf)])
+    #     test_labels = np.array(df_test.iloc[:,-1])
         
-        features = np.append(train_features, test_features, axis = 0)
-        labels = np.append(train_labels, test_labels, axis = 0)
+    #     features = np.append(train_features, test_features, axis = 0)
+    #     labels = np.append(train_labels, test_labels, axis = 0)
         
-        return features, labels
+    #     return features, labels
         
-    else:        
-        train_csv_path = os.path.join(dat_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
-        test_csv_path = os.path.join(dat_cfg['TEST_CSV_DIR'], group, f'{fold}_test.csv')
-        df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)
-        df_test = pd.read_csv(test_csv_path, index_col = 0).fillna(0)
+    # else:        
+    #     train_csv_path = os.path.join(dat_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
+    #     test_csv_path = os.path.join(dat_cfg['TEST_CSV_DIR'], group, f'{fold}_test.csv')
+    #     df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)
+    #     df_test = pd.read_csv(test_csv_path, index_col = 0).fillna(0)
         
-        train_features = np.array(df_train.loc[:, df_train.columns.isin(impf)])
-        train_labels = np.array(df_train.iloc[:,-1])
+    #     train_features = np.array(df_train.loc[:, df_train.columns.isin(impf)])
+    #     train_labels = np.array(df_train.iloc[:,-1])
         
-        test_features = np.array(df_test.loc[:, df_test.columns.isin(impf)])
-        test_labels = np.array(df_test.iloc[:,-1])
+    #     test_features = np.array(df_test.loc[:, df_test.columns.isin(impf)])
+    #     test_labels = np.array(df_test.iloc[:,-1])
         
-        return train_features, train_labels, test_features, test_labels
+    #     return train_features, train_labels, test_features, test_labels
 # ==> Some of the folds have the same features alike but they might not be arranged similarly between these folds. E.g: fold 1.1 might have features a, b, c, d, e, f and fold 1.0 have them too but is more like {c, b, a, d, e, f}. impf = {c, d, f} -> we should not keep the feature order in the original dataframe but instead arange them alphabetically. This is automatically done if we use df.loc[:, impf] or df.loc[: list(impf)] pd will raise a warning if we use set as indexer for loc
 
 def impf_make_ndarray_from_csv(group, fold, impf, mode = 'None'):
@@ -219,7 +219,7 @@ def impf_make_ndarray_from_csv(group, fold, impf, mode = 'None'):
         train_csv_path = os.path.join(dat_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
         df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)    
         
-        train_features = np.array(df_train.loc[:,impf])
+        train_features = np.array(df_train.loc[:,list(impf)])
         train_labels = np.array(df_train.iloc[:,-1])
         return train_features, train_labels    
     
@@ -227,7 +227,7 @@ def impf_make_ndarray_from_csv(group, fold, impf, mode = 'None'):
         test_csv_path = os.path.join(dat_cfg['TEST_CSV_DIR'], group, f'{fold}_test.csv')
         df_test = pd.read_csv(test_csv_path, index_col = 0).fillna(0)
         
-        test_features = np.array(df_test.loc[:,impf])
+        test_features = np.array(df_test.loc[:,list(impf)])
         test_labels = np.array(df_test.iloc[:,-1])
         return test_features, test_labels
     
@@ -235,13 +235,13 @@ def impf_make_ndarray_from_csv(group, fold, impf, mode = 'None'):
         train_csv_path = os.path.join(dat_cfg['TRAIN_CSV_DIR'], group, f'{fold}_train.csv')
         df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)    
         
-        train_features = np.array(df_train.loc[:,impf])
+        train_features = np.array(df_train.loc[:,list(impf)])
         train_labels = np.array(df_train.iloc[:,-1])
         
         test_csv_path = os.path.join(dat_cfg['TEST_CSV_DIR'], group, f'{fold}_test.csv')
         df_test = pd.read_csv(test_csv_path, index_col = 0).fillna(0)
         
-        test_features = np.array(df_test.loc[:,impf])
+        test_features = np.array(df_test.loc[:,list(impf)])
         test_labels = np.array(df_test.iloc[:,-1])
         
         features = np.append(train_features, test_features, axis = 0)
@@ -255,10 +255,10 @@ def impf_make_ndarray_from_csv(group, fold, impf, mode = 'None'):
         df_train = pd.read_csv(train_csv_path, index_col = 0).fillna(0)
         df_test = pd.read_csv(test_csv_path, index_col = 0).fillna(0)
         
-        train_features = np.array(df_train.loc[:,impf])
+        train_features = np.array(df_train.loc[:,list(impf)])
         train_labels = np.array(df_train.iloc[:,-1])
         
-        test_features = np.array(df_test.loc[:,impf])
+        test_features = np.array(df_test.loc[:,list(impf)])
         test_labels = np.array(df_test.iloc[:,-1])
         
         return train_features, train_labels, test_features, test_label
