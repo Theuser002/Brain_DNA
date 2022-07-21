@@ -103,6 +103,14 @@ if __name__ == "__main__":
             val_labels_int = np.array([get_int_label(label, group) for label in val_labels])
             test_labels_int = np.array([get_int_label(label, group) for label in test_labels])
             
+            test_value_counts = pd.Series(test_labels).value_counts()
+            eval_file = open(impf_cfg[f'MLP_{alg}_EVALUATION_RESULTS'], 'a+')
+            eval_file.write('\nTest set:\n')
+            eval_file.write(str(test_value_counts))
+            eval_file.write('\n')
+            eval_file.write(str(test_labels_int))
+            eval_file.close()
+            
             # Create datasets and Dataloaders
             train_dataset = CNS(train_features, train_labels_int, mode = 'train')
             val_dataset = CNS(val_features, val_labels_int, mode = 'val')
