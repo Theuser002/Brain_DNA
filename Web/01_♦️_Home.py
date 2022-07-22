@@ -29,7 +29,7 @@ device = impf_cfg['device']
 def get_impf_dataframe(df, outer_fold = '1.0', alg = 'RF', group = 'Embryonal'):
     with open(os.path.join(impf_cfg['IMPORTANT_FEATURES_DIR'], alg, group, f'{outer_fold}_combined.pkl'), 'rb') as file:
         impf = pickle.load(file)
-    df = df.loc[:, list(impf)]
+    df = df.loc[:, sorted(list(impf))]
     return df, len(impf)
 
 @st.cache

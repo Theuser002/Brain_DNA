@@ -1,5 +1,5 @@
 EVALUATION RESULTS:
-SMOTE: False | weights: False
+SMOTE: True | weights: False
 
 Test set:
 Embryonal    126
@@ -14,7 +14,7 @@ dtype: int64
 [EMBRYONAL - RF - 1.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[379   0]
- [  0  70]]
+ [  0 379]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[102   0]
  [  0  22]]
@@ -35,7 +35,7 @@ dtype: int64
 [EMBRYONAL - RF - 1.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[384   0]
- [  0  71]]
+ [  0 384]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[97  0]
  [ 0 21]]
@@ -56,7 +56,7 @@ dtype: int64
 [EMBRYONAL - RF - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[385   0]
- [  0  74]]
+ [  0 385]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[96  0]
  [ 0 18]]
@@ -77,7 +77,7 @@ dtype: int64
 [EMBRYONAL - RF - 1.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[387   0]
- [  0  75]]
+ [  0 387]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[94  0]
  [ 0 17]]
@@ -98,7 +98,7 @@ dtype: int64
 [EMBRYONAL - RF - 1.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[389   0]
- [  0  78]]
+ [  0 389]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[92  0]
  [ 0 14]]
@@ -119,7 +119,7 @@ dtype: int64
 [EMBRYONAL - RF - 2.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[380   0]
- [  0  70]]
+ [  0 380]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[102   0]
  [  0  22]]
@@ -140,7 +140,7 @@ dtype: int64
 [EMBRYONAL - RF - 2.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[384   0]
- [  0  71]]
+ [  0 384]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[98  0]
  [ 0 21]]
@@ -161,13 +161,13 @@ dtype: int64
 [EMBRYONAL - RF - 2.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[386   0]
- [  0  74]]
+ [  0 386]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[96  0]
  [ 0 18]]
-test_precision: 1.0 | test_recall: 0.9629629629629629 | test_auc: 0.9814814814814814 | test_f1: 0.9811320754716981 | test_cfs:
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[125   0]
- [  1  26]]
+ [  0  27]]
 
 Test set:
 Embryonal    125
@@ -182,13 +182,13 @@ dtype: int64
 [EMBRYONAL - RF - 2.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[388   0]
- [  0  75]]
+ [  0 388]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[94  0]
  [ 0 17]]
-test_precision: 1.0 | test_recall: 0.9259259259259259 | test_auc: 0.962962962962963 | test_f1: 0.9615384615384615 | test_cfs:
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[125   0]
- [  2  25]]
+ [  0  27]]
 
 Test set:
 Embryonal    125
@@ -203,7 +203,7 @@ dtype: int64
 [EMBRYONAL - RF - 2.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[390   0]
- [  0  78]]
+ [  0 390]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[92  0]
  [ 0 14]]
@@ -223,7 +223,7 @@ dtype: int64
 [EMBRYONAL - RF - 3.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[383   0]
- [  0  72]]
+ [  0 383]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[102   0]
  [  0  22]]
@@ -243,7 +243,7 @@ dtype: int64
 [EMBRYONAL - RF - 3.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[385   0]
- [  0  73]]
+ [  0 385]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[100   0]
  [  0  21]]
@@ -263,7 +263,7 @@ dtype: int64
 [EMBRYONAL - RF - 3.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[389   0]
- [  0  76]]
+ [  0 389]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[96  0]
  [ 0 18]]
@@ -283,7 +283,7 @@ dtype: int64
 [EMBRYONAL - RF - 3.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[391   0]
- [  0  77]]
+ [  0 391]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[94  0]
  [ 0 17]]
@@ -303,7 +303,7 @@ dtype: int64
 [EMBRYONAL - RF - 3.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[392   0]
- [  0  78]]
+ [  0 392]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[93  0]
  [ 0 16]]
@@ -323,7 +323,7 @@ dtype: int64
 [EMBRYONAL - RF - 4.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[385   0]
- [  0  74]]
+ [  0 385]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[103   0]
  [  0  23]]
@@ -343,7 +343,7 @@ dtype: int64
 [EMBRYONAL - RF - 4.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[388   0]
- [  0  75]]
+ [  0 388]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[100   0]
  [  0  22]]
@@ -363,7 +363,7 @@ dtype: int64
 [EMBRYONAL - RF - 4.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[392   0]
- [  0  79]]
+ [  0 392]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[96  0]
  [ 0 18]]
@@ -383,7 +383,7 @@ dtype: int64
 [EMBRYONAL - RF - 4.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[393   0]
- [  0  79]]
+ [  0 393]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[95  0]
  [ 0 18]]
@@ -403,7 +403,7 @@ dtype: int64
 [EMBRYONAL - RF - 4.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[394   0]
- [  0  81]]
+ [  0 394]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[94  0]
  [ 0 16]]
@@ -423,7 +423,7 @@ dtype: int64
 [EMBRYONAL - RF - 5.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[389   0]
- [  0  78]]
+ [  0 389]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[103   0]
  [  0  23]]
@@ -443,7 +443,7 @@ dtype: int64
 [EMBRYONAL - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[390   0]
- [  0  79]]
+ [  0 390]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[102   0]
  [  0  22]]
@@ -463,7 +463,7 @@ dtype: int64
 [EMBRYONAL - RF - 5.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[395   0]
- [  0  80]]
+ [  0 395]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[97  0]
  [ 0 21]]
@@ -483,7 +483,7 @@ dtype: int64
 [EMBRYONAL - RF - 5.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[396   0]
- [  0  83]]
+ [  0 396]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[96  0]
  [ 0 18]]
@@ -503,7 +503,7 @@ dtype: int64
 [EMBRYONAL - RF - 5.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[398   0]
- [  0  84]]
+ [  0 398]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[94  0]
  [ 0 17]]
@@ -523,7 +523,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 1.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[265   0]
- [  0  70]]
+ [  0 265]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[71  0]
  [ 0 22]]
@@ -543,7 +543,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 1.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[267   0]
- [  0  71]]
+ [  0 267]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[69  0]
  [ 0 21]]
@@ -563,9 +563,9 @@ dtype: int64
 [GLIOBLASTOMA - RF - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[270   0]
- [  0  74]]
-val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
-[[66  0]
+ [  0 270]]
+val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9924242424242424 | val_f1: 0.972972972972973 | val_cfs:
+[[65  1]
  [ 0 18]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[89  0]
@@ -583,7 +583,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 1.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[270   0]
- [  0  75]]
+ [  0 270]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[66  0]
  [ 0 17]]
@@ -603,7 +603,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 1.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[272   0]
- [  0  78]]
+ [  0 272]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[64  0]
  [ 0 14]]
@@ -623,9 +623,9 @@ dtype: int64
 [GLIOBLASTOMA - RF - 2.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[268   0]
- [  0  70]]
-val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
-[[71  0]
+ [  0 268]]
+val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.9929577464788732 | val_f1: 0.9777777777777777 | val_cfs:
+[[70  1]
  [ 0 22]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[86  0]
@@ -643,7 +643,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 2.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[270   0]
- [  0  71]]
+ [  0 270]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[69  0]
  [ 0 21]]
@@ -663,7 +663,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 2.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[271   0]
- [  0  74]]
+ [  0 271]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[68  0]
  [ 0 18]]
@@ -683,7 +683,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 2.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[273   0]
- [  0  75]]
+ [  0 273]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[66  0]
  [ 0 17]]
@@ -703,7 +703,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 2.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[274   0]
- [  0  78]]
+ [  0 274]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[65  0]
  [ 0 14]]
@@ -722,7 +722,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 3.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[268   0]
- [  0  72]]
+ [  0 268]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[71  0]
  [ 0 22]]
@@ -741,7 +741,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 3.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[270   0]
- [  0  73]]
+ [  0 270]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[69  0]
  [ 0 21]]
@@ -760,7 +760,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 3.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[271   0]
- [  0  76]]
+ [  0 271]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[68  0]
  [ 0 18]]
@@ -779,7 +779,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 3.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[273   0]
- [  0  77]]
+ [  0 273]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[66  0]
  [ 0 17]]
@@ -798,7 +798,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 3.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[274   0]
- [  0  78]]
+ [  0 274]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[65  0]
  [ 0 16]]
@@ -817,7 +817,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 4.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[270   0]
- [  0  74]]
+ [  0 270]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[72  0]
  [ 0 23]]
@@ -836,7 +836,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 4.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[273   0]
- [  0  75]]
+ [  0 273]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[69  0]
  [ 0 22]]
@@ -855,9 +855,9 @@ dtype: int64
 [GLIOBLASTOMA - RF - 4.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[273   0]
- [  0  79]]
-val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
-[[69  0]
+ [  0 273]]
+val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9927536231884059 | val_f1: 0.972972972972973 | val_cfs:
+[[68  1]
  [ 0 18]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[83  0]
@@ -874,7 +874,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 4.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[276   0]
- [  0  79]]
+ [  0 276]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[66  0]
  [ 0 18]]
@@ -893,7 +893,7 @@ dtype: int64
 [GLIOBLASTOMA - RF - 4.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[276   0]
- [  0  81]]
+ [  0 276]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[66  0]
  [ 0 16]]
@@ -912,12 +912,12 @@ dtype: int64
 [GLIOBLASTOMA - RF - 5.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[272   0]
- [  0  78]]
+ [  0 272]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[72  0]
  [ 0 23]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[81  0]
+test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9938271604938271 | test_f1: 0.972972972972973 | test_cfs:
+[[80  1]
  [ 0 18]]
 
 Test set:
@@ -931,12 +931,12 @@ dtype: int64
 [GLIOBLASTOMA - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[273   0]
- [  0  79]]
+ [  0 273]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[71  0]
  [ 0 22]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[81  0]
+test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9938271604938271 | test_f1: 0.972972972972973 | test_cfs:
+[[80  1]
  [ 0 18]]
 
 Test set:
@@ -950,12 +950,12 @@ dtype: int64
 [GLIOBLASTOMA - RF - 5.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[275   0]
- [  0  80]]
+ [  0 275]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[69  0]
  [ 0 21]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[81  0]
+test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9938271604938271 | test_f1: 0.972972972972973 | test_cfs:
+[[80  1]
  [ 0 18]]
 
 Test set:
@@ -969,12 +969,12 @@ dtype: int64
 [GLIOBLASTOMA - RF - 5.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[278   0]
- [  0  83]]
+ [  0 278]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[66  0]
  [ 0 18]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[81  0]
+test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9938271604938271 | test_f1: 0.972972972972973 | test_cfs:
+[[80  1]
  [ 0 18]]
 
 Test set:
@@ -988,12 +988,12 @@ dtype: int64
 [GLIOBLASTOMA - RF - 5.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[278   0]
- [  0  84]]
+ [  0 278]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[66  0]
  [ 0 17]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[81  0]
+test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9938271604938271 | test_f1: 0.972972972972973 | test_cfs:
+[[80  1]
  [ 0 18]]
 
 Test set:
@@ -1004,9 +1004,9 @@ dtype: int64
  0 0 1 0 1 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0 1 0 1 1 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 1.1]:
-train_precision: 0.958904109589041 | train_recall: 1.0 | train_auc: 0.9872881355932203 | train_f1: 0.9790209790209791 | train_cfs:
-[[115   3]
- [  0  70]]
+train_precision: 0.959349593495935 | train_recall: 1.0 | train_auc: 0.978813559322034 | train_f1: 0.979253112033195 | train_cfs:
+[[113   5]
+ [  0 118]]
 val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.986111111111111 | val_f1: 0.9777777777777777 | val_cfs:
 [[35  1]
  [ 0 22]]
@@ -1022,9 +1022,9 @@ dtype: int64
  0 0 1 0 1 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0 1 0 1 1 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 1.2]:
-train_precision: 0.9861111111111112 | train_recall: 1.0 | train_auc: 0.9959016393442622 | train_f1: 0.993006993006993 | train_cfs:
-[[121   1]
- [  0  71]]
+train_precision: 0.976 | train_recall: 1.0 | train_auc: 0.9877049180327868 | train_f1: 0.9878542510121457 | train_cfs:
+[[119   3]
+ [  0 122]]
 val_precision: 0.9130434782608695 | val_recall: 1.0 | val_auc: 0.96875 | val_f1: 0.9545454545454545 | val_cfs:
 [[30  2]
  [ 0 21]]
@@ -1040,15 +1040,15 @@ dtype: int64
  0 0 1 0 1 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0 1 0 1 1 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 1.3]:
-train_precision: 0.9866666666666667 | train_recall: 1.0 | train_auc: 0.9959677419354839 | train_f1: 0.9932885906040269 | train_cfs:
-[[123   1]
- [  0  74]]
-val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9833333333333334 | val_f1: 0.972972972972973 | val_cfs:
+train_precision: 0.9841269841269841 | train_recall: 1.0 | train_auc: 0.9919354838709677 | train_f1: 0.9919999999999999 | train_cfs:
+[[122   2]
+ [  0 124]]
+val_precision: 0.9444444444444444 | val_recall: 0.9444444444444444 | val_auc: 0.9555555555555555 | val_f1: 0.9444444444444444 | val_cfs:
 [[29  1]
- [ 0 18]]
-test_precision: 0.9 | test_recall: 1.0 | test_auc: 0.9659090909090909 | test_f1: 0.9473684210526316 | test_cfs:
-[[41  3]
- [ 0 27]]
+ [ 1 17]]
+test_precision: 0.9285714285714286 | test_recall: 0.9629629629629629 | test_auc: 0.9587542087542087 | test_f1: 0.9454545454545454 | test_cfs:
+[[42  2]
+ [ 1 26]]
 
 Test set:
 Glio-neuronal    44
@@ -1058,15 +1058,15 @@ dtype: int64
  0 0 1 0 1 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0 1 0 1 1 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 1.4]:
-train_precision: 0.9615384615384616 | train_recall: 1.0 | train_auc: 0.988095238095238 | train_f1: 0.9803921568627451 | train_cfs:
-[[123   3]
- [  0  75]]
+train_precision: 0.984375 | train_recall: 1.0 | train_auc: 0.9920634920634921 | train_f1: 0.9921259842519685 | train_cfs:
+[[124   2]
+ [  0 126]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[28  0]
  [ 0 17]]
-test_precision: 0.9259259259259259 | test_recall: 0.9259259259259259 | test_auc: 0.9402356902356904 | test_f1: 0.9259259259259259 | test_cfs:
+test_precision: 0.9310344827586207 | test_recall: 1.0 | test_auc: 0.9772727272727273 | test_f1: 0.9642857142857143 | test_cfs:
 [[42  2]
- [ 2 25]]
+ [ 0 27]]
 
 Test set:
 Glio-neuronal    44
@@ -1076,9 +1076,9 @@ dtype: int64
  0 0 1 0 1 1 1 0 0 0 0 0 1 1 1 0 0 0 0 0 0 1 1 1 1 0 0 1 0 1 1 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 1.5]:
-train_precision: 0.975 | train_recall: 1.0 | train_auc: 0.9920634920634921 | train_f1: 0.9873417721518987 | train_cfs:
+train_precision: 0.984375 | train_recall: 1.0 | train_auc: 0.9920634920634921 | train_f1: 0.9921259842519685 | train_cfs:
 [[124   2]
- [  0  78]]
+ [  0 126]]
 val_precision: 0.9333333333333333 | val_recall: 1.0 | val_auc: 0.9821428571428572 | val_f1: 0.9655172413793104 | val_cfs:
 [[27  1]
  [ 0 14]]
@@ -1094,15 +1094,15 @@ dtype: int64
  1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 2.1]:
-train_precision: 0.958904109589041 | train_recall: 1.0 | train_auc: 0.9876033057851239 | train_f1: 0.9790209790209791 | train_cfs:
+train_precision: 0.9758064516129032 | train_recall: 1.0 | train_auc: 0.9876033057851239 | train_f1: 0.9877551020408163 | train_cfs:
 [[118   3]
- [  0  70]]
-val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.986111111111111 | val_f1: 0.9777777777777777 | val_cfs:
-[[35  1]
+ [  0 121]]
+val_precision: 0.9166666666666666 | val_recall: 1.0 | val_auc: 0.9722222222222222 | val_f1: 0.9565217391304348 | val_cfs:
+[[34  2]
  [ 0 22]]
-test_precision: 0.9230769230769231 | test_recall: 0.8888888888888888 | test_auc: 0.9200542005420054 | test_f1: 0.9056603773584906 | test_cfs:
-[[39  2]
- [ 3 24]]
+test_precision: 0.896551724137931 | test_recall: 0.9629629629629629 | test_auc: 0.9448961156278228 | test_f1: 0.9285714285714286 | test_cfs:
+[[38  3]
+ [ 1 26]]
 
 Test set:
 Glio-neuronal    41
@@ -1112,12 +1112,12 @@ dtype: int64
  1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 2.2]:
-train_precision: 0.9594594594594594 | train_recall: 1.0 | train_auc: 0.9878048780487805 | train_f1: 0.9793103448275862 | train_cfs:
+train_precision: 0.9761904761904762 | train_recall: 1.0 | train_auc: 0.9878048780487805 | train_f1: 0.9879518072289156 | train_cfs:
 [[120   3]
- [  0  71]]
-val_precision: 0.9523809523809523 | val_recall: 0.9523809523809523 | val_auc: 0.9614845938375349 | val_f1: 0.9523809523809523 | val_cfs:
-[[33  1]
- [ 1 20]]
+ [  0 123]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 21]]
 test_precision: 0.96 | test_recall: 0.8888888888888888 | test_auc: 0.9322493224932248 | test_f1: 0.923076923076923 | test_cfs:
 [[40  1]
  [ 3 24]]
@@ -1130,12 +1130,30 @@ dtype: int64
  1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 2.3]:
-train_precision: 0.961038961038961 | train_recall: 1.0 | train_auc: 0.988095238095238 | train_f1: 0.9801324503311257 | train_cfs:
-[[123   3]
- [  0  74]]
-val_precision: 0.9444444444444444 | val_recall: 0.9444444444444444 | val_auc: 0.9560931899641577 | val_f1: 0.9444444444444444 | val_cfs:
+train_precision: 0.984375 | train_recall: 1.0 | train_auc: 0.9920634920634921 | train_f1: 0.9921259842519685 | train_cfs:
+[[124   2]
+ [  0 126]]
+val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9838709677419355 | val_f1: 0.972972972972973 | val_cfs:
 [[30  1]
- [ 1 17]]
+ [ 0 18]]
+test_precision: 0.8888888888888888 | test_recall: 0.8888888888888888 | test_auc: 0.9078590785907859 | test_f1: 0.8888888888888888 | test_cfs:
+[[38  3]
+ [ 3 24]]
+
+Test set:
+Glio-neuronal    41
+Control          27
+dtype: int64
+[1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 1 1 1 1 1 1
+ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0]
+-------------------------------
+[GLIO-NEURONAL - RF - 2.4]:
+train_precision: 0.9772727272727273 | train_recall: 1.0 | train_auc: 0.9883720930232558 | train_f1: 0.9885057471264368 | train_cfs:
+[[126   3]
+ [  0 129]]
+val_precision: 0.9411764705882353 | val_recall: 0.9411764705882353 | val_auc: 0.9527310924369748 | val_f1: 0.9411764705882353 | val_cfs:
+[[27  1]
+ [ 1 16]]
 test_precision: 0.96 | test_recall: 0.8888888888888888 | test_auc: 0.9322493224932248 | test_f1: 0.923076923076923 | test_cfs:
 [[40  1]
  [ 3 24]]
@@ -1147,34 +1165,16 @@ dtype: int64
 [1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 1 1 1 1 1 1
  1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0]
 -------------------------------
-[GLIO-NEURONAL - RF - 2.4]:
-train_precision: 0.9868421052631579 | train_recall: 1.0 | train_auc: 0.9961240310077519 | train_f1: 0.9933774834437086 | train_cfs:
-[[128   1]
- [  0  75]]
-val_precision: 0.9411764705882353 | val_recall: 0.9411764705882353 | val_auc: 0.9527310924369748 | val_f1: 0.9411764705882353 | val_cfs:
-[[27  1]
- [ 1 16]]
-test_precision: 0.9259259259259259 | test_recall: 0.9259259259259259 | test_auc: 0.938572719060524 | test_f1: 0.9259259259259259 | test_cfs:
-[[39  2]
- [ 2 25]]
-
-Test set:
-Glio-neuronal    41
-Control          27
-dtype: int64
-[1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 1 1 1 1 1 1
- 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 0 0 0 0 0 1 1 1 0 0 0]
--------------------------------
 [GLIO-NEURONAL - RF - 2.5]:
-train_precision: 0.9629629629629629 | train_recall: 1.0 | train_auc: 0.9883720930232558 | train_f1: 0.9811320754716981 | train_cfs:
-[[126   3]
- [  0  78]]
-val_precision: 0.9333333333333333 | val_recall: 1.0 | val_auc: 0.9821428571428572 | val_f1: 0.9655172413793104 | val_cfs:
-[[27  1]
+train_precision: 0.9626865671641791 | train_recall: 1.0 | train_auc: 0.9806201550387598 | train_f1: 0.9809885931558935 | train_cfs:
+[[124   5]
+ [  0 129]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
  [ 0 14]]
-test_precision: 0.896551724137931 | test_recall: 0.9629629629629629 | test_auc: 0.9448961156278228 | test_f1: 0.9285714285714286 | test_cfs:
+test_precision: 0.8928571428571429 | test_recall: 0.9259259259259259 | test_auc: 0.9263775971093046 | test_f1: 0.9090909090909091 | test_cfs:
 [[38  3]
- [ 1 26]]
+ [ 2 25]]
 
 Test set:
 Glio-neuronal    41
@@ -1184,15 +1184,15 @@ dtype: int64
  0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 1 1 0 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 3.1]:
-train_precision: 0.96 | train_recall: 1.0 | train_auc: 0.9876033057851239 | train_f1: 0.9795918367346939 | train_cfs:
+train_precision: 0.9758064516129032 | train_recall: 1.0 | train_auc: 0.9876033057851239 | train_f1: 0.9877551020408163 | train_cfs:
 [[118   3]
- [  0  72]]
-val_precision: 0.9130434782608695 | val_recall: 0.9545454545454546 | val_auc: 0.9494949494949495 | val_f1: 0.9333333333333332 | val_cfs:
+ [  0 121]]
+val_precision: 0.9166666666666666 | val_recall: 1.0 | val_auc: 0.9722222222222222 | val_f1: 0.9565217391304348 | val_cfs:
 [[34  2]
- [ 1 21]]
-test_precision: 0.92 | test_recall: 0.92 | test_auc: 0.9356097560975609 | test_f1: 0.92 | test_cfs:
+ [ 0 22]]
+test_precision: 0.9259259259259259 | test_recall: 1.0 | test_auc: 0.975609756097561 | test_f1: 0.9615384615384615 | test_cfs:
 [[39  2]
- [ 2 23]]
+ [ 0 25]]
 
 Test set:
 Glio-neuronal    41
@@ -1202,9 +1202,9 @@ dtype: int64
  0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 1 1 0 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 3.2]:
-train_precision: 0.9583333333333334 | train_recall: 0.9452054794520548 | train_auc: 0.9604076177748079 | train_f1: 0.9517241379310345 | train_cfs:
-[[120   3]
- [  4  69]]
+train_precision: 0.984 | train_recall: 1.0 | train_auc: 0.9918699186991871 | train_f1: 0.9919354838709677 | train_cfs:
+[[121   2]
+ [  0 123]]
 val_precision: 0.9523809523809523 | val_recall: 0.9523809523809523 | val_auc: 0.9614845938375349 | val_f1: 0.9523809523809523 | val_cfs:
 [[33  1]
  [ 1 20]]
@@ -1220,12 +1220,12 @@ dtype: int64
  0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 1 1 0 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 3.3]:
-train_precision: 0.9367088607594937 | train_recall: 0.9736842105263158 | train_auc: 0.9670008354218881 | train_f1: 0.9548387096774194 | train_cfs:
+train_precision: 0.9615384615384616 | train_recall: 0.9920634920634921 | train_auc: 0.9761904761904763 | train_f1: 0.9765625 | train_cfs:
 [[121   5]
- [  2  74]]
-val_precision: 0.9444444444444444 | val_recall: 0.9444444444444444 | val_auc: 0.9560931899641577 | val_f1: 0.9444444444444444 | val_cfs:
-[[30  1]
- [ 1 17]]
+ [  1 125]]
+val_precision: 0.9 | val_recall: 1.0 | val_auc: 0.967741935483871 | val_f1: 0.9473684210526316 | val_cfs:
+[[29  2]
+ [ 0 18]]
 test_precision: 0.9259259259259259 | test_recall: 1.0 | test_auc: 0.975609756097561 | test_f1: 0.9615384615384615 | test_cfs:
 [[39  2]
  [ 0 25]]
@@ -1238,12 +1238,12 @@ dtype: int64
  0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 1 1 0 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 3.4]:
-train_precision: 0.9625 | train_recall: 1.0 | train_auc: 0.9883720930232558 | train_f1: 0.980891719745223 | train_cfs:
+train_precision: 0.9772727272727273 | train_recall: 1.0 | train_auc: 0.9883720930232558 | train_f1: 0.9885057471264368 | train_cfs:
 [[126   3]
- [  0  77]]
-val_precision: 0.9411764705882353 | val_recall: 0.9411764705882353 | val_auc: 0.9527310924369748 | val_f1: 0.9411764705882353 | val_cfs:
-[[27  1]
- [ 1 16]]
+ [  0 129]]
+val_precision: 0.8947368421052632 | val_recall: 1.0 | val_auc: 0.9642857142857143 | val_f1: 0.9444444444444444 | val_cfs:
+[[26  2]
+ [ 0 17]]
 test_precision: 0.9259259259259259 | test_recall: 1.0 | test_auc: 0.975609756097561 | test_f1: 0.9615384615384615 | test_cfs:
 [[39  2]
  [ 0 25]]
@@ -1256,9 +1256,9 @@ dtype: int64
  0 0 0 0 1 0 0 0 0 0 0 0 1 1 1 1 0 1 0 0 0 0 0 1 1 0 0 0 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 3.5]:
-train_precision: 0.9620253164556962 | train_recall: 0.9743589743589743 | train_auc: 0.975551580202743 | train_f1: 0.9681528662420382 | train_cfs:
+train_precision: 0.9770992366412213 | train_recall: 0.9922480620155039 | train_auc: 0.9844961240310077 | train_f1: 0.9846153846153846 | train_cfs:
 [[126   3]
- [  2  76]]
+ [  1 128]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[28  0]
  [ 0 16]]
@@ -1274,14 +1274,14 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 4.1]:
-train_precision: 0.9358974358974359 | train_recall: 0.9864864864864865 | train_auc: 0.9730819529206626 | train_f1: 0.9605263157894737 | train_cfs:
-[[119   5]
- [  1  73]]
+train_precision: 0.96875 | train_recall: 1.0 | train_auc: 0.9838709677419355 | train_f1: 0.9841269841269841 | train_cfs:
+[[120   4]
+ [  0 124]]
 val_precision: 0.9166666666666666 | val_recall: 0.9565217391304348 | val_auc: 0.9504830917874396 | val_f1: 0.9361702127659574 | val_cfs:
 [[34  2]
  [ 1 22]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[38  0]
+test_precision: 0.9565217391304348 | test_recall: 1.0 | test_auc: 0.986842105263158 | test_f1: 0.9777777777777777 | test_cfs:
+[[37  1]
  [ 0 22]]
 
 Test set:
@@ -1292,12 +1292,12 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 4.2]:
-train_precision: 0.9367088607594937 | train_recall: 0.9866666666666667 | train_auc: 0.9731720430107528 | train_f1: 0.961038961038961 | train_cfs:
-[[119   5]
- [  1  74]]
-val_precision: 0.9166666666666666 | val_recall: 1.0 | val_auc: 0.9722222222222222 | val_f1: 0.9565217391304348 | val_cfs:
-[[34  2]
- [ 0 22]]
+train_precision: 0.9761904761904762 | train_recall: 0.9919354838709677 | train_auc: 0.9838709677419355 | train_f1: 0.9840000000000001 | train_cfs:
+[[121   3]
+ [  1 123]]
+val_precision: 0.9523809523809523 | val_recall: 0.9090909090909091 | val_auc: 0.9406565656565657 | val_f1: 0.9302325581395349 | val_cfs:
+[[35  1]
+ [ 2 20]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[38  0]
  [ 0 22]]
@@ -1310,15 +1310,15 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 4.3]:
-train_precision: 0.975 | train_recall: 0.9873417721518988 | train_auc: 0.9859189480914532 | train_f1: 0.9811320754716981 | train_cfs:
-[[127   2]
- [  1  78]]
+train_precision: 0.9772727272727273 | train_recall: 1.0 | train_auc: 0.9883720930232558 | train_f1: 0.9885057471264368 | train_cfs:
+[[126   3]
+ [  0 129]]
 val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9838709677419355 | val_f1: 0.972972972972973 | val_cfs:
 [[30  1]
  [ 0 18]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+test_precision: 1.0 | test_recall: 0.9545454545454546 | test_auc: 0.9772727272727273 | test_f1: 0.9767441860465117 | test_cfs:
 [[38  0]
- [ 0 22]]
+ [ 1 21]]
 
 Test set:
 Glio-neuronal    38
@@ -1328,9 +1328,9 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 4.4]:
-train_precision: 0.9629629629629629 | train_recall: 0.9873417721518988 | train_auc: 0.9822205043965601 | train_f1: 0.975 | train_cfs:
-[[128   3]
- [  1  78]]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[131   0]
+ [  0 131]]
 val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9827586206896552 | val_f1: 0.972972972972973 | val_cfs:
 [[28  1]
  [ 0 18]]
@@ -1346,14 +1346,14 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 0 1 1 1 1 0 0 0 0 0 1 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 4.5]:
-train_precision: 0.963855421686747 | train_recall: 0.9876543209876543 | train_auc: 0.9824635241301908 | train_f1: 0.975609756097561 | train_cfs:
-[[129   3]
- [  1  80]]
+train_precision: 0.9850746268656716 | train_recall: 1.0 | train_auc: 0.9924242424242424 | train_f1: 0.9924812030075187 | train_cfs:
+[[130   2]
+ [  0 132]]
 val_precision: 0.9411764705882353 | val_recall: 1.0 | val_auc: 0.9821428571428572 | val_f1: 0.9696969696969697 | val_cfs:
 [[27  1]
  [ 0 16]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[38  0]
+test_precision: 0.9565217391304348 | test_recall: 1.0 | test_auc: 0.986842105263158 | test_f1: 0.9777777777777777 | test_cfs:
+[[37  1]
  [ 0 22]]
 
 Test set:
@@ -1364,12 +1364,12 @@ dtype: int64
  0 0 0 1 0 1 1 0 1 0 0 1 0 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 5.1]:
-train_precision: 0.975 | train_recall: 1.0 | train_auc: 0.992 | train_f1: 0.9873417721518987 | train_cfs:
-[[123   2]
- [  0  78]]
-val_precision: 0.9130434782608695 | val_recall: 0.9130434782608695 | val_auc: 0.9308807134894092 | val_f1: 0.9130434782608695 | val_cfs:
+train_precision: 0.9689922480620154 | train_recall: 1.0 | train_auc: 0.984 | train_f1: 0.9842519685039369 | train_cfs:
+[[121   4]
+ [  0 125]]
+val_precision: 0.9166666666666666 | val_recall: 0.9565217391304348 | val_auc: 0.9526198439241916 | val_f1: 0.9361702127659574 | val_cfs:
 [[37  2]
- [ 2 21]]
+ [ 1 22]]
 test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9852941176470588 | test_f1: 0.972972972972973 | test_cfs:
 [[33  1]
  [ 0 18]]
@@ -1382,11 +1382,11 @@ dtype: int64
  0 0 0 1 0 1 1 0 1 0 0 1 0 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 5.2]:
-train_precision: 0.9629629629629629 | train_recall: 0.9873417721518988 | train_auc: 0.9819521360759493 | train_f1: 0.975 | train_cfs:
-[[125   3]
- [  1  78]]
-val_precision: 0.9166666666666666 | val_recall: 1.0 | val_auc: 0.9722222222222222 | val_f1: 0.9565217391304348 | val_cfs:
-[[34  2]
+train_precision: 0.9846153846153847 | train_recall: 1.0 | train_auc: 0.9921875 | train_f1: 0.9922480620155039 | train_cfs:
+[[126   2]
+ [  0 128]]
+val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.986111111111111 | val_f1: 0.9777777777777777 | val_cfs:
+[[35  1]
  [ 0 22]]
 test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9852941176470588 | test_f1: 0.972972972972973 | test_cfs:
 [[33  1]
@@ -1400,11 +1400,11 @@ dtype: int64
  0 0 0 1 0 1 1 0 1 0 0 1 0 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 5.3]:
-train_precision: 0.9871794871794872 | train_recall: 0.9625 | train_auc: 0.9774621212121212 | train_f1: 0.9746835443037976 | train_cfs:
-[[131   1]
- [  3  77]]
-val_precision: 0.9545454545454546 | val_recall: 1.0 | val_auc: 0.984375 | val_f1: 0.9767441860465117 | val_cfs:
-[[31  1]
+train_precision: 0.9850746268656716 | train_recall: 1.0 | train_auc: 0.9924242424242424 | train_f1: 0.9924812030075187 | train_cfs:
+[[130   2]
+ [  0 132]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
  [ 0 21]]
 test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9852941176470588 | test_f1: 0.972972972972973 | test_cfs:
 [[33  1]
@@ -1418,9 +1418,9 @@ dtype: int64
  0 0 0 1 0 1 1 0 1 0 0 1 0 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 5.4]:
-train_precision: 0.9880952380952381 | train_recall: 1.0 | train_auc: 0.9962962962962962 | train_f1: 0.9940119760479043 | train_cfs:
-[[134   1]
- [  0  83]]
+train_precision: 0.9782608695652174 | train_recall: 1.0 | train_auc: 0.9888888888888888 | train_f1: 0.989010989010989 | train_cfs:
+[[132   3]
+ [  0 135]]
 val_precision: 0.8947368421052632 | val_recall: 0.9444444444444444 | val_auc: 0.9377394636015326 | val_f1: 0.918918918918919 | val_cfs:
 [[27  2]
  [ 1 17]]
@@ -1436,12 +1436,12 @@ dtype: int64
  0 0 0 1 0 1 1 0 1 0 0 1 0 1 0]
 -------------------------------
 [GLIO-NEURONAL - RF - 5.5]:
-train_precision: 0.9764705882352941 | train_recall: 0.9880952380952381 | train_auc: 0.9866946778711485 | train_f1: 0.9822485207100591 | train_cfs:
-[[134   2]
- [  1  83]]
-val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+train_precision: 0.9784172661870504 | train_recall: 1.0 | train_auc: 0.988970588235294 | train_f1: 0.989090909090909 | train_cfs:
+[[133   3]
+ [  0 136]]
+val_precision: 1.0 | val_recall: 0.9411764705882353 | val_auc: 0.9705882352941176 | val_f1: 0.9696969696969697 | val_cfs:
 [[28  0]
- [ 0 17]]
+ [ 1 16]]
 test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9852941176470588 | test_f1: 0.972972972972973 | test_cfs:
 [[33  1]
  [ 0 18]]
@@ -1454,9 +1454,9 @@ dtype: int64
  0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 1.1]:
-train_precision: 1.0 | train_recall: 0.9285714285714286 | train_auc: 0.9642857142857143 | train_f1: 0.962962962962963 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9306930693069307 | train_auc: 0.9653465346534653 | train_f1: 0.9641025641025642 | train_cfs:
 [[101   0]
- [  5  65]]
+ [  7  94]]
 val_precision: 1.0 | val_recall: 0.9090909090909091 | val_auc: 0.9545454545454546 | val_f1: 0.9523809523809523 | val_cfs:
 [[31  0]
  [ 2 20]]
@@ -1472,9 +1472,9 @@ dtype: int64
  0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 1.2]:
-train_precision: 1.0 | train_recall: 0.9295774647887324 | train_auc: 0.9647887323943662 | train_f1: 0.9635036496350364 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9519230769230769 | train_auc: 0.9759615384615384 | train_f1: 0.9753694581280787 | train_cfs:
 [[104   0]
- [  5  66]]
+ [  5  99]]
 val_precision: 1.0 | val_recall: 0.9047619047619048 | val_auc: 0.9523809523809523 | val_f1: 0.9500000000000001 | val_cfs:
 [[28  0]
  [ 2 19]]
@@ -1490,11 +1490,11 @@ dtype: int64
  0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 1.3]:
-train_precision: 1.0 | train_recall: 0.918918918918919 | train_auc: 0.9594594594594594 | train_f1: 0.9577464788732395 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9333333333333333 | train_auc: 0.9666666666666667 | train_f1: 0.9655172413793104 | train_cfs:
 [[105   0]
- [  6  68]]
-val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
-[[27  0]
+ [  7  98]]
+val_precision: 0.9444444444444444 | val_recall: 0.9444444444444444 | val_auc: 0.9537037037037037 | val_f1: 0.9444444444444444 | val_cfs:
+[[26  1]
  [ 1 17]]
 test_precision: 1.0 | test_recall: 0.9259259259259259 | test_auc: 0.962962962962963 | test_f1: 0.9615384615384615 | test_cfs:
 [[37  0]
@@ -1508,9 +1508,9 @@ dtype: int64
  0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 1.4]:
-train_precision: 1.0 | train_recall: 0.92 | train_auc: 0.96 | train_f1: 0.9583333333333334 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9351851851851852 | train_auc: 0.9675925925925926 | train_f1: 0.9665071770334929 | train_cfs:
 [[108   0]
- [  6  69]]
+ [  7 101]]
 val_precision: 1.0 | val_recall: 0.9411764705882353 | val_auc: 0.9705882352941176 | val_f1: 0.9696969696969697 | val_cfs:
 [[24  0]
  [ 1 16]]
@@ -1526,9 +1526,9 @@ dtype: int64
  0 1 1 1 1 0 1 1 1 0 1 1 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 1.5]:
-train_precision: 1.0 | train_recall: 0.9230769230769231 | train_auc: 0.9615384615384616 | train_f1: 0.9600000000000001 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9272727272727272 | train_auc: 0.9636363636363636 | train_f1: 0.9622641509433962 | train_cfs:
 [[110   0]
- [  6  72]]
+ [  8 102]]
 val_precision: 1.0 | val_recall: 0.9285714285714286 | val_auc: 0.9642857142857143 | val_f1: 0.962962962962963 | val_cfs:
 [[22  0]
  [ 1 13]]
@@ -1544,9 +1544,9 @@ dtype: int64
  1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 2.1]:
-train_precision: 1.0 | train_recall: 0.9285714285714286 | train_auc: 0.9642857142857143 | train_f1: 0.962962962962963 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9509803921568627 | train_auc: 0.9754901960784313 | train_f1: 0.9748743718592965 | train_cfs:
 [[102   0]
- [  5  65]]
+ [  5  97]]
 val_precision: 1.0 | val_recall: 0.9090909090909091 | val_auc: 0.9545454545454546 | val_f1: 0.9523809523809523 | val_cfs:
 [[31  0]
  [ 2 20]]
@@ -1562,9 +1562,9 @@ dtype: int64
  1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 2.2]:
-train_precision: 1.0 | train_recall: 0.9295774647887324 | train_auc: 0.9647887323943662 | train_f1: 0.9635036496350364 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9423076923076923 | train_auc: 0.9711538461538461 | train_f1: 0.9702970297029703 | train_cfs:
 [[104   0]
- [  5  66]]
+ [  6  98]]
 val_precision: 1.0 | val_recall: 0.9047619047619048 | val_auc: 0.9523809523809523 | val_f1: 0.9500000000000001 | val_cfs:
 [[29  0]
  [ 2 19]]
@@ -1580,9 +1580,9 @@ dtype: int64
  1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 2.3]:
-train_precision: 1.0 | train_recall: 0.918918918918919 | train_auc: 0.9594594594594594 | train_f1: 0.9577464788732395 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9339622641509434 | train_auc: 0.9669811320754718 | train_f1: 0.9658536585365853 | train_cfs:
 [[106   0]
- [  6  68]]
+ [  7  99]]
 val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
 [[27  0]
  [ 1 17]]
@@ -1598,9 +1598,9 @@ dtype: int64
  1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 2.4]:
-train_precision: 1.0 | train_recall: 0.92 | train_auc: 0.96 | train_f1: 0.9583333333333334 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9357798165137615 | train_auc: 0.9678899082568808 | train_f1: 0.966824644549763 | train_cfs:
 [[109   0]
- [  6  69]]
+ [  7 102]]
 val_precision: 1.0 | val_recall: 0.9411764705882353 | val_auc: 0.9705882352941176 | val_f1: 0.9696969696969697 | val_cfs:
 [[24  0]
  [ 1 16]]
@@ -1616,9 +1616,9 @@ dtype: int64
  1 1 0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0]
 -------------------------------
 [SELLA - RF - 2.5]:
-train_precision: 1.0 | train_recall: 0.9230769230769231 | train_auc: 0.9615384615384616 | train_f1: 0.9600000000000001 | train_cfs:
+train_precision: 1.0 | train_recall: 0.918918918918919 | train_auc: 0.9594594594594594 | train_f1: 0.9577464788732395 | train_cfs:
 [[111   0]
- [  6  72]]
+ [  9 102]]
 val_precision: 1.0 | val_recall: 0.9285714285714286 | val_auc: 0.9642857142857143 | val_f1: 0.962962962962963 | val_cfs:
 [[22  0]
  [ 1 13]]
@@ -1634,9 +1634,9 @@ dtype: int64
  0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 3.1]:
-train_precision: 0.9852941176470589 | train_recall: 0.9305555555555556 | train_auc: 0.9604700854700855 | train_f1: 0.9571428571428572 | train_cfs:
+train_precision: 0.98989898989899 | train_recall: 0.9423076923076923 | train_auc: 0.9663461538461539 | train_f1: 0.9655172413793104 | train_cfs:
 [[103   1]
- [  5  67]]
+ [  6  98]]
 val_precision: 1.0 | val_recall: 0.9090909090909091 | val_auc: 0.9545454545454546 | val_f1: 0.9523809523809523 | val_cfs:
 [[31  0]
  [ 2 20]]
@@ -1652,9 +1652,9 @@ dtype: int64
  0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 3.2]:
-train_precision: 1.0 | train_recall: 0.9315068493150684 | train_auc: 0.9657534246575342 | train_f1: 0.9645390070921985 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9528301886792453 | train_auc: 0.9764150943396226 | train_f1: 0.9758454106280194 | train_cfs:
 [[106   0]
- [  5  68]]
+ [  5 101]]
 val_precision: 1.0 | val_recall: 0.9047619047619048 | val_auc: 0.9523809523809523 | val_f1: 0.9500000000000001 | val_cfs:
 [[29  0]
  [ 2 19]]
@@ -1670,9 +1670,9 @@ dtype: int64
  0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 3.3]:
-train_precision: 1.0 | train_recall: 0.9210526315789473 | train_auc: 0.9605263157894737 | train_f1: 0.958904109589041 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9351851851851852 | train_auc: 0.9675925925925926 | train_f1: 0.9665071770334929 | train_cfs:
 [[108   0]
- [  6  70]]
+ [  7 101]]
 val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
 [[27  0]
  [ 1 17]]
@@ -1688,9 +1688,9 @@ dtype: int64
  0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 3.4]:
-train_precision: 0.9861111111111112 | train_recall: 0.922077922077922 | train_auc: 0.9564935064935065 | train_f1: 0.953020134228188 | train_cfs:
-[[109   1]
- [  6  71]]
+train_precision: 1.0 | train_recall: 0.9363636363636364 | train_auc: 0.9681818181818183 | train_f1: 0.9671361502347418 | train_cfs:
+[[110   0]
+ [  7 103]]
 val_precision: 1.0 | val_recall: 0.9411764705882353 | val_auc: 0.9705882352941176 | val_f1: 0.9696969696969697 | val_cfs:
 [[25  0]
  [ 1 16]]
@@ -1706,9 +1706,9 @@ dtype: int64
  0 0 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 3.5]:
-train_precision: 1.0 | train_recall: 0.9230769230769231 | train_auc: 0.9615384615384616 | train_f1: 0.9600000000000001 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9285714285714286 | train_auc: 0.9642857142857143 | train_f1: 0.962962962962963 | train_cfs:
 [[112   0]
- [  6  72]]
+ [  8 104]]
 val_precision: 1.0 | val_recall: 0.9375 | val_auc: 0.96875 | val_f1: 0.967741935483871 | val_cfs:
 [[23  0]
  [ 1 15]]
@@ -1724,11 +1724,11 @@ dtype: int64
  1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 4.1]:
-train_precision: 1.0 | train_recall: 0.9324324324324325 | train_auc: 0.9662162162162162 | train_f1: 0.965034965034965 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9339622641509434 | train_auc: 0.9669811320754718 | train_f1: 0.9658536585365853 | train_cfs:
 [[106   0]
- [  5  69]]
-val_precision: 1.0 | val_recall: 0.9130434782608695 | val_auc: 0.9565217391304348 | val_f1: 0.9545454545454545 | val_cfs:
-[[31  0]
+ [  7  99]]
+val_precision: 0.9545454545454546 | val_recall: 0.9130434782608695 | val_auc: 0.9403927068723703 | val_f1: 0.9333333333333332 | val_cfs:
+[[30  1]
  [ 2 21]]
 test_precision: 1.0 | test_recall: 0.9090909090909091 | test_auc: 0.9545454545454546 | test_f1: 0.9523809523809523 | test_cfs:
 [[32  0]
@@ -1742,9 +1742,9 @@ dtype: int64
  1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 4.2]:
-train_precision: 1.0 | train_recall: 0.9333333333333333 | train_auc: 0.9666666666666667 | train_f1: 0.9655172413793104 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9439252336448598 | train_auc: 0.9719626168224299 | train_f1: 0.9711538461538461 | train_cfs:
 [[107   0]
- [  5  70]]
+ [  6 101]]
 val_precision: 1.0 | val_recall: 0.9090909090909091 | val_auc: 0.9545454545454546 | val_f1: 0.9523809523809523 | val_cfs:
 [[30  0]
  [ 2 20]]
@@ -1760,9 +1760,9 @@ dtype: int64
  1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 4.3]:
-train_precision: 1.0 | train_recall: 0.9240506329113924 | train_auc: 0.9620253164556962 | train_f1: 0.9605263157894737 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9272727272727272 | train_auc: 0.9636363636363636 | train_f1: 0.9622641509433962 | train_cfs:
 [[110   0]
- [  6  73]]
+ [  8 102]]
 val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
 [[27  0]
  [ 1 17]]
@@ -1778,9 +1778,9 @@ dtype: int64
  1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 4.4]:
-train_precision: 1.0 | train_recall: 0.9240506329113924 | train_auc: 0.9620253164556962 | train_f1: 0.9605263157894737 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9375 | train_auc: 0.96875 | train_f1: 0.967741935483871 | train_cfs:
 [[112   0]
- [  6  73]]
+ [  7 105]]
 val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
 [[25  0]
  [ 1 17]]
@@ -1796,11 +1796,11 @@ dtype: int64
  1 0 0 1 1 1 1 1 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [SELLA - RF - 4.5]:
-train_precision: 1.0 | train_recall: 0.9259259259259259 | train_auc: 0.962962962962963 | train_f1: 0.9615384615384615 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9292035398230089 | train_auc: 0.9646017699115044 | train_f1: 0.9633027522935781 | train_cfs:
 [[113   0]
- [  6  75]]
-val_precision: 1.0 | val_recall: 0.9375 | val_auc: 0.96875 | val_f1: 0.967741935483871 | val_cfs:
-[[24  0]
+ [  8 105]]
+val_precision: 0.9375 | val_recall: 0.9375 | val_auc: 0.9479166666666667 | val_f1: 0.9375 | val_cfs:
+[[23  1]
  [ 1 15]]
 test_precision: 1.0 | test_recall: 0.9090909090909091 | test_auc: 0.9545454545454546 | test_f1: 0.9523809523809523 | test_cfs:
 [[32  0]
@@ -1814,9 +1814,9 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 1]
 -------------------------------
 [SELLA - RF - 5.1]:
-train_precision: 1.0 | train_recall: 0.9230769230769231 | train_auc: 0.9615384615384616 | train_f1: 0.9600000000000001 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9351851851851852 | train_auc: 0.9675925925925926 | train_f1: 0.9665071770334929 | train_cfs:
 [[108   0]
- [  6  72]]
+ [  7 101]]
 val_precision: 1.0 | val_recall: 0.9130434782608695 | val_auc: 0.9565217391304348 | val_f1: 0.9545454545454545 | val_cfs:
 [[31  0]
  [ 2 21]]
@@ -1832,9 +1832,9 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 1]
 -------------------------------
 [SELLA - RF - 5.2]:
-train_precision: 1.0 | train_recall: 0.9240506329113924 | train_auc: 0.9620253164556962 | train_f1: 0.9605263157894737 | train_cfs:
+train_precision: 1.0 | train_recall: 0.926605504587156 | train_auc: 0.963302752293578 | train_f1: 0.9619047619047619 | train_cfs:
 [[109   0]
- [  6  73]]
+ [  8 101]]
 val_precision: 1.0 | val_recall: 0.9090909090909091 | val_auc: 0.9545454545454546 | val_f1: 0.9523809523809523 | val_cfs:
 [[30  0]
  [ 2 20]]
@@ -1850,9 +1850,9 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 1]
 -------------------------------
 [SELLA - RF - 5.3]:
-train_precision: 1.0 | train_recall: 0.925 | train_auc: 0.9625 | train_f1: 0.961038961038961 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9459459459459459 | train_auc: 0.972972972972973 | train_f1: 0.9722222222222222 | train_cfs:
 [[111   0]
- [  6  74]]
+ [  6 105]]
 val_precision: 1.0 | val_recall: 0.9047619047619048 | val_auc: 0.9523809523809523 | val_f1: 0.9500000000000001 | val_cfs:
 [[28  0]
  [ 2 19]]
@@ -1868,9 +1868,9 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 1]
 -------------------------------
 [SELLA - RF - 5.4]:
-train_precision: 1.0 | train_recall: 0.9156626506024096 | train_auc: 0.9578313253012047 | train_f1: 0.9559748427672956 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9380530973451328 | train_auc: 0.9690265486725664 | train_f1: 0.9680365296803652 | train_cfs:
 [[113   0]
- [  7  76]]
+ [  7 106]]
 val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
 [[26  0]
  [ 1 17]]
@@ -1886,9 +1886,9 @@ dtype: int64
  0 0 0 0 0 0 0 1 0 0 1]
 -------------------------------
 [SELLA - RF - 5.5]:
-train_precision: 1.0 | train_recall: 0.9166666666666666 | train_auc: 0.9583333333333333 | train_f1: 0.9565217391304348 | train_cfs:
+train_precision: 1.0 | train_recall: 0.9217391304347826 | train_auc: 0.9608695652173913 | train_f1: 0.9592760180995475 | train_cfs:
 [[115   0]
- [  7  77]]
+ [  9 106]]
 val_precision: 1.0 | val_recall: 0.9411764705882353 | val_auc: 0.9705882352941176 | val_f1: 0.9696969696969697 | val_cfs:
 [[24  0]
  [ 1 16]]
@@ -1907,7 +1907,7 @@ dtype: int64
 [EPENDYMAL - RF - 1.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[212   0]
- [  0  70]]
+ [  0 212]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[58  0]
  [ 0 22]]
@@ -1926,7 +1926,7 @@ dtype: int64
 [EPENDYMAL - RF - 1.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[214   0]
- [  0  71]]
+ [  0 214]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[56  0]
  [ 0 21]]
@@ -1945,7 +1945,7 @@ dtype: int64
 [EPENDYMAL - RF - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[217   0]
- [  0  74]]
+ [  0 217]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[53  0]
  [ 0 18]]
@@ -1964,7 +1964,7 @@ dtype: int64
 [EPENDYMAL - RF - 1.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[218   0]
- [  0  75]]
+ [  0 218]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[52  0]
  [ 0 17]]
@@ -1983,7 +1983,7 @@ dtype: int64
 [EPENDYMAL - RF - 1.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[219   0]
- [  0  78]]
+ [  0 219]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[51  0]
  [ 0 14]]
@@ -2002,7 +2002,7 @@ dtype: int64
 [EPENDYMAL - RF - 2.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[214   0]
- [  0  70]]
+ [  0 214]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[59  0]
  [ 0 22]]
@@ -2021,7 +2021,7 @@ dtype: int64
 [EPENDYMAL - RF - 2.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[217   0]
- [  0  71]]
+ [  0 217]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[56  0]
  [ 0 21]]
@@ -2040,7 +2040,7 @@ dtype: int64
 [EPENDYMAL - RF - 2.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[219   0]
- [  0  74]]
+ [  0 219]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[54  0]
  [ 0 18]]
@@ -2059,7 +2059,7 @@ dtype: int64
 [EPENDYMAL - RF - 2.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[220   0]
- [  0  75]]
+ [  0 220]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[53  0]
  [ 0 17]]
@@ -2078,7 +2078,7 @@ dtype: int64
 [EPENDYMAL - RF - 2.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[222   0]
- [  0  78]]
+ [  0 222]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[51  0]
  [ 0 14]]
@@ -2097,7 +2097,7 @@ dtype: int64
 [EPENDYMAL - RF - 3.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[216   0]
- [  0  72]]
+ [  0 216]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[59  0]
  [ 0 22]]
@@ -2116,7 +2116,7 @@ dtype: int64
 [EPENDYMAL - RF - 3.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[218   0]
- [  0  73]]
+ [  0 218]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[57  0]
  [ 0 21]]
@@ -2135,7 +2135,7 @@ dtype: int64
 [EPENDYMAL - RF - 3.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[221   0]
- [  0  76]]
+ [  0 221]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[54  0]
  [ 0 18]]
@@ -2154,7 +2154,7 @@ dtype: int64
 [EPENDYMAL - RF - 3.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[222   0]
- [  0  77]]
+ [  0 222]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[53  0]
  [ 0 17]]
@@ -2173,7 +2173,7 @@ dtype: int64
 [EPENDYMAL - RF - 3.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[223   0]
- [  0  78]]
+ [  0 223]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[52  0]
  [ 0 16]]
@@ -2192,7 +2192,7 @@ dtype: int64
 [EPENDYMAL - RF - 4.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[217   0]
- [  0  74]]
+ [  0 217]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[59  0]
  [ 0 23]]
@@ -2211,7 +2211,7 @@ dtype: int64
 [EPENDYMAL - RF - 4.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[219   0]
- [  0  75]]
+ [  0 219]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[57  0]
  [ 0 22]]
@@ -2230,7 +2230,7 @@ dtype: int64
 [EPENDYMAL - RF - 4.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[221   0]
- [  0  79]]
+ [  0 221]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[55  0]
  [ 0 18]]
@@ -2249,7 +2249,7 @@ dtype: int64
 [EPENDYMAL - RF - 4.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[223   0]
- [  0  79]]
+ [  0 223]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[53  0]
  [ 0 18]]
@@ -2268,7 +2268,7 @@ dtype: int64
 [EPENDYMAL - RF - 4.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[224   0]
- [  0  81]]
+ [  0 224]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[52  0]
  [ 0 16]]
@@ -2287,7 +2287,7 @@ dtype: int64
 [EPENDYMAL - RF - 5.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[218   0]
- [  0  78]]
+ [  0 218]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[60  0]
  [ 0 23]]
@@ -2306,7 +2306,7 @@ dtype: int64
 [EPENDYMAL - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[221   0]
- [  0  79]]
+ [  0 221]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[57  0]
  [ 0 22]]
@@ -2325,7 +2325,7 @@ dtype: int64
 [EPENDYMAL - RF - 5.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[222   0]
- [  0  80]]
+ [  0 222]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[56  0]
  [ 0 21]]
@@ -2344,7 +2344,7 @@ dtype: int64
 [EPENDYMAL - RF - 5.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[225   0]
- [  0  83]]
+ [  0 225]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[53  0]
  [ 0 18]]
@@ -2363,7 +2363,7 @@ dtype: int64
 [EPENDYMAL - RF - 5.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[226   0]
- [  0  84]]
+ [  0 226]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[52  0]
  [ 0 17]]
@@ -2380,9 +2380,9 @@ dtype: int64
  1 0 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 1.1]:
-train_precision: 0.9852941176470589 | train_recall: 0.9571428571428572 | train_auc: 0.976083866382374 | train_f1: 0.9710144927536232 | train_cfs:
-[[200   1]
- [  3  67]]
+train_precision: 0.9851485148514851 | train_recall: 0.9900497512437811 | train_auc: 0.9875621890547264 | train_f1: 0.9875930521091811 | train_cfs:
+[[198   3]
+ [  2 199]]
 val_precision: 0.8695652173913043 | val_recall: 0.9090909090909091 | val_auc: 0.9277597402597403 | val_f1: 0.888888888888889 | val_cfs:
 [[53  3]
  [ 2 20]]
@@ -2399,15 +2399,15 @@ dtype: int64
  1 0 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 1.2]:
-train_precision: 0.9857142857142858 | train_recall: 0.971830985915493 | train_auc: 0.9834764685675026 | train_f1: 0.9787234042553192 | train_cfs:
-[[204   1]
- [  2  69]]
+train_precision: 0.9855072463768116 | train_recall: 0.9951219512195122 | train_auc: 0.9902439024390243 | train_f1: 0.9902912621359223 | train_cfs:
+[[202   3]
+ [  1 204]]
 val_precision: 1.0 | val_recall: 0.9523809523809523 | val_auc: 0.9761904761904762 | val_f1: 0.975609756097561 | val_cfs:
 [[52  0]
  [ 1 20]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+test_precision: 1.0 | test_recall: 0.9629629629629629 | test_auc: 0.9814814814814814 | test_f1: 0.9811320754716981 | test_cfs:
 [[70  0]
- [ 0 27]]
+ [ 1 26]]
 
 Test set:
 Other glioma    70
@@ -2418,12 +2418,12 @@ dtype: int64
  1 0 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 1.3]:
-train_precision: 0.971830985915493 | train_recall: 0.9324324324324325 | train_auc: 0.9613618472841774 | train_f1: 0.9517241379310345 | train_cfs:
+train_precision: 0.9902912621359223 | train_recall: 0.9902912621359223 | train_auc: 0.9902912621359223 | train_f1: 0.9902912621359223 | train_cfs:
 [[204   2]
- [  5  69]]
-val_precision: 1.0 | val_recall: 0.8333333333333334 | val_auc: 0.9166666666666667 | val_f1: 0.9090909090909091 | val_cfs:
+ [  2 204]]
+val_precision: 1.0 | val_recall: 0.8888888888888888 | val_auc: 0.9444444444444444 | val_f1: 0.9411764705882353 | val_cfs:
 [[51  0]
- [ 3 15]]
+ [ 2 16]]
 test_precision: 1.0 | test_recall: 0.9629629629629629 | test_auc: 0.9814814814814814 | test_f1: 0.9811320754716981 | test_cfs:
 [[70  0]
  [ 1 26]]
@@ -2437,12 +2437,12 @@ dtype: int64
  1 0 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 1.4]:
-train_precision: 0.9733333333333334 | train_recall: 0.9733333333333334 | train_auc: 0.9818357487922704 | train_f1: 0.9733333333333334 | train_cfs:
+train_precision: 0.9903381642512077 | train_recall: 0.9903381642512077 | train_auc: 0.9903381642512077 | train_f1: 0.9903381642512077 | train_cfs:
 [[205   2]
- [  2  73]]
-val_precision: 1.0 | val_recall: 0.8823529411764706 | val_auc: 0.9411764705882353 | val_f1: 0.9375 | val_cfs:
-[[50  0]
- [ 2 15]]
+ [  2 205]]
+val_precision: 0.8888888888888888 | val_recall: 0.9411764705882353 | val_auc: 0.9505882352941176 | val_f1: 0.9142857142857143 | val_cfs:
+[[48  2]
+ [ 1 16]]
 test_precision: 1.0 | test_recall: 0.9629629629629629 | test_auc: 0.9814814814814814 | test_f1: 0.9811320754716981 | test_cfs:
 [[70  0]
  [ 1 26]]
@@ -2456,11 +2456,11 @@ dtype: int64
  1 0 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 1 1 1 0 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 1.5]:
-train_precision: 0.96 | train_recall: 0.9230769230769231 | train_auc: 0.9543614280456386 | train_f1: 0.9411764705882353 | train_cfs:
-[[206   3]
- [  6  72]]
-val_precision: 0.9333333333333333 | val_recall: 1.0 | val_auc: 0.9895833333333333 | val_f1: 0.9655172413793104 | val_cfs:
-[[47  1]
+train_precision: 0.9904761904761905 | train_recall: 0.9952153110047847 | train_auc: 0.9928229665071769 | train_f1: 0.9928400954653939 | train_cfs:
+[[207   2]
+ [  1 208]]
+val_precision: 0.875 | val_recall: 1.0 | val_auc: 0.9791666666666667 | val_f1: 0.9333333333333333 | val_cfs:
+[[46  2]
  [ 0 14]]
 test_precision: 1.0 | test_recall: 0.9629629629629629 | test_auc: 0.9814814814814814 | test_f1: 0.9811320754716981 | test_cfs:
 [[70  0]
@@ -2475,15 +2475,15 @@ dtype: int64
  0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 2.1]:
-train_precision: 0.9848484848484849 | train_recall: 0.9285714285714286 | train_auc: 0.9618347338935574 | train_f1: 0.9558823529411765 | train_cfs:
-[[203   1]
- [  5  65]]
-val_precision: 1.0 | val_recall: 0.9090909090909091 | val_auc: 0.9545454545454546 | val_f1: 0.9523809523809523 | val_cfs:
-[[56  0]
+train_precision: 0.9854368932038835 | train_recall: 0.9950980392156863 | train_auc: 0.9901960784313726 | train_f1: 0.9902439024390244 | train_cfs:
+[[201   3]
+ [  1 203]]
+val_precision: 0.9523809523809523 | val_recall: 0.9090909090909091 | val_auc: 0.9456168831168831 | val_f1: 0.9302325581395349 | val_cfs:
+[[55  1]
  [ 2 20]]
-test_precision: 0.96 | test_recall: 0.8888888888888888 | test_auc: 0.9369817578772802 | test_f1: 0.923076923076923 | test_cfs:
-[[66  1]
- [ 3 24]]
+test_precision: 1.0 | test_recall: 0.9259259259259259 | test_auc: 0.962962962962963 | test_f1: 0.9615384615384615 | test_cfs:
+[[67  0]
+ [ 2 25]]
 
 Test set:
 Other glioma    67
@@ -2494,14 +2494,14 @@ dtype: int64
  0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 2.2]:
-train_precision: 0.9850746268656716 | train_recall: 0.9295774647887324 | train_auc: 0.9623497080041223 | train_f1: 0.9565217391304348 | train_cfs:
-[[204   1]
- [  5  66]]
+train_precision: 0.9854368932038835 | train_recall: 0.9902439024390244 | train_auc: 0.9878048780487805 | train_f1: 0.9878345498783455 | train_cfs:
+[[202   3]
+ [  2 203]]
 val_precision: 0.9523809523809523 | val_recall: 0.9523809523809523 | val_auc: 0.9670995670995671 | val_f1: 0.9523809523809523 | val_cfs:
 [[54  1]
  [ 1 20]]
-test_precision: 0.8928571428571429 | test_recall: 0.9259259259259259 | test_auc: 0.9405749032614704 | test_f1: 0.9090909090909091 | test_cfs:
-[[64  3]
+test_precision: 0.9259259259259259 | test_recall: 0.9259259259259259 | test_auc: 0.9480375898286347 | test_f1: 0.9259259259259259 | test_cfs:
+[[65  2]
  [ 2 25]]
 
 Test set:
@@ -2513,15 +2513,15 @@ dtype: int64
  0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 2.3]:
-train_precision: 0.9710144927536232 | train_recall: 0.9054054054054054 | train_auc: 0.9479180137074873 | train_f1: 0.937062937062937 | train_cfs:
+train_precision: 0.9904306220095693 | train_recall: 0.9904306220095693 | train_auc: 0.9904306220095692 | train_f1: 0.9904306220095693 | train_cfs:
 [[207   2]
- [  7  67]]
-val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
-[[51  0]
- [ 1 17]]
-test_precision: 1.0 | test_recall: 0.8888888888888888 | test_auc: 0.9444444444444444 | test_f1: 0.9411764705882353 | test_cfs:
+ [  2 207]]
+val_precision: 0.9 | val_recall: 1.0 | val_auc: 0.9803921568627452 | val_f1: 0.9473684210526316 | val_cfs:
+[[49  2]
+ [ 0 18]]
+test_precision: 1.0 | test_recall: 0.9259259259259259 | test_auc: 0.962962962962963 | test_f1: 0.9615384615384615 | test_cfs:
 [[67  0]
- [ 3 24]]
+ [ 2 25]]
 
 Test set:
 Other glioma    67
@@ -2532,9 +2532,9 @@ dtype: int64
  0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 2.4]:
-train_precision: 0.972972972972973 | train_recall: 0.96 | train_auc: 0.9752380952380952 | train_f1: 0.9664429530201343 | train_cfs:
+train_precision: 0.990521327014218 | train_recall: 0.9952380952380953 | train_auc: 0.9928571428571429 | train_f1: 0.9928741092636579 | train_cfs:
 [[208   2]
- [  3  72]]
+ [  1 209]]
 val_precision: 0.9411764705882353 | val_recall: 0.9411764705882353 | val_auc: 0.9605882352941176 | val_f1: 0.9411764705882353 | val_cfs:
 [[49  1]
  [ 1 16]]
@@ -2551,15 +2551,15 @@ dtype: int64
  0 0 1 1 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 2.5]:
-train_precision: 1.0 | train_recall: 0.9743589743589743 | train_auc: 0.9871794871794872 | train_f1: 0.9870129870129869 | train_cfs:
-[[212   0]
- [  2  76]]
+train_precision: 0.986046511627907 | train_recall: 1.0 | train_auc: 0.9929245283018867 | train_f1: 0.9929742388758782 | train_cfs:
+[[209   3]
+ [  0 212]]
 val_precision: 1.0 | val_recall: 0.7857142857142857 | val_auc: 0.8928571428571428 | val_f1: 0.88 | val_cfs:
 [[48  0]
  [ 3 11]]
-test_precision: 0.9615384615384616 | test_recall: 0.9259259259259259 | test_auc: 0.9555002763957988 | test_f1: 0.9433962264150944 | test_cfs:
+test_precision: 0.9629629629629629 | test_recall: 0.9629629629629629 | test_auc: 0.9740187949143172 | test_f1: 0.9629629629629629 | test_cfs:
 [[66  1]
- [ 2 25]]
+ [ 1 26]]
 
 Test set:
 Other glioma    65
@@ -2570,14 +2570,14 @@ dtype: int64
  0 1 0 1 1 1 1 0 0 1 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 3.1]:
-train_precision: 0.971830985915493 | train_recall: 0.9583333333333334 | train_auc: 0.9743122977346279 | train_f1: 0.965034965034965 | train_cfs:
-[[204   2]
- [  3  69]]
+train_precision: 0.9951690821256038 | train_recall: 1.0 | train_auc: 0.9975728155339806 | train_f1: 0.9975786924939467 | train_cfs:
+[[205   1]
+ [  0 206]]
 val_precision: 1.0 | val_recall: 0.8636363636363636 | val_auc: 0.9318181818181819 | val_f1: 0.9268292682926829 | val_cfs:
 [[56  0]
  [ 3 19]]
-test_precision: 1.0 | test_recall: 0.92 | test_auc: 0.96 | test_f1: 0.9583333333333334 | test_cfs:
-[[65  0]
+test_precision: 0.9583333333333334 | test_recall: 0.92 | test_auc: 0.9523076923076923 | test_f1: 0.9387755102040817 | test_cfs:
+[[64  1]
  [ 2 23]]
 
 Test set:
@@ -2589,12 +2589,12 @@ dtype: int64
  0 1 0 1 1 1 1 0 0 1 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 3.2]:
-train_precision: 0.9722222222222222 | train_recall: 0.958904109589041 | train_auc: 0.9746211369201243 | train_f1: 0.9655172413793104 | train_cfs:
-[[205   2]
- [  3  70]]
-val_precision: 1.0 | val_recall: 0.8571428571428571 | val_auc: 0.9285714285714286 | val_f1: 0.923076923076923 | val_cfs:
+train_precision: 0.9951690821256038 | train_recall: 0.9951690821256038 | train_auc: 0.9951690821256038 | train_f1: 0.9951690821256038 | train_cfs:
+[[206   1]
+ [  1 206]]
+val_precision: 1.0 | val_recall: 0.9047619047619048 | val_auc: 0.9523809523809523 | val_f1: 0.9500000000000001 | val_cfs:
 [[55  0]
- [ 3 18]]
+ [ 2 19]]
 test_precision: 0.9583333333333334 | test_recall: 0.92 | test_auc: 0.9523076923076923 | test_f1: 0.9387755102040817 | test_cfs:
 [[64  1]
  [ 2 23]]
@@ -2608,12 +2608,12 @@ dtype: int64
  0 1 0 1 1 1 1 0 0 1 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 3.3]:
-train_precision: 0.9868421052631579 | train_recall: 0.9868421052631579 | train_auc: 0.9910401002506266 | train_f1: 0.9868421052631579 | train_cfs:
+train_precision: 0.995260663507109 | train_recall: 1.0 | train_auc: 0.9976190476190476 | train_f1: 0.997624703087886 | train_cfs:
 [[209   1]
- [  1  75]]
-val_precision: 0.9411764705882353 | val_recall: 0.8888888888888888 | val_auc: 0.9348290598290597 | val_f1: 0.9142857142857143 | val_cfs:
+ [  0 210]]
+val_precision: 0.9444444444444444 | val_recall: 0.9444444444444444 | val_auc: 0.9626068376068375 | val_f1: 0.9444444444444444 | val_cfs:
 [[51  1]
- [ 2 16]]
+ [ 1 17]]
 test_precision: 0.9583333333333334 | test_recall: 0.92 | test_auc: 0.9523076923076923 | test_f1: 0.9387755102040817 | test_cfs:
 [[64  1]
  [ 2 23]]
@@ -2627,9 +2627,9 @@ dtype: int64
  0 1 0 1 1 1 1 0 0 1 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 3.4]:
-train_precision: 0.9726027397260274 | train_recall: 0.922077922077922 | train_auc: 0.9563219799068855 | train_f1: 0.9466666666666667 | train_cfs:
-[[210   2]
- [  6  71]]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[212   0]
+ [  0 212]]
 val_precision: 0.9444444444444444 | val_recall: 1.0 | val_auc: 0.99 | val_f1: 0.9714285714285714 | val_cfs:
 [[49  1]
  [ 0 17]]
@@ -2646,12 +2646,12 @@ dtype: int64
  0 1 0 1 1 1 1 0 0 1 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 3.5]:
-train_precision: 0.9733333333333334 | train_recall: 0.9358974358974359 | train_auc: 0.9632538822679667 | train_f1: 0.954248366013072 | train_cfs:
+train_precision: 0.9906103286384976 | train_recall: 0.9906103286384976 | train_auc: 0.9906103286384975 | train_f1: 0.9906103286384976 | train_cfs:
 [[211   2]
- [  5  73]]
-val_precision: 1.0 | val_recall: 0.875 | val_auc: 0.9375 | val_f1: 0.9333333333333333 | val_cfs:
+ [  2 211]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[49  0]
- [ 2 14]]
+ [ 0 16]]
 test_precision: 0.9583333333333334 | test_recall: 0.92 | test_auc: 0.9523076923076923 | test_f1: 0.9387755102040817 | test_cfs:
 [[64  1]
  [ 2 23]]
@@ -2665,9 +2665,9 @@ dtype: int64
  1 1 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 4.1]:
-train_precision: 1.0 | train_recall: 0.972972972972973 | train_auc: 0.9864864864864865 | train_f1: 0.9863013698630138 | train_cfs:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[206   0]
- [  2  72]]
+ [  0 206]]
 val_precision: 0.9583333333333334 | val_recall: 1.0 | val_auc: 0.9912280701754386 | val_f1: 0.9787234042553191 | val_cfs:
 [[56  1]
  [ 0 23]]
@@ -2684,15 +2684,15 @@ dtype: int64
  1 1 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 4.2]:
-train_precision: 0.9863013698630136 | train_recall: 0.96 | train_auc: 0.9775961538461538 | train_f1: 0.9729729729729729 | train_cfs:
-[[207   1]
- [  3  72]]
-val_precision: 1.0 | val_recall: 0.9090909090909091 | val_auc: 0.9545454545454546 | val_f1: 0.9523809523809523 | val_cfs:
-[[55  0]
- [ 2 20]]
-test_precision: 0.8695652173913043 | test_recall: 0.9090909090909091 | test_auc: 0.9311079545454546 | test_f1: 0.888888888888889 | test_cfs:
-[[61  3]
- [ 2 20]]
+train_precision: 1.0 | train_recall: 0.9951923076923077 | train_auc: 0.9975961538461539 | train_f1: 0.9975903614457832 | train_cfs:
+[[208   0]
+ [  1 207]]
+val_precision: 0.9545454545454546 | val_recall: 0.9545454545454546 | val_auc: 0.9681818181818181 | val_f1: 0.9545454545454546 | val_cfs:
+[[54  1]
+ [ 1 21]]
+test_precision: 0.84 | test_recall: 0.9545454545454546 | test_auc: 0.9460227272727273 | test_f1: 0.8936170212765958 | test_cfs:
+[[60  4]
+ [ 1 21]]
 
 Test set:
 Other glioma    64
@@ -2703,15 +2703,15 @@ dtype: int64
  1 1 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 4.3]:
-train_precision: 1.0 | train_recall: 0.9367088607594937 | train_auc: 0.9683544303797469 | train_f1: 0.9673202614379084 | train_cfs:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[211   0]
- [  5  74]]
-val_precision: 1.0 | val_recall: 0.8888888888888888 | val_auc: 0.9444444444444444 | val_f1: 0.9411764705882353 | val_cfs:
+ [  0 211]]
+val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
 [[52  0]
- [ 2 16]]
-test_precision: 0.8333333333333334 | test_recall: 0.9090909090909091 | test_auc: 0.9232954545454546 | test_f1: 0.8695652173913043 | test_cfs:
-[[60  4]
- [ 2 20]]
+ [ 1 17]]
+test_precision: 0.8148148148148148 | test_recall: 1.0 | test_auc: 0.9609375 | test_f1: 0.8979591836734693 | test_cfs:
+[[59  5]
+ [ 0 22]]
 
 Test set:
 Other glioma    64
@@ -2722,15 +2722,15 @@ dtype: int64
  1 1 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 4.4]:
-train_precision: 1.0 | train_recall: 0.9620253164556962 | train_auc: 0.9810126582278481 | train_f1: 0.9806451612903226 | train_cfs:
-[[213   0]
- [  3  76]]
+train_precision: 0.9953271028037384 | train_recall: 1.0 | train_auc: 0.9976525821596245 | train_f1: 0.9976580796252927 | train_cfs:
+[[212   1]
+ [  0 213]]
 val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
 [[50  0]
  [ 1 17]]
-test_precision: 0.8333333333333334 | test_recall: 0.9090909090909091 | test_auc: 0.9232954545454546 | test_f1: 0.8695652173913043 | test_cfs:
+test_precision: 0.84 | test_recall: 0.9545454545454546 | test_auc: 0.9460227272727273 | test_f1: 0.8936170212765958 | test_cfs:
 [[60  4]
- [ 2 20]]
+ [ 1 21]]
 
 Test set:
 Other glioma    64
@@ -2741,15 +2741,15 @@ dtype: int64
  1 1 0 0 0 0 0 0 1 1 0 0]
 -------------------------------
 [OTHER GLIOMA - RF - 4.5]:
-train_precision: 1.0 | train_recall: 0.9753086419753086 | train_auc: 0.9876543209876543 | train_f1: 0.9875 | train_cfs:
-[[214   0]
- [  2  79]]
+train_precision: 0.9953488372093023 | train_recall: 1.0 | train_auc: 0.9976635514018692 | train_f1: 0.9976689976689977 | train_cfs:
+[[213   1]
+ [  0 214]]
 val_precision: 1.0 | val_recall: 0.9375 | val_auc: 0.96875 | val_f1: 0.967741935483871 | val_cfs:
 [[49  0]
  [ 1 15]]
-test_precision: 0.8636363636363636 | test_recall: 0.8636363636363636 | test_auc: 0.9083806818181819 | test_f1: 0.8636363636363636 | test_cfs:
-[[61  3]
- [ 3 19]]
+test_precision: 0.84 | test_recall: 0.9545454545454546 | test_auc: 0.9460227272727273 | test_f1: 0.8936170212765958 | test_cfs:
+[[60  4]
+ [ 1 21]]
 
 Test set:
 Other glioma    61
@@ -2760,9 +2760,9 @@ dtype: int64
  1 0 0 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 5.1]:
-train_precision: 0.9863013698630136 | train_recall: 0.9230769230769231 | train_auc: 0.9591346153846154 | train_f1: 0.9536423841059603 | train_cfs:
-[[207   1]
- [  6  72]]
+train_precision: 0.9855769230769231 | train_recall: 0.9855769230769231 | train_auc: 0.9855769230769232 | train_f1: 0.9855769230769231 | train_cfs:
+[[205   3]
+ [  3 205]]
 val_precision: 1.0 | val_recall: 0.9565217391304348 | val_auc: 0.9782608695652174 | val_f1: 0.9777777777777777 | val_cfs:
 [[58  0]
  [ 1 22]]
@@ -2779,12 +2779,12 @@ dtype: int64
  1 0 0 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 5.2]:
-train_precision: 0.987012987012987 | train_recall: 0.9620253164556962 | train_auc: 0.9786317058468957 | train_f1: 0.9743589743589742 | train_cfs:
+train_precision: 0.9952380952380953 | train_recall: 0.9952380952380953 | train_auc: 0.9952380952380953 | train_f1: 0.9952380952380953 | train_cfs:
 [[209   1]
- [  3  76]]
-val_precision: 1.0 | val_recall: 0.8181818181818182 | val_auc: 0.9090909090909092 | val_f1: 0.9 | val_cfs:
-[[56  0]
- [ 4 18]]
+ [  1 209]]
+val_precision: 0.9523809523809523 | val_recall: 0.9090909090909091 | val_auc: 0.9456168831168831 | val_f1: 0.9302325581395349 | val_cfs:
+[[55  1]
+ [ 2 20]]
 test_precision: 1.0 | test_recall: 0.8888888888888888 | test_auc: 0.9444444444444444 | test_f1: 0.9411764705882353 | test_cfs:
 [[61  0]
  [ 2 16]]
@@ -2798,11 +2798,11 @@ dtype: int64
  1 0 0 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 5.3]:
-train_precision: 0.9605263157894737 | train_recall: 0.9125 | train_auc: 0.9492406542056075 | train_f1: 0.935897435897436 | train_cfs:
+train_precision: 0.985981308411215 | train_recall: 0.985981308411215 | train_auc: 0.985981308411215 | train_f1: 0.985981308411215 | train_cfs:
 [[211   3]
- [  7  73]]
-val_precision: 0.9545454545454546 | val_recall: 1.0 | val_auc: 0.9903846153846153 | val_f1: 0.9767441860465117 | val_cfs:
-[[51  1]
+ [  3 211]]
+val_precision: 0.9130434782608695 | val_recall: 1.0 | val_auc: 0.9807692307692308 | val_f1: 0.9545454545454545 | val_cfs:
+[[50  2]
  [ 0 21]]
 test_precision: 1.0 | test_recall: 0.8888888888888888 | test_auc: 0.9444444444444444 | test_f1: 0.9411764705882353 | test_cfs:
 [[61  0]
@@ -2817,11 +2817,11 @@ dtype: int64
  1 0 0 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 5.4]:
-train_precision: 0.9759036144578314 | train_recall: 0.9759036144578314 | train_auc: 0.983322177599286 | train_f1: 0.9759036144578314 | train_cfs:
+train_precision: 0.9907834101382489 | train_recall: 0.9953703703703703 | train_auc: 0.9930555555555555 | train_f1: 0.9930715935334872 | train_cfs:
 [[214   2]
- [  2  81]]
-val_precision: 1.0 | val_recall: 0.8888888888888888 | val_auc: 0.9444444444444444 | val_f1: 0.9411764705882353 | val_cfs:
-[[50  0]
+ [  1 215]]
+val_precision: 0.9411764705882353 | val_recall: 0.8888888888888888 | val_auc: 0.9344444444444443 | val_f1: 0.9142857142857143 | val_cfs:
+[[49  1]
  [ 2 16]]
 test_precision: 1.0 | test_recall: 0.8888888888888888 | test_auc: 0.9444444444444444 | test_f1: 0.9411764705882353 | test_cfs:
 [[61  0]
@@ -2836,15 +2836,15 @@ dtype: int64
  1 0 0 1 0]
 -------------------------------
 [OTHER GLIOMA - RF - 5.5]:
-train_precision: 0.9634146341463414 | train_recall: 0.9404761904761905 | train_auc: 0.9632936507936508 | train_f1: 0.9518072289156626 | train_cfs:
-[[213   3]
- [  5  79]]
+train_precision: 0.9906976744186047 | train_recall: 0.9861111111111112 | train_auc: 0.9884259259259259 | train_f1: 0.9883990719257542 | train_cfs:
+[[214   2]
+ [  3 213]]
 val_precision: 0.9411764705882353 | val_recall: 0.9411764705882353 | val_auc: 0.9605882352941176 | val_f1: 0.9411764705882353 | val_cfs:
 [[49  1]
  [ 1 16]]
-test_precision: 1.0 | test_recall: 0.8888888888888888 | test_auc: 0.9444444444444444 | test_f1: 0.9411764705882353 | test_cfs:
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[61  0]
- [ 2 16]]
+ [ 0 18]]
 
 Test set:
 Control    27
@@ -2853,11 +2853,11 @@ dtype: int64
 [1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 1.1]:
-train_precision: 0.958904109589041 | train_recall: 1.0 | train_auc: 0.9166666666666667 | train_f1: 0.9790209790209791 | train_cfs:
-[[15  3]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
  [ 0 70]]
-val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.9166666666666667 | val_f1: 0.9777777777777777 | val_cfs:
-[[ 5  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
  [ 0 22]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[ 7  0]
@@ -2870,8 +2870,8 @@ dtype: int64
 [1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 1.2]:
-train_precision: 0.9726027397260274 | train_recall: 1.0 | train_auc: 0.9473684210526316 | train_f1: 0.9861111111111112 | train_cfs:
-[[17  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
  [ 0 71]]
 val_precision: 0.9545454545454546 | val_recall: 1.0 | val_auc: 0.9 | val_f1: 0.9767441860465117 | val_cfs:
 [[ 4  1]
@@ -2887,8 +2887,8 @@ dtype: int64
 [1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 1.3]:
-train_precision: 0.961038961038961 | train_recall: 1.0 | train_auc: 0.9210526315789473 | train_f1: 0.9801324503311257 | train_cfs:
-[[16  3]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -2904,11 +2904,11 @@ dtype: int64
 [1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 1.4]:
-train_precision: 0.974025974025974 | train_recall: 1.0 | train_auc: 0.9500000000000001 | train_f1: 0.9868421052631579 | train_cfs:
-[[18  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
  [ 0 75]]
-val_precision: 0.9444444444444444 | val_recall: 1.0 | val_auc: 0.875 | val_f1: 0.9714285714285714 | val_cfs:
-[[ 3  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
  [ 0 17]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[ 7  0]
@@ -2921,11 +2921,11 @@ dtype: int64
 [1 1 1 1 1 1 1 1 1 0 0 0 0 0 1 1 1 0 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 1.5]:
-train_precision: 0.975 | train_recall: 1.0 | train_auc: 0.9500000000000001 | train_f1: 0.9873417721518987 | train_cfs:
-[[18  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
  [ 0 78]]
-val_precision: 0.9333333333333333 | val_recall: 1.0 | val_auc: 0.875 | val_f1: 0.9655172413793104 | val_cfs:
-[[ 3  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
  [ 0 14]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[ 7  0]
@@ -2938,11 +2938,11 @@ dtype: int64
 [1 1 1 1 1 1 1 1 0 0 0 0 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 2.1]:
-train_precision: 0.958904109589041 | train_recall: 1.0 | train_auc: 0.9166666666666667 | train_f1: 0.9790209790209791 | train_cfs:
-[[15  3]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
  [ 0 70]]
-val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.9166666666666667 | val_f1: 0.9777777777777777 | val_cfs:
-[[ 5  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
  [ 0 22]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[ 7  0]
@@ -2955,8 +2955,8 @@ dtype: int64
 [1 1 1 1 1 1 1 1 0 0 0 0 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 2.2]:
-train_precision: 0.9726027397260274 | train_recall: 1.0 | train_auc: 0.9473684210526316 | train_f1: 0.9861111111111112 | train_cfs:
-[[17  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
  [ 0 71]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -2972,11 +2972,11 @@ dtype: int64
 [1 1 1 1 1 1 1 1 0 0 0 0 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 2.3]:
-train_precision: 0.9866666666666667 | train_recall: 1.0 | train_auc: 0.9736842105263158 | train_f1: 0.9932885906040269 | train_cfs:
-[[18  1]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
  [ 0 74]]
-val_precision: 0.9 | val_recall: 1.0 | val_auc: 0.8 | val_f1: 0.9473684210526316 | val_cfs:
-[[ 3  2]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
  [ 0 18]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[ 7  0]
@@ -2989,11 +2989,11 @@ dtype: int64
 [1 1 1 1 1 1 1 1 0 0 0 0 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 2.4]:
-train_precision: 0.974025974025974 | train_recall: 1.0 | train_auc: 0.9500000000000001 | train_f1: 0.9868421052631579 | train_cfs:
-[[18  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
  [ 0 75]]
-val_precision: 0.9444444444444444 | val_recall: 1.0 | val_auc: 0.875 | val_f1: 0.9714285714285714 | val_cfs:
-[[ 3  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
  [ 0 17]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[ 7  0]
@@ -3006,8 +3006,8 @@ dtype: int64
 [1 1 1 1 1 1 1 1 0 0 0 0 0 1 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 2.5]:
-train_precision: 0.9629629629629629 | train_recall: 1.0 | train_auc: 0.9249999999999999 | train_f1: 0.9811320754716981 | train_cfs:
-[[17  3]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -3023,14 +3023,14 @@ dtype: int64
 [1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 3.1]:
-train_precision: 0.96 | train_recall: 1.0 | train_auc: 0.9166666666666667 | train_f1: 0.9795918367346939 | train_cfs:
-[[15  3]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[72  0]
  [ 0 72]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 6  0]
  [ 0 22]]
-test_precision: 0.9259259259259259 | test_recall: 1.0 | test_auc: 0.8571428571428572 | test_f1: 0.9615384615384615 | test_cfs:
-[[ 5  2]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 7  0]
  [ 0 25]]
 
 Test set:
@@ -3040,14 +3040,14 @@ dtype: int64
 [1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 3.2]:
-train_precision: 0.9733333333333334 | train_recall: 1.0 | train_auc: 0.9473684210526316 | train_f1: 0.9864864864864865 | train_cfs:
-[[17  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[73  0]
  [ 0 73]]
-val_precision: 0.9545454545454546 | val_recall: 1.0 | val_auc: 0.9 | val_f1: 0.9767441860465117 | val_cfs:
-[[ 4  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
  [ 0 21]]
-test_precision: 0.9259259259259259 | test_recall: 1.0 | test_auc: 0.8571428571428572 | test_f1: 0.9615384615384615 | test_cfs:
-[[ 5  2]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 7  0]
  [ 0 25]]
 
 Test set:
@@ -3058,13 +3058,13 @@ dtype: int64
 -------------------------------
 [NERVE - RF - 3.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[19  0]
+[[76  0]
  [ 0 76]]
-val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9 | val_f1: 0.972972972972973 | val_cfs:
-[[ 4  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
  [ 0 18]]
-test_precision: 0.9259259259259259 | test_recall: 1.0 | test_auc: 0.8571428571428572 | test_f1: 0.9615384615384615 | test_cfs:
-[[ 5  2]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 7  0]
  [ 0 25]]
 
 Test set:
@@ -3074,14 +3074,14 @@ dtype: int64
 [1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 3.4]:
-train_precision: 0.9871794871794872 | train_recall: 1.0 | train_auc: 0.975 | train_f1: 0.9935483870967742 | train_cfs:
-[[19  1]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[77  0]
  [ 0 77]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
  [ 0 17]]
-test_precision: 0.9259259259259259 | test_recall: 1.0 | test_auc: 0.8571428571428572 | test_f1: 0.9615384615384615 | test_cfs:
-[[ 5  2]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 7  0]
  [ 0 25]]
 
 Test set:
@@ -3091,14 +3091,14 @@ dtype: int64
 [1 1 1 1 1 1 1 1 1 1 0 0 0 1 0 1 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 3.5]:
-train_precision: 0.975 | train_recall: 1.0 | train_auc: 0.9500000000000001 | train_f1: 0.9873417721518987 | train_cfs:
-[[18  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
  [ 0 78]]
-val_precision: 0.9411764705882353 | val_recall: 1.0 | val_auc: 0.875 | val_f1: 0.9696969696969697 | val_cfs:
-[[ 3  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
  [ 0 16]]
-test_precision: 0.9259259259259259 | test_recall: 1.0 | test_auc: 0.8571428571428572 | test_f1: 0.9615384615384615 | test_cfs:
-[[ 5  2]
+test_precision: 0.9615384615384616 | test_recall: 1.0 | test_auc: 0.9285714285714286 | test_f1: 0.9803921568627451 | test_cfs:
+[[ 6  1]
  [ 0 25]]
 
 Test set:
@@ -3108,14 +3108,14 @@ dtype: int64
 [1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 4.1]:
-train_precision: 0.9736842105263158 | train_recall: 1.0 | train_auc: 0.9500000000000001 | train_f1: 0.9866666666666666 | train_cfs:
-[[18  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
  [ 0 74]]
-val_precision: 0.9583333333333334 | val_recall: 1.0 | val_auc: 0.9166666666666667 | val_f1: 0.9787234042553191 | val_cfs:
-[[ 5  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
  [ 0 23]]
-test_precision: 0.9565217391304348 | test_recall: 1.0 | test_auc: 0.9 | test_f1: 0.9777777777777777 | test_cfs:
-[[ 4  1]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 5  0]
  [ 0 22]]
 
 Test set:
@@ -3125,11 +3125,11 @@ dtype: int64
 [1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 4.2]:
-train_precision: 0.9868421052631579 | train_recall: 1.0 | train_auc: 0.975 | train_f1: 0.9933774834437086 | train_cfs:
-[[19  1]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
  [ 0 75]]
-val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.9166666666666667 | val_f1: 0.9777777777777777 | val_cfs:
-[[ 5  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
  [ 0 22]]
 test_precision: 0.9565217391304348 | test_recall: 1.0 | test_auc: 0.9 | test_f1: 0.9777777777777777 | test_cfs:
 [[ 4  1]
@@ -3142,25 +3142,8 @@ dtype: int64
 [1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 4.3]:
-train_precision: 0.9875 | train_recall: 1.0 | train_auc: 0.9761904761904762 | train_f1: 0.9937106918238994 | train_cfs:
-[[20  1]
- [ 0 79]]
-val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9 | val_f1: 0.972972972972973 | val_cfs:
-[[ 4  1]
- [ 0 18]]
-test_precision: 0.9565217391304348 | test_recall: 1.0 | test_auc: 0.9 | test_f1: 0.9777777777777777 | test_cfs:
-[[ 4  1]
- [ 0 22]]
-
-Test set:
-Control    22
-Nerve       5
-dtype: int64
-[1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
--------------------------------
-[NERVE - RF - 4.4]:
-train_precision: 0.9875 | train_recall: 1.0 | train_auc: 0.9761904761904762 | train_f1: 0.9937106918238994 | train_cfs:
-[[20  1]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -3175,9 +3158,26 @@ Nerve       5
 dtype: int64
 [1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
+[NERVE - RF - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 18]]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 5  0]
+ [ 0 22]]
+
+Test set:
+Control    22
+Nerve       5
+dtype: int64
+[1 1 1 0 0 1 1 1 0 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+-------------------------------
 [NERVE - RF - 4.5]:
-train_precision: 0.9759036144578314 | train_recall: 1.0 | train_auc: 0.9545454545454545 | train_f1: 0.9878048780487805 | train_cfs:
-[[20  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[81  0]
  [ 0 81]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -3193,14 +3193,14 @@ dtype: int64
 [1 1 1 0 1 0 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 5.1]:
-train_precision: 0.975 | train_recall: 1.0 | train_auc: 0.9500000000000001 | train_f1: 0.9873417721518987 | train_cfs:
-[[18  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 6  0]
  [ 0 23]]
-test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9 | test_f1: 0.972972972972973 | test_cfs:
-[[ 4  1]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 5  0]
  [ 0 18]]
 
 Test set:
@@ -3211,10 +3211,10 @@ dtype: int64
 -------------------------------
 [NERVE - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[20  0]
+[[79  0]
  [ 0 79]]
-val_precision: 0.9166666666666666 | val_recall: 1.0 | val_auc: 0.8333333333333334 | val_f1: 0.9565217391304348 | val_cfs:
-[[ 4  2]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
  [ 0 22]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[ 5  0]
@@ -3227,14 +3227,14 @@ dtype: int64
 [1 1 1 0 1 0 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 5.3]:
-train_precision: 0.963855421686747 | train_recall: 1.0 | train_auc: 0.9285714285714286 | train_f1: 0.9815950920245399 | train_cfs:
-[[18  3]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[80  0]
  [ 0 80]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
  [ 0 21]]
-test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9 | test_f1: 0.972972972972973 | test_cfs:
-[[ 4  1]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 5  0]
  [ 0 18]]
 
 Test set:
@@ -3244,11 +3244,11 @@ dtype: int64
 [1 1 1 0 1 0 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 5.4]:
-train_precision: 0.9764705882352941 | train_recall: 1.0 | train_auc: 0.9523809523809523 | train_f1: 0.988095238095238 | train_cfs:
-[[19  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[83  0]
  [ 0 83]]
-val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9 | val_f1: 0.972972972972973 | val_cfs:
-[[ 4  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
  [ 0 18]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[ 5  0]
@@ -3261,14 +3261,14 @@ dtype: int64
 [1 1 1 0 1 0 0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1]
 -------------------------------
 [NERVE - RF - 5.5]:
-train_precision: 0.9767441860465116 | train_recall: 1.0 | train_auc: 0.9545454545454545 | train_f1: 0.988235294117647 | train_cfs:
-[[20  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[84  0]
  [ 0 84]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
  [ 0 17]]
-test_precision: 0.9473684210526315 | test_recall: 1.0 | test_auc: 0.9 | test_f1: 0.972972972972973 | test_cfs:
-[[ 4  1]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 5  0]
  [ 0 18]]
 
 Test set:
@@ -3279,14 +3279,14 @@ dtype: int64
  0 0 0 0 0 1 1 1]
 -------------------------------
 [PINEAL - RF - 1.1]:
-train_precision: 0.9722222222222222 | train_recall: 1.0 | train_auc: 0.9787234042553192 | train_f1: 0.9859154929577464 | train_cfs:
-[[45  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
  [ 0 70]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
  [ 0 22]]
-test_precision: 0.9642857142857143 | test_recall: 1.0 | test_auc: 0.9722222222222222 | test_f1: 0.9818181818181818 | test_cfs:
-[[17  1]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[18  0]
  [ 0 27]]
 
 Test set:
@@ -3297,11 +3297,11 @@ dtype: int64
  0 0 0 0 0 1 1 1]
 -------------------------------
 [PINEAL - RF - 1.2]:
-train_precision: 0.9861111111111112 | train_recall: 1.0 | train_auc: 0.9895833333333333 | train_f1: 0.993006993006993 | train_cfs:
-[[47  1]
+train_precision: 0.9861111111111112 | train_recall: 1.0 | train_auc: 0.9929577464788732 | train_f1: 0.993006993006993 | train_cfs:
+[[70  1]
  [ 0 71]]
-val_precision: 0.9545454545454546 | val_recall: 1.0 | val_auc: 0.9642857142857143 | val_f1: 0.9767441860465117 | val_cfs:
-[[13  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[14  0]
  [ 0 21]]
 test_precision: 0.9642857142857143 | test_recall: 1.0 | test_auc: 0.9722222222222222 | test_f1: 0.9818181818181818 | test_cfs:
 [[17  1]
@@ -3316,7 +3316,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[51  0]
+[[74  0]
  [ 0 74]]
 val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9545454545454545 | val_f1: 0.972972972972973 | val_cfs:
 [[10  1]
@@ -3333,14 +3333,14 @@ dtype: int64
  0 0 0 0 0 1 1 1]
 -------------------------------
 [PINEAL - RF - 1.4]:
-train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[51  0]
+train_precision: 0.9868421052631579 | train_recall: 1.0 | train_auc: 0.9933333333333334 | train_f1: 0.9933774834437086 | train_cfs:
+[[74  1]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[11  0]
  [ 0 17]]
-test_precision: 0.9642857142857143 | test_recall: 1.0 | test_auc: 0.9722222222222222 | test_f1: 0.9818181818181818 | test_cfs:
-[[17  1]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[18  0]
  [ 0 27]]
 
 Test set:
@@ -3351,14 +3351,14 @@ dtype: int64
  0 0 0 0 0 1 1 1]
 -------------------------------
 [PINEAL - RF - 1.5]:
-train_precision: 0.9873417721518988 | train_recall: 1.0 | train_auc: 0.9901960784313725 | train_f1: 0.9936305732484078 | train_cfs:
-[[50  1]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[11  0]
  [ 0 14]]
-test_precision: 0.9642857142857143 | test_recall: 1.0 | test_auc: 0.9722222222222222 | test_f1: 0.9818181818181818 | test_cfs:
-[[17  1]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[18  0]
  [ 0 27]]
 
 Test set:
@@ -3369,8 +3369,8 @@ dtype: int64
  0 0 0 0 1 1 1 0]
 -------------------------------
 [PINEAL - RF - 2.1]:
-train_precision: 0.9859154929577465 | train_recall: 1.0 | train_auc: 0.9893617021276595 | train_f1: 0.9929078014184397 | train_cfs:
-[[46  1]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
  [ 0 70]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -3388,7 +3388,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 2.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[48  0]
+[[71  0]
  [ 0 71]]
 val_precision: 0.9545454545454546 | val_recall: 1.0 | val_auc: 0.9642857142857143 | val_f1: 0.9767441860465117 | val_cfs:
 [[13  1]
@@ -3406,7 +3406,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 2.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[51  0]
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[11  0]
@@ -3424,7 +3424,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 2.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[51  0]
+[[75  0]
  [ 0 75]]
 val_precision: 0.9444444444444444 | val_recall: 1.0 | val_auc: 0.9545454545454545 | val_f1: 0.9714285714285714 | val_cfs:
 [[10  1]
@@ -3441,8 +3441,8 @@ dtype: int64
  0 0 0 0 1 1 1 0]
 -------------------------------
 [PINEAL - RF - 2.5]:
-train_precision: 0.9873417721518988 | train_recall: 1.0 | train_auc: 0.9901960784313725 | train_f1: 0.9936305732484078 | train_cfs:
-[[50  1]
+train_precision: 0.9873417721518988 | train_recall: 1.0 | train_auc: 0.9935897435897436 | train_f1: 0.9936305732484078 | train_cfs:
+[[77  1]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[11  0]
@@ -3459,14 +3459,14 @@ dtype: int64
  0 1 1 1]
 -------------------------------
 [PINEAL - RF - 3.1]:
-train_precision: 0.972972972972973 | train_recall: 1.0 | train_auc: 0.9795918367346939 | train_f1: 0.9863013698630138 | train_cfs:
-[[47  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[72  0]
  [ 0 72]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
  [ 0 22]]
-test_precision: 0.9615384615384616 | test_recall: 1.0 | test_auc: 0.96875 | test_f1: 0.9803921568627451 | test_cfs:
-[[15  1]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[16  0]
  [ 0 25]]
 
 Test set:
@@ -3478,7 +3478,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 3.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[50  0]
+[[73  0]
  [ 0 73]]
 val_precision: 0.9545454545454546 | val_recall: 1.0 | val_auc: 0.9642857142857143 | val_f1: 0.9767441860465117 | val_cfs:
 [[13  1]
@@ -3495,11 +3495,11 @@ dtype: int64
  0 1 1 1]
 -------------------------------
 [PINEAL - RF - 3.3]:
-train_precision: 0.9743589743589743 | train_recall: 1.0 | train_auc: 0.9803921568627452 | train_f1: 0.9870129870129869 | train_cfs:
-[[49  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[76  0]
  [ 0 76]]
-val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9615384615384616 | val_f1: 0.972972972972973 | val_cfs:
-[[12  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[13  0]
  [ 0 18]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[16  0]
@@ -3513,8 +3513,8 @@ dtype: int64
  0 1 1 1]
 -------------------------------
 [PINEAL - RF - 3.4]:
-train_precision: 0.9871794871794872 | train_recall: 1.0 | train_auc: 0.9905660377358491 | train_f1: 0.9935483870967742 | train_cfs:
-[[52  1]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[77  0]
  [ 0 77]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[11  0]
@@ -3531,8 +3531,8 @@ dtype: int64
  0 1 1 1]
 -------------------------------
 [PINEAL - RF - 3.5]:
-train_precision: 0.9873417721518988 | train_recall: 1.0 | train_auc: 0.9905660377358491 | train_f1: 0.9936305732484078 | train_cfs:
-[[52  1]
+train_precision: 0.9873417721518988 | train_recall: 1.0 | train_auc: 0.9935897435897436 | train_f1: 0.9936305732484078 | train_cfs:
+[[77  1]
  [ 0 78]]
 val_precision: 0.9411764705882353 | val_recall: 1.0 | val_auc: 0.9545454545454545 | val_f1: 0.9696969696969697 | val_cfs:
 [[10  1]
@@ -3549,7 +3549,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 4.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[50  0]
+[[74  0]
  [ 0 74]]
 val_precision: 0.9583333333333334 | val_recall: 1.0 | val_auc: 0.9666666666666667 | val_f1: 0.9787234042553191 | val_cfs:
 [[14  1]
@@ -3566,7 +3566,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 4.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[50  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -3583,7 +3583,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 4.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[52  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[13  0]
@@ -3600,10 +3600,10 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 4.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[54  0]
+[[79  0]
  [ 0 79]]
-val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9545454545454545 | val_f1: 0.972972972972973 | val_cfs:
-[[10  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
  [ 0 18]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[15  0]
@@ -3617,7 +3617,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 4.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[54  0]
+[[81  0]
  [ 0 81]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[11  0]
@@ -3633,8 +3633,8 @@ dtype: int64
 [1 1 1 1 0 0 0 0 0 1 1 1 0 1 1 0 0 1 1 0 1 1 0 1 1 0 1 0 1 1 0]
 -------------------------------
 [PINEAL - RF - 5.1]:
-train_precision: 0.975 | train_recall: 1.0 | train_auc: 0.9803921568627452 | train_f1: 0.9873417721518987 | train_cfs:
-[[49  2]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
  [ 0 78]]
 val_precision: 0.9583333333333334 | val_recall: 1.0 | val_auc: 0.96875 | val_f1: 0.9787234042553191 | val_cfs:
 [[15  1]
@@ -3651,7 +3651,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[52  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -3668,10 +3668,10 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 5.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[53  0]
+[[80  0]
  [ 0 80]]
-val_precision: 0.9545454545454546 | val_recall: 1.0 | val_auc: 0.9642857142857143 | val_f1: 0.9767441860465117 | val_cfs:
-[[13  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[14  0]
  [ 0 21]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[13  0]
@@ -3684,8 +3684,8 @@ dtype: int64
 [1 1 1 1 0 0 0 0 0 1 1 1 0 1 1 0 0 1 1 0 1 1 0 1 1 0 1 0 1 1 0]
 -------------------------------
 [PINEAL - RF - 5.4]:
-train_precision: 0.9880952380952381 | train_recall: 1.0 | train_auc: 0.9910714285714285 | train_f1: 0.9940119760479043 | train_cfs:
-[[55  1]
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[83  0]
  [ 0 83]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[11  0]
@@ -3702,7 +3702,7 @@ dtype: int64
 -------------------------------
 [PINEAL - RF - 5.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[56  0]
+[[84  0]
  [ 0 84]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[11  0]
@@ -3721,7 +3721,7 @@ dtype: int64
 [MESENCHYMAL - RF - 1.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[103   0]
- [  0  70]]
+ [  0 103]]
 val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.9827586206896552 | val_f1: 0.9777777777777777 | val_cfs:
 [[28  1]
  [ 0 22]]
@@ -3739,7 +3739,7 @@ dtype: int64
 [MESENCHYMAL - RF - 1.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[104   0]
- [  0  71]]
+ [  0 104]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[28  0]
  [ 0 21]]
@@ -3757,7 +3757,7 @@ dtype: int64
 [MESENCHYMAL - RF - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[107   0]
- [  0  74]]
+ [  0 107]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 18]]
@@ -3775,7 +3775,7 @@ dtype: int64
 [MESENCHYMAL - RF - 1.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[107   0]
- [  0  75]]
+ [  0 107]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 17]]
@@ -3793,7 +3793,7 @@ dtype: int64
 [MESENCHYMAL - RF - 1.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[107   0]
- [  0  78]]
+ [  0 107]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 14]]
@@ -3811,7 +3811,7 @@ dtype: int64
 [MESENCHYMAL - RF - 2.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[104   0]
- [  0  70]]
+ [  0 104]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[29  0]
  [ 0 22]]
@@ -3829,12 +3829,12 @@ dtype: int64
 [MESENCHYMAL - RF - 2.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[105   0]
- [  0  71]]
+ [  0 105]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[28  0]
  [ 0 21]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[34  0]
+test_precision: 0.9642857142857143 | test_recall: 1.0 | test_auc: 0.9852941176470588 | test_f1: 0.9818181818181818 | test_cfs:
+[[33  1]
  [ 0 27]]
 
 Test set:
@@ -3847,7 +3847,7 @@ dtype: int64
 [MESENCHYMAL - RF - 2.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[107   0]
- [  0  74]]
+ [  0 107]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[26  0]
  [ 0 18]]
@@ -3865,7 +3865,7 @@ dtype: int64
 [MESENCHYMAL - RF - 2.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[108   0]
- [  0  75]]
+ [  0 108]]
 val_precision: 0.9444444444444444 | val_recall: 1.0 | val_auc: 0.98 | val_f1: 0.9714285714285714 | val_cfs:
 [[24  1]
  [ 0 17]]
@@ -3883,7 +3883,7 @@ dtype: int64
 [MESENCHYMAL - RF - 2.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[108   0]
- [  0  78]]
+ [  0 108]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 14]]
@@ -3901,7 +3901,7 @@ dtype: int64
 [MESENCHYMAL - RF - 3.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[104   0]
- [  0  72]]
+ [  0 104]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[29  0]
  [ 0 22]]
@@ -3919,7 +3919,7 @@ dtype: int64
 [MESENCHYMAL - RF - 3.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[105   0]
- [  0  73]]
+ [  0 105]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[28  0]
  [ 0 21]]
@@ -3937,7 +3937,7 @@ dtype: int64
 [MESENCHYMAL - RF - 3.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[107   0]
- [  0  76]]
+ [  0 107]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[26  0]
  [ 0 18]]
@@ -3955,7 +3955,7 @@ dtype: int64
 [MESENCHYMAL - RF - 3.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[108   0]
- [  0  77]]
+ [  0 108]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 17]]
@@ -3973,7 +3973,7 @@ dtype: int64
 [MESENCHYMAL - RF - 3.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[108   0]
- [  0  78]]
+ [  0 108]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 16]]
@@ -3991,7 +3991,7 @@ dtype: int64
 [MESENCHYMAL - RF - 4.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[104   0]
- [  0  74]]
+ [  0 104]]
 val_precision: 0.9583333333333334 | val_recall: 1.0 | val_auc: 0.9833333333333334 | val_f1: 0.9787234042553191 | val_cfs:
 [[29  1]
  [ 0 23]]
@@ -4009,7 +4009,7 @@ dtype: int64
 [MESENCHYMAL - RF - 4.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[106   0]
- [  0  75]]
+ [  0 106]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[28  0]
  [ 0 22]]
@@ -4025,9 +4025,9 @@ dtype: int64
  0 0 0 0 1 1 0 0 0 0 0 0 1 1 1 1 1 1]
 -------------------------------
 [MESENCHYMAL - RF - 4.3]:
-train_precision: 0.9875 | train_recall: 1.0 | train_auc: 0.9953703703703703 | train_f1: 0.9937106918238994 | train_cfs:
+train_precision: 0.9908256880733946 | train_recall: 1.0 | train_auc: 0.9953703703703703 | train_f1: 0.9953917050691244 | train_cfs:
 [[107   1]
- [  0  79]]
+ [  0 108]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[26  0]
  [ 0 18]]
@@ -4043,9 +4043,9 @@ dtype: int64
  0 0 0 0 1 1 0 0 0 0 0 0 1 1 1 1 1 1]
 -------------------------------
 [MESENCHYMAL - RF - 4.4]:
-train_precision: 0.9875 | train_recall: 1.0 | train_auc: 0.9954128440366973 | train_f1: 0.9937106918238994 | train_cfs:
+train_precision: 0.990909090909091 | train_recall: 1.0 | train_auc: 0.9954128440366973 | train_f1: 0.995433789954338 | train_cfs:
 [[108   1]
- [  0  79]]
+ [  0 109]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 18]]
@@ -4061,9 +4061,9 @@ dtype: int64
  0 0 0 0 1 1 0 0 0 0 0 0 1 1 1 1 1 1]
 -------------------------------
 [MESENCHYMAL - RF - 4.5]:
-train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[109   0]
- [  0  81]]
+train_precision: 0.990909090909091 | train_recall: 1.0 | train_auc: 0.9954128440366973 | train_f1: 0.995433789954338 | train_cfs:
+[[108   1]
+ [  0 109]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 16]]
@@ -4081,9 +4081,9 @@ dtype: int64
 [MESENCHYMAL - RF - 5.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[106   0]
- [  0  78]]
-val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
-[[30  0]
+ [  0 106]]
+val_precision: 0.9583333333333334 | val_recall: 1.0 | val_auc: 0.9833333333333334 | val_f1: 0.9787234042553191 | val_cfs:
+[[29  1]
  [ 0 23]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[31  0]
@@ -4099,7 +4099,7 @@ dtype: int64
 [MESENCHYMAL - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[107   0]
- [  0  79]]
+ [  0 107]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[29  0]
  [ 0 22]]
@@ -4115,9 +4115,9 @@ dtype: int64
  0 0 0 0 0 0 0 1 1 1 1 1]
 -------------------------------
 [MESENCHYMAL - RF - 5.3]:
-train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[109   0]
- [  0  80]]
+train_precision: 0.990909090909091 | train_recall: 1.0 | train_auc: 0.9954128440366973 | train_f1: 0.995433789954338 | train_cfs:
+[[108   1]
+ [  0 109]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[27  0]
  [ 0 21]]
@@ -4135,7 +4135,7 @@ dtype: int64
 [MESENCHYMAL - RF - 5.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[111   0]
- [  0  83]]
+ [  0 111]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 18]]
@@ -4153,7 +4153,7 @@ dtype: int64
 [MESENCHYMAL - RF - 5.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[111   0]
- [  0  84]]
+ [  0 111]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[25  0]
  [ 0 17]]
@@ -4169,7 +4169,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 1.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[16  0]
+[[70  0]
  [ 0 70]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -4186,7 +4186,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 1.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[16  0]
+[[71  0]
  [ 0 71]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -4203,7 +4203,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4220,7 +4220,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 1.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4237,7 +4237,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 1.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -4254,7 +4254,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 2.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[16  0]
+[[70  0]
  [ 0 70]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -4271,7 +4271,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 2.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[16  0]
+[[71  0]
  [ 0 71]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -4288,7 +4288,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 2.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4305,7 +4305,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 2.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4322,7 +4322,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 2.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -4339,10 +4339,10 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 3.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[72  0]
  [ 0 72]]
-val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.9 | val_f1: 0.9777777777777777 | val_cfs:
-[[ 4  1]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
  [ 0 22]]
 test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
 [[ 5  0]
@@ -4356,7 +4356,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 3.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[73  0]
  [ 0 73]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -4373,7 +4373,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 3.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[76  0]
  [ 0 76]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4390,7 +4390,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 3.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[77  0]
  [ 0 77]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4407,7 +4407,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 3.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4424,13 +4424,13 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 4.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[74  0]
  [ 0 74]]
-val_precision: 0.92 | val_recall: 1.0 | val_auc: 0.8 | val_f1: 0.9583333333333334 | val_cfs:
-[[ 3  2]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
  [ 0 23]]
-test_precision: 0.9166666666666666 | test_recall: 1.0 | test_auc: 0.8 | test_f1: 0.9565217391304348 | test_cfs:
-[[ 3  2]
+test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
+[[ 5  0]
  [ 0 22]]
 
 Test set:
@@ -4441,7 +4441,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 4.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -4458,7 +4458,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 4.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4475,7 +4475,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 4.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4492,7 +4492,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 4.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[81  0]
  [ 0 81]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4509,7 +4509,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 5.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -4526,7 +4526,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[17  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -4543,7 +4543,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 5.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[80  0]
  [ 0 80]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4560,7 +4560,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 5.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[83  0]
  [ 0 83]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4577,7 +4577,7 @@ dtype: int64
 -------------------------------
 [MELANOCYTIC - RF - 5.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[18  0]
+[[84  0]
  [ 0 84]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -4595,7 +4595,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 1.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[50  0]
+[[70  0]
  [ 0 70]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -4613,7 +4613,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 1.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[51  0]
+[[71  0]
  [ 0 71]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[14  0]
@@ -4631,7 +4631,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[53  0]
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4649,7 +4649,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 1.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[53  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4667,7 +4667,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 1.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[53  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4685,7 +4685,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 2.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[51  0]
+[[70  0]
  [ 0 70]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -4703,7 +4703,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 2.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[51  0]
+[[71  0]
  [ 0 71]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -4721,7 +4721,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 2.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[54  0]
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4739,7 +4739,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 2.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[54  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4757,7 +4757,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 2.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[54  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4775,7 +4775,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 3.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[52  0]
+[[72  0]
  [ 0 72]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -4793,7 +4793,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 3.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[52  0]
+[[73  0]
  [ 0 73]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -4811,7 +4811,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 3.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[54  0]
+[[76  0]
  [ 0 76]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[13  0]
@@ -4829,7 +4829,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 3.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[55  0]
+[[77  0]
  [ 0 77]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4847,7 +4847,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 3.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[55  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4865,7 +4865,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 4.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[52  0]
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -4883,7 +4883,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 4.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[52  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -4901,7 +4901,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 4.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[54  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[13  0]
@@ -4919,7 +4919,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 4.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[55  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4937,7 +4937,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 4.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[55  0]
+[[81  0]
  [ 0 81]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -4954,7 +4954,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 5.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[52  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -4971,7 +4971,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[52  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[15  0]
@@ -4988,7 +4988,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 5.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[54  0]
+[[80  0]
  [ 0 80]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[13  0]
@@ -5005,7 +5005,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 5.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[55  0]
+[[83  0]
  [ 0 83]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -5022,7 +5022,7 @@ dtype: int64
 -------------------------------
 [PLEXUS - RF - 5.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[55  0]
+[[84  0]
  [ 0 84]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[12  0]
@@ -5041,7 +5041,7 @@ dtype: int64
 [GLIOMA IDH - RF - 1.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[128   0]
- [  0  70]]
+ [  0 128]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[34  0]
  [ 0 22]]
@@ -5059,7 +5059,7 @@ dtype: int64
 [GLIOMA IDH - RF - 1.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[129   0]
- [  0  71]]
+ [  0 129]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[33  0]
  [ 0 21]]
@@ -5077,7 +5077,7 @@ dtype: int64
 [GLIOMA IDH - RF - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[130   0]
- [  0  74]]
+ [  0 130]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[32  0]
  [ 0 18]]
@@ -5095,7 +5095,7 @@ dtype: int64
 [GLIOMA IDH - RF - 1.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[130   0]
- [  0  75]]
+ [  0 130]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[32  0]
  [ 0 17]]
@@ -5113,7 +5113,7 @@ dtype: int64
 [GLIOMA IDH - RF - 1.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[131   0]
- [  0  78]]
+ [  0 131]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[31  0]
  [ 0 14]]
@@ -5131,7 +5131,7 @@ dtype: int64
 [GLIOMA IDH - RF - 2.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[129   0]
- [  0  70]]
+ [  0 129]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[34  0]
  [ 0 22]]
@@ -5149,7 +5149,7 @@ dtype: int64
 [GLIOMA IDH - RF - 2.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[129   0]
- [  0  71]]
+ [  0 129]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[34  0]
  [ 0 21]]
@@ -5167,7 +5167,7 @@ dtype: int64
 [GLIOMA IDH - RF - 2.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[131   0]
- [  0  74]]
+ [  0 131]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[32  0]
  [ 0 18]]
@@ -5185,7 +5185,7 @@ dtype: int64
 [GLIOMA IDH - RF - 2.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[131   0]
- [  0  75]]
+ [  0 131]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[32  0]
  [ 0 17]]
@@ -5203,7 +5203,7 @@ dtype: int64
 [GLIOMA IDH - RF - 2.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[132   0]
- [  0  78]]
+ [  0 132]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[31  0]
  [ 0 14]]
@@ -5221,12 +5221,12 @@ dtype: int64
 [GLIOMA IDH - RF - 3.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[129   0]
- [  0  72]]
+ [  0 129]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[34  0]
  [ 0 22]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[41  0]
+test_precision: 0.9615384615384616 | test_recall: 1.0 | test_auc: 0.9878048780487805 | test_f1: 0.9803921568627451 | test_cfs:
+[[40  1]
  [ 0 25]]
 
 Test set:
@@ -5239,7 +5239,7 @@ dtype: int64
 [GLIOMA IDH - RF - 3.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[129   0]
- [  0  73]]
+ [  0 129]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[34  0]
  [ 0 21]]
@@ -5257,7 +5257,7 @@ dtype: int64
 [GLIOMA IDH - RF - 3.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[131   0]
- [  0  76]]
+ [  0 131]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[32  0]
  [ 0 18]]
@@ -5275,7 +5275,7 @@ dtype: int64
 [GLIOMA IDH - RF - 3.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[131   0]
- [  0  77]]
+ [  0 131]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[32  0]
  [ 0 17]]
@@ -5293,12 +5293,12 @@ dtype: int64
 [GLIOMA IDH - RF - 3.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[132   0]
- [  0  78]]
+ [  0 132]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[31  0]
  [ 0 16]]
-test_precision: 1.0 | test_recall: 1.0 | test_auc: 1.0 | test_f1: 1.0 | test_cfs:
-[[41  0]
+test_precision: 0.9615384615384616 | test_recall: 1.0 | test_auc: 0.9878048780487805 | test_f1: 0.9803921568627451 | test_cfs:
+[[40  1]
  [ 0 25]]
 
 Test set:
@@ -5311,7 +5311,7 @@ dtype: int64
 [GLIOMA IDH - RF - 4.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[130   0]
- [  0  74]]
+ [  0 130]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[34  0]
  [ 0 23]]
@@ -5329,7 +5329,7 @@ dtype: int64
 [GLIOMA IDH - RF - 4.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[130   0]
- [  0  75]]
+ [  0 130]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[34  0]
  [ 0 22]]
@@ -5347,7 +5347,7 @@ dtype: int64
 [GLIOMA IDH - RF - 4.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[131   0]
- [  0  79]]
+ [  0 131]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[33  0]
  [ 0 18]]
@@ -5365,7 +5365,7 @@ dtype: int64
 [GLIOMA IDH - RF - 4.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[132   0]
- [  0  79]]
+ [  0 132]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[32  0]
  [ 0 18]]
@@ -5383,7 +5383,7 @@ dtype: int64
 [GLIOMA IDH - RF - 4.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[133   0]
- [  0  81]]
+ [  0 133]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[31  0]
  [ 0 16]]
@@ -5401,7 +5401,7 @@ dtype: int64
 [GLIOMA IDH - RF - 5.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[130   0]
- [  0  78]]
+ [  0 130]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[34  0]
  [ 0 23]]
@@ -5419,7 +5419,7 @@ dtype: int64
 [GLIOMA IDH - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[130   0]
- [  0  79]]
+ [  0 130]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[34  0]
  [ 0 22]]
@@ -5437,7 +5437,7 @@ dtype: int64
 [GLIOMA IDH - RF - 5.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[131   0]
- [  0  80]]
+ [  0 131]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[33  0]
  [ 0 21]]
@@ -5455,7 +5455,7 @@ dtype: int64
 [GLIOMA IDH - RF - 5.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[132   0]
- [  0  83]]
+ [  0 132]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[32  0]
  [ 0 18]]
@@ -5473,7 +5473,7 @@ dtype: int64
 [GLIOMA IDH - RF - 5.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[133   0]
- [  0  84]]
+ [  0 133]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[31  0]
  [ 0 17]]
@@ -5489,7 +5489,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 1.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[12  0]
+[[70  0]
  [ 0 70]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -5506,7 +5506,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 1.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[71  0]
  [ 0 71]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5523,7 +5523,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5540,7 +5540,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 1.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5557,7 +5557,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 1.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5574,7 +5574,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 2.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[12  0]
+[[70  0]
  [ 0 70]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -5591,7 +5591,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 2.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[71  0]
  [ 0 71]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5608,7 +5608,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 2.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5625,7 +5625,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 2.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5642,7 +5642,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 2.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5659,7 +5659,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 3.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[12  0]
+[[72  0]
  [ 0 72]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -5676,7 +5676,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 3.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[73  0]
  [ 0 73]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5693,7 +5693,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 3.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[76  0]
  [ 0 76]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5710,7 +5710,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 3.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[77  0]
  [ 0 77]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5727,7 +5727,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 3.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5744,7 +5744,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 4.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[74  0]
  [ 0 74]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -5761,7 +5761,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 4.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[14  0]
+[[75  0]
  [ 0 75]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -5778,7 +5778,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 4.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[15  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5795,7 +5795,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 4.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[15  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5812,7 +5812,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 4.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[15  0]
+[[81  0]
  [ 0 81]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5829,7 +5829,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 5.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[13  0]
+[[78  0]
  [ 0 78]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 5  0]
@@ -5846,7 +5846,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 5.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[14  0]
+[[79  0]
  [ 0 79]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 4  0]
@@ -5863,7 +5863,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 5.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[15  0]
+[[80  0]
  [ 0 80]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5880,7 +5880,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 5.4]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[15  0]
+[[83  0]
  [ 0 83]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
@@ -5897,7 +5897,7 @@ dtype: int64
 -------------------------------
 [HAEMATOPOIETIC - RF - 5.5]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[15  0]
+[[84  0]
  [ 0 84]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[ 3  0]
