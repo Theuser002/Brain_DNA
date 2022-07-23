@@ -12,10 +12,13 @@ import impf_models.MLP as impf_MLP
 import scripts.get_impf as get_impf
 import torch
 import web_config
+import cv2
 
 from impf_models.MLP.Model import Impf_DNAMLP, Impf_GlioMLP
 from torch.nn.functional import softmax
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
+from web_utils import form_0_cache, group_info
+from PIL import Image
 
 # Globals
 outer_folds = web_config.outer_folds
@@ -52,24 +55,26 @@ def get_cpg_info_file(cpg_info_path):
 
 # MAIN
 ## Main page
-st.sidebar.markdown('# Home')
+# st.sidebar.markdown('# Home')
 
-title = 'DNA methylation-based classification of central nervous system tumours'
-st.title(title, 'homepage')
-st.write('---  \n---')
+title = 'CNS DNA Methylation Diagnosis'
+st.markdown(f"<h1 style='text-align: center;'>{title}</h1>", unsafe_allow_html=True)
+st.write('  \n  \n')
+col1, col2, col3 = st.columns(3)
+col2.image(Image.open('images/Brain_0.png'), width = 220)
+st.markdown(f"<hr style = 'border-top: 1px solid #ff4b4b'/>", unsafe_allow_html=True)
 st.write('### File upload')
 uploaded_file = st.file_uploader('UPLOAD A CSV FILE')
 try:
     st.write(f'File ***{uploaded_file.name}*** received.')
     try:
-        st.write('---  \n---')
+        st.markdown(f"<hr style = 'border-top: 1px solid #ff4b4b'/>", unsafe_allow_html=True)
         st.write('### CpG filtering')
         # df = pd.read_csv(uploaded_file, nrows=1)
         df = pd.read_csv(uploaded_file, index_col=0)
         n_samples = df.shape[0]
 
         # Get user's input
-        form_0_submitted = False
         with st.form(key = 'form_0'):
             sample_index = st.selectbox('Choose ur sample: ', df.index)
             alg = st.selectbox('Select important features algorithm: ', algs)
@@ -77,8 +82,19 @@ try:
             selected_fold = st.selectbox('Select a fold model: ', web_config.inner_folds)
             submitted = st.form_submit_button(label = 'Submit')
             if submitted:
+                form_0_cache['sample_index'] = sample_index
+                form_0_cache['alg'] = alg
+                form_0_cache['group'] = group
+                form_0_cache['selected_fold'] = selected_fold
                 form_0_submitted = True
-        if form_0_submitted:
+                form_0_cache['form_0_submitted'] = True
+        
+        if form_0_cache['form_0_submitted']:
+            sample_index = form_0_cache['sample_index']
+            alg = form_0_cache['alg']
+            group = form_0_cache['group']
+            selected_fold = form_0_cache['selected_fold']
+
             st.write(f'*{sample_index} - {alg} - {group} - {selected_fold}*')
             df = pd.DataFrame(df.loc[df.index == sample_index,:])
             st.write('**Sample:**')
@@ -104,23 +120,26 @@ try:
             model.to(device)
 
             # Calculate diagnosis results and display
-            st.write('---  \n---')
+            st.markdown(f"<hr style = 'border-top: 1px solid #ff4b4b'/>", unsafe_allow_html=True)
             res = softmax(model(sample), dim = 1)
             columns = [group, 'Control']
             probs = res.detach().cpu().numpy()
             res_df = pd.DataFrame(probs)
             res_df.columns = columns
             st.write('### Diagnostic results')
-            col1, col2 = st.columns(2)
-            if alg == 'LR':
-                col1.write(f'|| **{group}**:  \n~{round((1 - probs[0][0])*100, 2)}%')
-                col2.write(f'|| **Non-tumour**:  \n~{round((1 - probs[0][1])*100, 2)}%')
-            else:
+
+            tab1, tab2 = st.tabs(["Probability output", "Tumor class summary"])
+            with tab1:
+                col1, col2 = st.columns(2)
                 col1.write(f'|| **{group}**:  \n~{round(probs[0][0]*100, 2)}%')
                 col2.write(f'|| **Non-tumour**:  \n~{round(probs[0][1]*100, 2)}%')
+                # st.markdown(f"more information on [**{group}**]({group_info[group]['link']})", unsafe_allow_html = True)
+            with tab2:
+                st.write(f"{group_info[group]['def']}")
+                st.markdown(f"more information on [**{group}**]({group_info[group]['link']})", unsafe_allow_html = True)
 
             # Get ranked important features
-            st.write('---  \n---')
+            st.markdown(f"<hr style = 'border-top: 1px solid #ff4b4b'/>", unsafe_allow_html=True)
             st.write('### CpG information')
             ranked_impf = get_ranked_impf(df, outer_fold, alg, group)
             ranked_impf = dict(sorted(ranked_impf.items(), key = lambda item:item[1]))
@@ -137,7 +156,7 @@ try:
                 ranked_impf_df,
                 gridOptions=gridOptions,
                 data_return_mode='AS_INPUT', 
-                update_mode='SELECTION_CHANGED', 
+                update_mode='MODEL_CHANGED', 
                 fit_columns_on_grid_load=True,
                 theme='material', #Add theme color to the table
                 height=350, 
@@ -154,6 +173,7 @@ try:
                 st.write(cpg_info)
             except Exception as e:
                 st.write('*\*Select a CpG to know more information*')
+        
     except Exception as e:
         st.write("Caught an error:", e)
 except:
