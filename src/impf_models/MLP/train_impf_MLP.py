@@ -183,7 +183,7 @@ def impf_run(class_name, alg, fold, train_loader, val_loader, test_loader, model
             
         if val_loss == min(history['val_losses']):
             # GET BEST EPOCH'S RESULTS AND WRITE IT TO AN EVALUATION FILE
-            best_epoch_results = {'train_loss:': train_loss, 'train_accs': train_acc, 'train_me': train_me, 'train_bs': train_bs, 'train_precision': train_precision, 'train_recall': train_recall, 'train_auc': train_auc, 'train_f1': train_f1, 'train_cfs': train_cfs, 'val_loss:': val_loss, 'val_accs': val_acc, 'val_me': val_me, 'val_bs': val_bs, 'val_precision': val_precision,  'val_recall': val_recall, 'val_auc': val_auc, 'val_f1': val_f1, 'val_cfs': val_cfs, 'test_loss:': test_loss, 'test_accs': test_acc, 'test_me': test_me, 'test_bs': test_bs, 'test_precision': test_precision, 'test_recall': test_recall, 'test_auc': test_auc, 'test_f1': test_f1, 'test_cfs': test_cfs}
+            best_epoch_results = {'train_loss': train_loss, 'train_acc': train_acc, 'train_me': train_me, 'train_bs': train_bs, 'train_precision': train_precision, 'train_recall': train_recall, 'train_auc': train_auc, 'train_f1': train_f1, 'train_cfs': train_cfs, 'val_loss': val_loss, 'val_acc': val_acc, 'val_me': val_me, 'val_bs': val_bs, 'val_precision': val_precision,  'val_recall': val_recall, 'val_auc': val_auc, 'val_f1': val_f1, 'val_cfs': val_cfs, 'test_loss': test_loss, 'test_acc': test_acc, 'test_me': test_me, 'test_bs': test_bs, 'test_precision': test_precision, 'test_recall': test_recall, 'test_auc': test_auc, 'test_f1': test_f1, 'test_cfs': test_cfs}
             if save.lower() == 'save':
                 tqdm.write('Lowest validation loss => saving model weights...')
                 torch.save(model.state_dict(), BEST_STATE_PATH)
