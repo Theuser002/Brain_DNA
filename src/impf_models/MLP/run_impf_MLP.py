@@ -156,7 +156,7 @@ if __name__ == "__main__":
                 fold_results['test_cfs'] = fold_results['test_cfs'].tolist()
                 folds_results[f'{group}'][f'{fold}'] = fold_results
     
-    print(folds_results, type(fold_results))
+    # print(folds_results, type(fold_results))
     
     with open(impf_cfg[f'MLP_{alg}_EVALUATION_RESULTS_JSON'], 'w') as fp:
         json.dump(folds_results, fp)
