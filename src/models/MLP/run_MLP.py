@@ -52,7 +52,7 @@ if __name__ == "__main__":
     eval_file.write(f'SMOTE: {use_SMOTE} | weights: {use_weights}\n')
     eval_file.close()
     
-    print("Running mlp classifiers")
+    print('Running mlp classifier')
     print(f'root: {config.root_dir}')
     print(f"device: {device}")
     print(f'save mode: {save}')
@@ -67,8 +67,6 @@ if __name__ == "__main__":
         trained_folds = folds
     else:
         trained_folds = [single_fold]
-    
-    groups = utils.positive_groups
     
     # Train the inner folds
     for group in tqdm(groups, desc='Groups: ', position=0):
@@ -113,7 +111,8 @@ if __name__ == "__main__":
             # Define training and validating hyperparams
             criterion = CrossEntropyLoss(weight=None)
             optimizer = Adam(model.parameters(), lr = clf_cfg['mlp_lr'], weight_decay = clf_cfg['mlp_weight_decay'])
-            tqdm.write(f'Running in {save} mode')
+            
+            # Run the training - validating pipeline
             fold_results = train_MLP.run(group, fold, train_loader, val_loader, model, criterion, optimizer, clf_cfg, save)
         
 

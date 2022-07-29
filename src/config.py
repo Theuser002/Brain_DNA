@@ -11,6 +11,7 @@ data_config = {
     'TEST_CSV_DIR': os.path.join(root_dir, 'data/processed/binary_classification_dataset/csv/test'),
     
 }
+
 classifier_config = {
     'device': ('cuda' if torch.cuda.is_available() else 'cpu'),
     'n_features': 10000,

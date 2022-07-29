@@ -1,20 +1,20 @@
 EVALUATION RESULTS:
-SMOTE: False | weights: False
+SMOTE: True | weights: False
 
 -------------------------------
 [EMBRYONAL - 1.0]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
-[[481   0]
- [  0  92]]
-val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
-[[126   0]
- [  0  27]]
+[[38  0]
+ [ 0 38]]
+val_precision: 0.7428571428571429 | val_recall: 0.9629629629629629 | val_auc: 0.9457671957671957 | val_f1: 0.8387096774193549 | val_cfs:
+[[117   9]
+ [  1  26]]
 
 -------------------------------
 [EMBRYONAL - 1.1]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[379   0]
- [  0  70]]
+ [  0 379]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[102   0]
  [  0  22]]
@@ -23,7 +23,7 @@ val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [EMBRYONAL - 1.2]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[384   0]
- [  0  71]]
+ [  0 384]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[97  0]
  [ 0 21]]
@@ -32,7 +32,3481 @@ val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [EMBRYONAL - 1.3]:
 train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
 [[385   0]
- [  0  74]]
+ [  0 385]]
 val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
 [[96  0]
  [ 0 18]]
+
+-------------------------------
+[EMBRYONAL - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[387   0]
+ [  0 387]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 17]]
+
+-------------------------------
+[EMBRYONAL - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[389   0]
+ [  0 389]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[92  0]
+ [ 0 14]]
+
+-------------------------------
+[EMBRYONAL - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[482   0]
+ [  0 482]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[125   0]
+ [  0  27]]
+
+-------------------------------
+[EMBRYONAL - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[380   0]
+ [  0 380]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[102   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[384   0]
+ [  0 384]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[98  0]
+ [ 0 21]]
+
+-------------------------------
+[EMBRYONAL - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[386   0]
+ [  0 386]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
+
+-------------------------------
+[EMBRYONAL - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[388   0]
+ [  0 388]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 17]]
+
+-------------------------------
+[EMBRYONAL - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[390   0]
+ [  0 390]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[92  0]
+ [ 0 14]]
+
+-------------------------------
+[EMBRYONAL - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[485   0]
+ [  0 485]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[122   0]
+ [  0  25]]
+
+-------------------------------
+[EMBRYONAL - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[383   0]
+ [  0 383]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[102   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[385   0]
+ [  0 385]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[100   0]
+ [  0  21]]
+
+-------------------------------
+[EMBRYONAL - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[389   0]
+ [  0 389]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
+
+-------------------------------
+[EMBRYONAL - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[391   0]
+ [  0 391]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 17]]
+
+-------------------------------
+[EMBRYONAL - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[392   0]
+ [  0 392]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[93  0]
+ [ 0 16]]
+
+-------------------------------
+[EMBRYONAL - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[488   0]
+ [  0 488]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[119   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[385   0]
+ [  0 385]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[103   0]
+ [  0  23]]
+
+-------------------------------
+[EMBRYONAL - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[388   0]
+ [  0 388]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[100   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[392   0]
+ [  0 392]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
+
+-------------------------------
+[EMBRYONAL - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[393   0]
+ [  0 393]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[95  0]
+ [ 0 18]]
+
+-------------------------------
+[EMBRYONAL - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[394   0]
+ [  0 394]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 16]]
+
+-------------------------------
+[EMBRYONAL - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[492   0]
+ [  0 492]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[115   0]
+ [  0  18]]
+
+-------------------------------
+[EMBRYONAL - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[389   0]
+ [  0 389]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[103   0]
+ [  0  23]]
+
+-------------------------------
+[EMBRYONAL - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[390   0]
+ [  0 390]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[102   0]
+ [  0  22]]
+
+-------------------------------
+[EMBRYONAL - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[395   0]
+ [  0 395]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[97  0]
+ [ 0 21]]
+
+-------------------------------
+[EMBRYONAL - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[396   0]
+ [  0 396]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[96  0]
+ [ 0 18]]
+
+-------------------------------
+[EMBRYONAL - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[398   0]
+ [  0 398]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[94  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIOBLASTOMA - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[336   0]
+ [  0 336]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[89  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOBLASTOMA - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[265   0]
+ [  0 265]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[71  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOBLASTOMA - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[267   0]
+ [  0 267]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[69  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIOBLASTOMA - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[270   0]
+ [  0 270]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOBLASTOMA - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[270   0]
+ [  0 270]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIOBLASTOMA - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[272   0]
+ [  0 272]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[64  0]
+ [ 0 14]]
+
+-------------------------------
+[GLIOBLASTOMA - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[339   0]
+ [  0 339]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[86  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOBLASTOMA - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[268   0]
+ [  0 268]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[71  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOBLASTOMA - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[270   0]
+ [  0 270]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[69  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIOBLASTOMA - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[271   0]
+ [  0 271]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[68  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOBLASTOMA - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[273   0]
+ [  0 273]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIOBLASTOMA - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[274   0]
+ [  0 274]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[65  0]
+ [ 0 14]]
+
+-------------------------------
+[GLIOBLASTOMA - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[339   0]
+ [  0 339]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[86  0]
+ [ 0 25]]
+
+-------------------------------
+[GLIOBLASTOMA - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[268   0]
+ [  0 268]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[71  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOBLASTOMA - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[270   0]
+ [  0 270]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[69  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIOBLASTOMA - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[271   0]
+ [  0 271]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[68  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOBLASTOMA - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[273   0]
+ [  0 273]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIOBLASTOMA - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[274   0]
+ [  0 274]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[65  0]
+ [ 0 16]]
+
+-------------------------------
+[GLIOBLASTOMA - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[342   0]
+ [  0 342]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[83  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOBLASTOMA - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[270   0]
+ [  0 270]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[72  0]
+ [ 0 23]]
+
+-------------------------------
+[GLIOBLASTOMA - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[273   0]
+ [  0 273]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[69  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOBLASTOMA - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[273   0]
+ [  0 273]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[69  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOBLASTOMA - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[276   0]
+ [  0 276]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOBLASTOMA - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[276   0]
+ [  0 276]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 16]]
+
+-------------------------------
+[GLIOBLASTOMA - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[344   0]
+ [  0 344]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[81  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOBLASTOMA - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[272   0]
+ [  0 272]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[72  0]
+ [ 0 23]]
+
+-------------------------------
+[GLIOBLASTOMA - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[273   0]
+ [  0 273]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[71  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOBLASTOMA - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[275   0]
+ [  0 275]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[69  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIOBLASTOMA - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[278   0]
+ [  0 278]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOBLASTOMA - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[278   0]
+ [  0 278]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[66  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIO-NEURONAL - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[154   0]
+ [  0 154]]
+val_precision: 0.9642857142857143 | val_recall: 1.0 | val_auc: 0.9886363636363636 | val_f1: 0.9818181818181818 | val_cfs:
+[[43  1]
+ [ 0 27]]
+
+-------------------------------
+[GLIO-NEURONAL - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[118   0]
+ [  0 118]]
+val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.986111111111111 | val_f1: 0.9777777777777777 | val_cfs:
+[[35  1]
+ [ 0 22]]
+
+-------------------------------
+[GLIO-NEURONAL - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[122   0]
+ [  0 122]]
+val_precision: 0.9130434782608695 | val_recall: 1.0 | val_auc: 0.96875 | val_f1: 0.9545454545454545 | val_cfs:
+[[30  2]
+ [ 0 21]]
+
+-------------------------------
+[GLIO-NEURONAL - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[124   0]
+ [  0 124]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[30  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIO-NEURONAL - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[126   0]
+ [  0 126]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIO-NEURONAL - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[126   0]
+ [  0 126]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 14]]
+
+-------------------------------
+[GLIO-NEURONAL - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[157   0]
+ [  0 157]]
+val_precision: 0.9642857142857143 | val_recall: 1.0 | val_auc: 0.9878048780487805 | val_f1: 0.9818181818181818 | val_cfs:
+[[40  1]
+ [ 0 27]]
+
+-------------------------------
+[GLIO-NEURONAL - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[121   0]
+ [  0 121]]
+val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.986111111111111 | val_f1: 0.9777777777777777 | val_cfs:
+[[35  1]
+ [ 0 22]]
+
+-------------------------------
+[GLIO-NEURONAL - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[123   0]
+ [  0 123]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIO-NEURONAL - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[126   0]
+ [  0 126]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIO-NEURONAL - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 0.9444444444444444 | val_recall: 1.0 | val_auc: 0.9821428571428572 | val_f1: 0.9714285714285714 | val_cfs:
+[[27  1]
+ [ 0 17]]
+
+-------------------------------
+[GLIO-NEURONAL - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 14]]
+
+-------------------------------
+[GLIO-NEURONAL - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[157   0]
+ [  0 157]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[41  0]
+ [ 0 25]]
+
+-------------------------------
+[GLIO-NEURONAL - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[121   0]
+ [  0 121]]
+val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.986111111111111 | val_f1: 0.9777777777777777 | val_cfs:
+[[35  1]
+ [ 0 22]]
+
+-------------------------------
+[GLIO-NEURONAL - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[123   0]
+ [  0 123]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIO-NEURONAL - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[126   0]
+ [  0 126]]
+val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9838709677419355 | val_f1: 0.972972972972973 | val_cfs:
+[[30  1]
+ [ 0 18]]
+
+-------------------------------
+[GLIO-NEURONAL - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 0.8947368421052632 | val_recall: 1.0 | val_auc: 0.9642857142857143 | val_f1: 0.9444444444444444 | val_cfs:
+[[26  2]
+ [ 0 17]]
+
+-------------------------------
+[GLIO-NEURONAL - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 16]]
+
+-------------------------------
+[GLIO-NEURONAL - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[160   0]
+ [  0 160]]
+val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.986842105263158 | val_f1: 0.9777777777777777 | val_cfs:
+[[37  1]
+ [ 0 22]]
+
+-------------------------------
+[GLIO-NEURONAL - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[124   0]
+ [  0 124]]
+val_precision: 1.0 | val_recall: 0.9565217391304348 | val_auc: 0.9782608695652174 | val_f1: 0.9777777777777777 | val_cfs:
+[[36  0]
+ [ 1 22]]
+
+-------------------------------
+[GLIO-NEURONAL - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[124   0]
+ [  0 124]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[36  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIO-NEURONAL - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9838709677419355 | val_f1: 0.972972972972973 | val_cfs:
+[[30  1]
+ [ 0 18]]
+
+-------------------------------
+[GLIO-NEURONAL - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[131   0]
+ [  0 131]]
+val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9827586206896552 | val_f1: 0.972972972972973 | val_cfs:
+[[28  1]
+ [ 0 18]]
+
+-------------------------------
+[GLIO-NEURONAL - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[132   0]
+ [  0 132]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 16]]
+
+-------------------------------
+[GLIO-NEURONAL - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[164   0]
+ [  0 164]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIO-NEURONAL - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[125   0]
+ [  0 125]]
+val_precision: 0.9583333333333334 | val_recall: 1.0 | val_auc: 0.9871794871794871 | val_f1: 0.9787234042553191 | val_cfs:
+[[38  1]
+ [ 0 23]]
+
+-------------------------------
+[GLIO-NEURONAL - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[128   0]
+ [  0 128]]
+val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.986111111111111 | val_f1: 0.9777777777777777 | val_cfs:
+[[35  1]
+ [ 0 22]]
+
+-------------------------------
+[GLIO-NEURONAL - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[132   0]
+ [  0 132]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIO-NEURONAL - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[135   0]
+ [  0 135]]
+val_precision: 0.9473684210526315 | val_recall: 1.0 | val_auc: 0.9827586206896552 | val_f1: 0.972972972972973 | val_cfs:
+[[28  1]
+ [ 0 18]]
+
+-------------------------------
+[GLIO-NEURONAL - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[136   0]
+ [  0 136]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 17]]
+
+-------------------------------
+[SELLA - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[132   0]
+ [  0 132]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[37  0]
+ [ 0 27]]
+
+-------------------------------
+[SELLA - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[101   0]
+ [  0 101]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 22]]
+
+-------------------------------
+[SELLA - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[104   0]
+ [  0 104]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 21]]
+
+-------------------------------
+[SELLA - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[105   0]
+ [  0 105]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[27  0]
+ [ 0 18]]
+
+-------------------------------
+[SELLA - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[108   0]
+ [  0 108]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[24  0]
+ [ 0 17]]
+
+-------------------------------
+[SELLA - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[110   0]
+ [  0 110]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[22  0]
+ [ 0 14]]
+
+-------------------------------
+[SELLA - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[133   0]
+ [  0 133]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[36  0]
+ [ 0 27]]
+
+-------------------------------
+[SELLA - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[102   0]
+ [  0 102]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 22]]
+
+-------------------------------
+[SELLA - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[104   0]
+ [  0 104]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[29  0]
+ [ 0 21]]
+
+-------------------------------
+[SELLA - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[106   0]
+ [  0 106]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[27  0]
+ [ 0 18]]
+
+-------------------------------
+[SELLA - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[109   0]
+ [  0 109]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[24  0]
+ [ 0 17]]
+
+-------------------------------
+[SELLA - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[111   0]
+ [  0 111]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[22  0]
+ [ 0 14]]
+
+-------------------------------
+[SELLA - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[135   0]
+ [  0 135]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 25]]
+
+-------------------------------
+[SELLA - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[104   0]
+ [  0 104]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 22]]
+
+-------------------------------
+[SELLA - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[106   0]
+ [  0 106]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[29  0]
+ [ 0 21]]
+
+-------------------------------
+[SELLA - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[108   0]
+ [  0 108]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[27  0]
+ [ 0 18]]
+
+-------------------------------
+[SELLA - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[110   0]
+ [  0 110]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 17]]
+
+-------------------------------
+[SELLA - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[112   0]
+ [  0 112]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[23  0]
+ [ 0 16]]
+
+-------------------------------
+[SELLA - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[137   0]
+ [  0 137]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 22]]
+
+-------------------------------
+[SELLA - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[106   0]
+ [  0 106]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 23]]
+
+-------------------------------
+[SELLA - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[107   0]
+ [  0 107]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[30  0]
+ [ 0 22]]
+
+-------------------------------
+[SELLA - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[110   0]
+ [  0 110]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[27  0]
+ [ 0 18]]
+
+-------------------------------
+[SELLA - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[112   0]
+ [  0 112]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 18]]
+
+-------------------------------
+[SELLA - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[113   0]
+ [  0 113]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[24  0]
+ [ 0 16]]
+
+-------------------------------
+[SELLA - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[139   0]
+ [  0 139]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[30  0]
+ [ 0 18]]
+
+-------------------------------
+[SELLA - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[108   0]
+ [  0 108]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 23]]
+
+-------------------------------
+[SELLA - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[109   0]
+ [  0 109]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[30  0]
+ [ 0 22]]
+
+-------------------------------
+[SELLA - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[111   0]
+ [  0 111]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 21]]
+
+-------------------------------
+[SELLA - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[113   0]
+ [  0 113]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[26  0]
+ [ 0 18]]
+
+-------------------------------
+[SELLA - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[115   0]
+ [  0 115]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[24  0]
+ [ 0 17]]
+
+-------------------------------
+[EPENDYMAL - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[270   0]
+ [  0 270]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[73  0]
+ [ 0 27]]
+
+-------------------------------
+[EPENDYMAL - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[212   0]
+ [  0 212]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[58  0]
+ [ 0 22]]
+
+-------------------------------
+[EPENDYMAL - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[214   0]
+ [  0 214]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[56  0]
+ [ 0 21]]
+
+-------------------------------
+[EPENDYMAL - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[217   0]
+ [  0 217]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[53  0]
+ [ 0 18]]
+
+-------------------------------
+[EPENDYMAL - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[218   0]
+ [  0 218]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[52  0]
+ [ 0 17]]
+
+-------------------------------
+[EPENDYMAL - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[219   0]
+ [  0 219]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[51  0]
+ [ 0 14]]
+
+-------------------------------
+[EPENDYMAL - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[273   0]
+ [  0 273]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[70  0]
+ [ 0 27]]
+
+-------------------------------
+[EPENDYMAL - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[214   0]
+ [  0 214]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[59  0]
+ [ 0 22]]
+
+-------------------------------
+[EPENDYMAL - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[217   0]
+ [  0 217]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[56  0]
+ [ 0 21]]
+
+-------------------------------
+[EPENDYMAL - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[219   0]
+ [  0 219]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[54  0]
+ [ 0 18]]
+
+-------------------------------
+[EPENDYMAL - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[220   0]
+ [  0 220]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[53  0]
+ [ 0 17]]
+
+-------------------------------
+[EPENDYMAL - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[222   0]
+ [  0 222]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[51  0]
+ [ 0 14]]
+
+-------------------------------
+[EPENDYMAL - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[275   0]
+ [  0 275]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[68  0]
+ [ 0 25]]
+
+-------------------------------
+[EPENDYMAL - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[216   0]
+ [  0 216]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[59  0]
+ [ 0 22]]
+
+-------------------------------
+[EPENDYMAL - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[218   0]
+ [  0 218]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[57  0]
+ [ 0 21]]
+
+-------------------------------
+[EPENDYMAL - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[221   0]
+ [  0 221]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[54  0]
+ [ 0 18]]
+
+-------------------------------
+[EPENDYMAL - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[222   0]
+ [  0 222]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[53  0]
+ [ 0 17]]
+
+-------------------------------
+[EPENDYMAL - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[223   0]
+ [  0 223]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[52  0]
+ [ 0 16]]
+
+-------------------------------
+[EPENDYMAL - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[276   0]
+ [  0 276]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[67  0]
+ [ 0 22]]
+
+-------------------------------
+[EPENDYMAL - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[217   0]
+ [  0 217]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[59  0]
+ [ 0 23]]
+
+-------------------------------
+[EPENDYMAL - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[219   0]
+ [  0 219]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[57  0]
+ [ 0 22]]
+
+-------------------------------
+[EPENDYMAL - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[221   0]
+ [  0 221]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[55  0]
+ [ 0 18]]
+
+-------------------------------
+[EPENDYMAL - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[223   0]
+ [  0 223]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[53  0]
+ [ 0 18]]
+
+-------------------------------
+[EPENDYMAL - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[224   0]
+ [  0 224]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[52  0]
+ [ 0 16]]
+
+-------------------------------
+[EPENDYMAL - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[278   0]
+ [  0 278]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[65  0]
+ [ 0 18]]
+
+-------------------------------
+[EPENDYMAL - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[218   0]
+ [  0 218]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[60  0]
+ [ 0 23]]
+
+-------------------------------
+[EPENDYMAL - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[221   0]
+ [  0 221]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[57  0]
+ [ 0 22]]
+
+-------------------------------
+[EPENDYMAL - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[222   0]
+ [  0 222]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[56  0]
+ [ 0 21]]
+
+-------------------------------
+[EPENDYMAL - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[225   0]
+ [  0 225]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[53  0]
+ [ 0 18]]
+
+-------------------------------
+[EPENDYMAL - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[226   0]
+ [  0 226]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[52  0]
+ [ 0 17]]
+
+-------------------------------
+[OTHER GLIOMA - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[257   0]
+ [  0 257]]
+val_precision: 1.0 | val_recall: 0.9629629629629629 | val_auc: 0.9814814814814814 | val_f1: 0.9811320754716981 | val_cfs:
+[[70  0]
+ [ 1 26]]
+
+-------------------------------
+[OTHER GLIOMA - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[201   0]
+ [  0 201]]
+val_precision: 0.9090909090909091 | val_recall: 0.9090909090909091 | val_auc: 0.9366883116883118 | val_f1: 0.9090909090909091 | val_cfs:
+[[54  2]
+ [ 2 20]]
+
+-------------------------------
+[OTHER GLIOMA - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[205   0]
+ [  0 205]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[52  0]
+ [ 0 21]]
+
+-------------------------------
+[OTHER GLIOMA - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[206   0]
+ [  0 206]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[51  0]
+ [ 0 18]]
+
+-------------------------------
+[OTHER GLIOMA - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[207   0]
+ [  0 207]]
+val_precision: 0.9375 | val_recall: 0.8823529411764706 | val_auc: 0.9311764705882353 | val_f1: 0.9090909090909091 | val_cfs:
+[[49  1]
+ [ 2 15]]
+
+-------------------------------
+[OTHER GLIOMA - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[209   0]
+ [  0 209]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[48  0]
+ [ 0 14]]
+
+-------------------------------
+[OTHER GLIOMA - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[260   0]
+ [  0 260]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[67  0]
+ [ 0 27]]
+
+-------------------------------
+[OTHER GLIOMA - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[204   0]
+ [  0 204]]
+val_precision: 1.0 | val_recall: 0.9545454545454546 | val_auc: 0.9772727272727273 | val_f1: 0.9767441860465117 | val_cfs:
+[[56  0]
+ [ 1 21]]
+
+-------------------------------
+[OTHER GLIOMA - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[205   0]
+ [  0 205]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[55  0]
+ [ 0 21]]
+
+-------------------------------
+[OTHER GLIOMA - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[209   0]
+ [  0 209]]
+val_precision: 0.9 | val_recall: 1.0 | val_auc: 0.9803921568627452 | val_f1: 0.9473684210526316 | val_cfs:
+[[49  2]
+ [ 0 18]]
+
+-------------------------------
+[OTHER GLIOMA - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[210   0]
+ [  0 210]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[50  0]
+ [ 0 17]]
+
+-------------------------------
+[OTHER GLIOMA - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[212   0]
+ [  0 212]]
+val_precision: 0.9230769230769231 | val_recall: 0.8571428571428571 | val_auc: 0.9181547619047619 | val_f1: 0.888888888888889 | val_cfs:
+[[47  1]
+ [ 2 12]]
+
+-------------------------------
+[OTHER GLIOMA - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[262   0]
+ [  0 262]]
+val_precision: 1.0 | val_recall: 0.92 | val_auc: 0.96 | val_f1: 0.9583333333333334 | val_cfs:
+[[65  0]
+ [ 2 23]]
+
+-------------------------------
+[OTHER GLIOMA - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[206   0]
+ [  0 206]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[56  0]
+ [ 0 22]]
+
+-------------------------------
+[OTHER GLIOMA - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[207   0]
+ [  0 207]]
+val_precision: 1.0 | val_recall: 0.9523809523809523 | val_auc: 0.9761904761904762 | val_f1: 0.975609756097561 | val_cfs:
+[[55  0]
+ [ 1 20]]
+
+-------------------------------
+[OTHER GLIOMA - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[210   0]
+ [  0 210]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[52  0]
+ [ 0 18]]
+
+-------------------------------
+[OTHER GLIOMA - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[212   0]
+ [  0 212]]
+val_precision: 0.9444444444444444 | val_recall: 1.0 | val_auc: 0.99 | val_f1: 0.9714285714285714 | val_cfs:
+[[49  1]
+ [ 0 17]]
+
+-------------------------------
+[OTHER GLIOMA - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[213   0]
+ [  0 213]]
+val_precision: 1.0 | val_recall: 0.9375 | val_auc: 0.96875 | val_f1: 0.967741935483871 | val_cfs:
+[[49  0]
+ [ 1 15]]
+
+-------------------------------
+[OTHER GLIOMA - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[263   0]
+ [  0 263]]
+val_precision: 0.8461538461538461 | val_recall: 1.0 | val_auc: 0.96875 | val_f1: 0.9166666666666666 | val_cfs:
+[[60  4]
+ [ 0 22]]
+
+-------------------------------
+[OTHER GLIOMA - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[206   0]
+ [  0 206]]
+val_precision: 1.0 | val_recall: 0.9565217391304348 | val_auc: 0.9782608695652174 | val_f1: 0.9777777777777777 | val_cfs:
+[[57  0]
+ [ 1 22]]
+
+-------------------------------
+[OTHER GLIOMA - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[208   0]
+ [  0 208]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[55  0]
+ [ 0 22]]
+
+-------------------------------
+[OTHER GLIOMA - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[211   0]
+ [  0 211]]
+val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
+[[52  0]
+ [ 1 17]]
+
+-------------------------------
+[OTHER GLIOMA - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[213   0]
+ [  0 213]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[50  0]
+ [ 0 18]]
+
+-------------------------------
+[OTHER GLIOMA - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[214   0]
+ [  0 214]]
+val_precision: 1.0 | val_recall: 0.9375 | val_auc: 0.96875 | val_f1: 0.967741935483871 | val_cfs:
+[[49  0]
+ [ 1 15]]
+
+-------------------------------
+[OTHER GLIOMA - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[266   0]
+ [  0 266]]
+val_precision: 1.0 | val_recall: 0.9444444444444444 | val_auc: 0.9722222222222222 | val_f1: 0.9714285714285714 | val_cfs:
+[[61  0]
+ [ 1 17]]
+
+-------------------------------
+[OTHER GLIOMA - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[208   0]
+ [  0 208]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[58  0]
+ [ 0 23]]
+
+-------------------------------
+[OTHER GLIOMA - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[210   0]
+ [  0 210]]
+val_precision: 0.9545454545454546 | val_recall: 0.9545454545454546 | val_auc: 0.9683441558441558 | val_f1: 0.9545454545454546 | val_cfs:
+[[55  1]
+ [ 1 21]]
+
+-------------------------------
+[OTHER GLIOMA - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[214   0]
+ [  0 214]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[52  0]
+ [ 0 21]]
+
+-------------------------------
+[OTHER GLIOMA - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[216   0]
+ [  0 216]]
+val_precision: 0.9411764705882353 | val_recall: 0.8888888888888888 | val_auc: 0.9344444444444443 | val_f1: 0.9142857142857143 | val_cfs:
+[[49  1]
+ [ 2 16]]
+
+-------------------------------
+[OTHER GLIOMA - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[216   0]
+ [  0 216]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[50  0]
+ [ 0 17]]
+
+-------------------------------
+[NERVE - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 7  0]
+ [ 0 27]]
+
+-------------------------------
+[NERVE - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
+ [ 0 22]]
+
+-------------------------------
+[NERVE - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 21]]
+
+-------------------------------
+[NERVE - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 18]]
+
+-------------------------------
+[NERVE - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 17]]
+
+-------------------------------
+[NERVE - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 14]]
+
+-------------------------------
+[NERVE - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 7  0]
+ [ 0 27]]
+
+-------------------------------
+[NERVE - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
+ [ 0 22]]
+
+-------------------------------
+[NERVE - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 21]]
+
+-------------------------------
+[NERVE - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 18]]
+
+-------------------------------
+[NERVE - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 17]]
+
+-------------------------------
+[NERVE - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 14]]
+
+-------------------------------
+[NERVE - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[94  0]
+ [ 0 94]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 7  0]
+ [ 0 25]]
+
+-------------------------------
+[NERVE - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[72  0]
+ [ 0 72]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
+ [ 0 22]]
+
+-------------------------------
+[NERVE - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[73  0]
+ [ 0 73]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 21]]
+
+-------------------------------
+[NERVE - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[76  0]
+ [ 0 76]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 18]]
+
+-------------------------------
+[NERVE - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[77  0]
+ [ 0 77]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 17]]
+
+-------------------------------
+[NERVE - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 16]]
+
+-------------------------------
+[NERVE - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[97  0]
+ [ 0 97]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 22]]
+
+-------------------------------
+[NERVE - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
+ [ 0 23]]
+
+-------------------------------
+[NERVE - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 0.9565217391304348 | val_recall: 1.0 | val_auc: 0.9166666666666667 | val_f1: 0.9777777777777777 | val_cfs:
+[[ 5  1]
+ [ 0 22]]
+
+-------------------------------
+[NERVE - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 18]]
+
+-------------------------------
+[NERVE - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 18]]
+
+-------------------------------
+[NERVE - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[81  0]
+ [ 0 81]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 16]]
+
+-------------------------------
+[NERVE - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[101   0]
+ [  0 101]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 18]]
+
+-------------------------------
+[NERVE - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
+ [ 0 23]]
+
+-------------------------------
+[NERVE - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
+ [ 0 22]]
+
+-------------------------------
+[NERVE - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[80  0]
+ [ 0 80]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 21]]
+
+-------------------------------
+[NERVE - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[83  0]
+ [ 0 83]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 18]]
+
+-------------------------------
+[NERVE - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[84  0]
+ [ 0 84]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 17]]
+
+-------------------------------
+[PINEAL - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[18  0]
+ [ 0 27]]
+
+-------------------------------
+[PINEAL - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PINEAL - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[14  0]
+ [ 0 21]]
+
+-------------------------------
+[PINEAL - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 18]]
+
+-------------------------------
+[PINEAL - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 17]]
+
+-------------------------------
+[PINEAL - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 14]]
+
+-------------------------------
+[PINEAL - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[18  0]
+ [ 0 27]]
+
+-------------------------------
+[PINEAL - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PINEAL - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[14  0]
+ [ 0 21]]
+
+-------------------------------
+[PINEAL - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 18]]
+
+-------------------------------
+[PINEAL - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 17]]
+
+-------------------------------
+[PINEAL - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 14]]
+
+-------------------------------
+[PINEAL - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[94  0]
+ [ 0 94]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[16  0]
+ [ 0 25]]
+
+-------------------------------
+[PINEAL - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[72  0]
+ [ 0 72]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PINEAL - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[73  0]
+ [ 0 73]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[14  0]
+ [ 0 21]]
+
+-------------------------------
+[PINEAL - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[76  0]
+ [ 0 76]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[13  0]
+ [ 0 18]]
+
+-------------------------------
+[PINEAL - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[77  0]
+ [ 0 77]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 17]]
+
+-------------------------------
+[PINEAL - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 16]]
+
+-------------------------------
+[PINEAL - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[97  0]
+ [ 0 97]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PINEAL - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 23]]
+
+-------------------------------
+[PINEAL - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PINEAL - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[13  0]
+ [ 0 18]]
+
+-------------------------------
+[PINEAL - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 18]]
+
+-------------------------------
+[PINEAL - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[81  0]
+ [ 0 81]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 16]]
+
+-------------------------------
+[PINEAL - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[101   0]
+ [  0 101]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[13  0]
+ [ 0 18]]
+
+-------------------------------
+[PINEAL - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[16  0]
+ [ 0 23]]
+
+-------------------------------
+[PINEAL - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PINEAL - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[80  0]
+ [ 0 80]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[14  0]
+ [ 0 21]]
+
+-------------------------------
+[PINEAL - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[83  0]
+ [ 0 83]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 18]]
+
+-------------------------------
+[PINEAL - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[84  0]
+ [ 0 84]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[11  0]
+ [ 0 17]]
+
+-------------------------------
+[MESENCHYMAL - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[132   0]
+ [  0 132]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[35  0]
+ [ 0 27]]
+
+-------------------------------
+[MESENCHYMAL - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[103   0]
+ [  0 103]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[29  0]
+ [ 0 22]]
+
+-------------------------------
+[MESENCHYMAL - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[104   0]
+ [  0 104]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 21]]
+
+-------------------------------
+[MESENCHYMAL - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[107   0]
+ [  0 107]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 18]]
+
+-------------------------------
+[MESENCHYMAL - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[107   0]
+ [  0 107]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 17]]
+
+-------------------------------
+[MESENCHYMAL - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[107   0]
+ [  0 107]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 14]]
+
+-------------------------------
+[MESENCHYMAL - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[133   0]
+ [  0 133]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 27]]
+
+-------------------------------
+[MESENCHYMAL - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[104   0]
+ [  0 104]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[29  0]
+ [ 0 22]]
+
+-------------------------------
+[MESENCHYMAL - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[105   0]
+ [  0 105]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 21]]
+
+-------------------------------
+[MESENCHYMAL - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[107   0]
+ [  0 107]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[26  0]
+ [ 0 18]]
+
+-------------------------------
+[MESENCHYMAL - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[108   0]
+ [  0 108]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 17]]
+
+-------------------------------
+[MESENCHYMAL - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[108   0]
+ [  0 108]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 14]]
+
+-------------------------------
+[MESENCHYMAL - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[133   0]
+ [  0 133]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 25]]
+
+-------------------------------
+[MESENCHYMAL - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[104   0]
+ [  0 104]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[29  0]
+ [ 0 22]]
+
+-------------------------------
+[MESENCHYMAL - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[105   0]
+ [  0 105]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 21]]
+
+-------------------------------
+[MESENCHYMAL - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[107   0]
+ [  0 107]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[26  0]
+ [ 0 18]]
+
+-------------------------------
+[MESENCHYMAL - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[108   0]
+ [  0 108]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 17]]
+
+-------------------------------
+[MESENCHYMAL - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[108   0]
+ [  0 108]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 16]]
+
+-------------------------------
+[MESENCHYMAL - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[134   0]
+ [  0 134]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[33  0]
+ [ 0 22]]
+
+-------------------------------
+[MESENCHYMAL - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[104   0]
+ [  0 104]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[30  0]
+ [ 0 23]]
+
+-------------------------------
+[MESENCHYMAL - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[106   0]
+ [  0 106]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[28  0]
+ [ 0 22]]
+
+-------------------------------
+[MESENCHYMAL - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[108   0]
+ [  0 108]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[26  0]
+ [ 0 18]]
+
+-------------------------------
+[MESENCHYMAL - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[109   0]
+ [  0 109]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 18]]
+
+-------------------------------
+[MESENCHYMAL - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[109   0]
+ [  0 109]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 16]]
+
+-------------------------------
+[MESENCHYMAL - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[136   0]
+ [  0 136]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 18]]
+
+-------------------------------
+[MESENCHYMAL - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[106   0]
+ [  0 106]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[30  0]
+ [ 0 23]]
+
+-------------------------------
+[MESENCHYMAL - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[107   0]
+ [  0 107]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[29  0]
+ [ 0 22]]
+
+-------------------------------
+[MESENCHYMAL - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[109   0]
+ [  0 109]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[27  0]
+ [ 0 21]]
+
+-------------------------------
+[MESENCHYMAL - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[111   0]
+ [  0 111]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 18]]
+
+-------------------------------
+[MESENCHYMAL - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[111   0]
+ [  0 111]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[25  0]
+ [ 0 17]]
+
+-------------------------------
+[MELANOCYTIC - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
+ [ 0 27]]
+
+-------------------------------
+[MELANOCYTIC - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 22]]
+
+-------------------------------
+[MELANOCYTIC - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 21]]
+
+-------------------------------
+[MELANOCYTIC - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 18]]
+
+-------------------------------
+[MELANOCYTIC - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 17]]
+
+-------------------------------
+[MELANOCYTIC - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 14]]
+
+-------------------------------
+[MELANOCYTIC - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 6  0]
+ [ 0 27]]
+
+-------------------------------
+[MELANOCYTIC - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 22]]
+
+-------------------------------
+[MELANOCYTIC - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 21]]
+
+-------------------------------
+[MELANOCYTIC - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 18]]
+
+-------------------------------
+[MELANOCYTIC - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 17]]
+
+-------------------------------
+[MELANOCYTIC - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 14]]
+
+-------------------------------
+[MELANOCYTIC - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[94  0]
+ [ 0 94]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 25]]
+
+-------------------------------
+[MELANOCYTIC - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[72  0]
+ [ 0 72]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 22]]
+
+-------------------------------
+[MELANOCYTIC - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[73  0]
+ [ 0 73]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 21]]
+
+-------------------------------
+[MELANOCYTIC - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[76  0]
+ [ 0 76]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 18]]
+
+-------------------------------
+[MELANOCYTIC - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[77  0]
+ [ 0 77]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 17]]
+
+-------------------------------
+[MELANOCYTIC - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 16]]
+
+-------------------------------
+[MELANOCYTIC - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[97  0]
+ [ 0 97]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 22]]
+
+-------------------------------
+[MELANOCYTIC - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 23]]
+
+-------------------------------
+[MELANOCYTIC - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 22]]
+
+-------------------------------
+[MELANOCYTIC - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 18]]
+
+-------------------------------
+[MELANOCYTIC - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 18]]
+
+-------------------------------
+[MELANOCYTIC - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[81  0]
+ [ 0 81]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 16]]
+
+-------------------------------
+[MELANOCYTIC - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[101   0]
+ [  0 101]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 18]]
+
+-------------------------------
+[MELANOCYTIC - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 23]]
+
+-------------------------------
+[MELANOCYTIC - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 22]]
+
+-------------------------------
+[MELANOCYTIC - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[80  0]
+ [ 0 80]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 21]]
+
+-------------------------------
+[MELANOCYTIC - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[83  0]
+ [ 0 83]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 18]]
+
+-------------------------------
+[MELANOCYTIC - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[84  0]
+ [ 0 84]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 17]]
+
+-------------------------------
+[PLEXUS - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[18  0]
+ [ 0 27]]
+
+-------------------------------
+[PLEXUS - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PLEXUS - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[14  0]
+ [ 0 21]]
+
+-------------------------------
+[PLEXUS - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 18]]
+
+-------------------------------
+[PLEXUS - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 17]]
+
+-------------------------------
+[PLEXUS - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 14]]
+
+-------------------------------
+[PLEXUS - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[17  0]
+ [ 0 27]]
+
+-------------------------------
+[PLEXUS - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PLEXUS - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 21]]
+
+-------------------------------
+[PLEXUS - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 18]]
+
+-------------------------------
+[PLEXUS - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 17]]
+
+-------------------------------
+[PLEXUS - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 14]]
+
+-------------------------------
+[PLEXUS - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[94  0]
+ [ 0 94]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[16  0]
+ [ 0 25]]
+
+-------------------------------
+[PLEXUS - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[72  0]
+ [ 0 72]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PLEXUS - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[73  0]
+ [ 0 73]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 21]]
+
+-------------------------------
+[PLEXUS - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[76  0]
+ [ 0 76]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[13  0]
+ [ 0 18]]
+
+-------------------------------
+[PLEXUS - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[77  0]
+ [ 0 77]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 17]]
+
+-------------------------------
+[PLEXUS - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 16]]
+
+-------------------------------
+[PLEXUS - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[97  0]
+ [ 0 97]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[16  0]
+ [ 0 22]]
+
+-------------------------------
+[PLEXUS - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 23]]
+
+-------------------------------
+[PLEXUS - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PLEXUS - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[13  0]
+ [ 0 18]]
+
+-------------------------------
+[PLEXUS - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 18]]
+
+-------------------------------
+[PLEXUS - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[81  0]
+ [ 0 81]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 16]]
+
+-------------------------------
+[PLEXUS - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[101   0]
+ [  0 101]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[16  0]
+ [ 0 18]]
+
+-------------------------------
+[PLEXUS - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 23]]
+
+-------------------------------
+[PLEXUS - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[15  0]
+ [ 0 22]]
+
+-------------------------------
+[PLEXUS - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[80  0]
+ [ 0 80]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[13  0]
+ [ 0 21]]
+
+-------------------------------
+[PLEXUS - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[83  0]
+ [ 0 83]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 18]]
+
+-------------------------------
+[PLEXUS - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[84  0]
+ [ 0 84]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[12  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIOMA IDH - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[162   0]
+ [  0 162]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[42  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOMA IDH - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[128   0]
+ [  0 128]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOMA IDH - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[33  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIOMA IDH - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[130   0]
+ [  0 130]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOMA IDH - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[130   0]
+ [  0 130]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIOMA IDH - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[131   0]
+ [  0 131]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 14]]
+
+-------------------------------
+[GLIOMA IDH - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[163   0]
+ [  0 163]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[41  0]
+ [ 0 27]]
+
+-------------------------------
+[GLIOMA IDH - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOMA IDH - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIOMA IDH - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[131   0]
+ [  0 131]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOMA IDH - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[131   0]
+ [  0 131]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIOMA IDH - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[132   0]
+ [  0 132]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 14]]
+
+-------------------------------
+[GLIOMA IDH - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[163   0]
+ [  0 163]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[41  0]
+ [ 0 25]]
+
+-------------------------------
+[GLIOMA IDH - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOMA IDH - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[129   0]
+ [  0 129]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIOMA IDH - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[131   0]
+ [  0 131]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOMA IDH - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[131   0]
+ [  0 131]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 17]]
+
+-------------------------------
+[GLIOMA IDH - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[132   0]
+ [  0 132]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 16]]
+
+-------------------------------
+[GLIOMA IDH - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[164   0]
+ [  0 164]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[40  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOMA IDH - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[130   0]
+ [  0 130]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 23]]
+
+-------------------------------
+[GLIOMA IDH - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[130   0]
+ [  0 130]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOMA IDH - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[131   0]
+ [  0 131]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[33  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOMA IDH - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[132   0]
+ [  0 132]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOMA IDH - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[133   0]
+ [  0 133]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 16]]
+
+-------------------------------
+[GLIOMA IDH - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[164   0]
+ [  0 164]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[40  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOMA IDH - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[130   0]
+ [  0 130]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 23]]
+
+-------------------------------
+[GLIOMA IDH - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[130   0]
+ [  0 130]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[34  0]
+ [ 0 22]]
+
+-------------------------------
+[GLIOMA IDH - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[131   0]
+ [  0 131]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[33  0]
+ [ 0 21]]
+
+-------------------------------
+[GLIOMA IDH - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[132   0]
+ [  0 132]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[32  0]
+ [ 0 18]]
+
+-------------------------------
+[GLIOMA IDH - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[133   0]
+ [  0 133]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[31  0]
+ [ 0 17]]
+
+-------------------------------
+[HAEMATOPOIETIC - 1.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 27]]
+
+-------------------------------
+[HAEMATOPOIETIC - 1.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 22]]
+
+-------------------------------
+[HAEMATOPOIETIC - 1.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 21]]
+
+-------------------------------
+[HAEMATOPOIETIC - 1.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 18]]
+
+-------------------------------
+[HAEMATOPOIETIC - 1.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 17]]
+
+-------------------------------
+[HAEMATOPOIETIC - 1.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 14]]
+
+-------------------------------
+[HAEMATOPOIETIC - 2.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[92  0]
+ [ 0 92]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 27]]
+
+-------------------------------
+[HAEMATOPOIETIC - 2.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[70  0]
+ [ 0 70]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 22]]
+
+-------------------------------
+[HAEMATOPOIETIC - 2.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[71  0]
+ [ 0 71]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 21]]
+
+-------------------------------
+[HAEMATOPOIETIC - 2.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 18]]
+
+-------------------------------
+[HAEMATOPOIETIC - 2.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 17]]
+
+-------------------------------
+[HAEMATOPOIETIC - 2.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 14]]
+
+-------------------------------
+[HAEMATOPOIETIC - 3.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[94  0]
+ [ 0 94]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 25]]
+
+-------------------------------
+[HAEMATOPOIETIC - 3.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[72  0]
+ [ 0 72]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 22]]
+
+-------------------------------
+[HAEMATOPOIETIC - 3.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[73  0]
+ [ 0 73]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 21]]
+
+-------------------------------
+[HAEMATOPOIETIC - 3.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[76  0]
+ [ 0 76]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 18]]
+
+-------------------------------
+[HAEMATOPOIETIC - 3.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[77  0]
+ [ 0 77]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 17]]
+
+-------------------------------
+[HAEMATOPOIETIC - 3.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 16]]
+
+-------------------------------
+[HAEMATOPOIETIC - 4.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[97  0]
+ [ 0 97]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 22]]
+
+-------------------------------
+[HAEMATOPOIETIC - 4.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[74  0]
+ [ 0 74]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 23]]
+
+-------------------------------
+[HAEMATOPOIETIC - 4.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[75  0]
+ [ 0 75]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 22]]
+
+-------------------------------
+[HAEMATOPOIETIC - 4.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 18]]
+
+-------------------------------
+[HAEMATOPOIETIC - 4.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 18]]
+
+-------------------------------
+[HAEMATOPOIETIC - 4.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[81  0]
+ [ 0 81]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 16]]
+
+-------------------------------
+[HAEMATOPOIETIC - 5.0]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[101   0]
+ [  0 101]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 18]]
+
+-------------------------------
+[HAEMATOPOIETIC - 5.1]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[78  0]
+ [ 0 78]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 5  0]
+ [ 0 23]]
+
+-------------------------------
+[HAEMATOPOIETIC - 5.2]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[79  0]
+ [ 0 79]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 4  0]
+ [ 0 22]]
+
+-------------------------------
+[HAEMATOPOIETIC - 5.3]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[80  0]
+ [ 0 80]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 21]]
+
+-------------------------------
+[HAEMATOPOIETIC - 5.4]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[83  0]
+ [ 0 83]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 18]]
+
+-------------------------------
+[HAEMATOPOIETIC - 5.5]:
+train_precision: 1.0 | train_recall: 1.0 | train_auc: 1.0 | train_f1: 1.0 | train_cfs:
+[[84  0]
+ [ 0 84]]
+val_precision: 1.0 | val_recall: 1.0 | val_auc: 1.0 | val_f1: 1.0 | val_cfs:
+[[ 3  0]
+ [ 0 17]]
