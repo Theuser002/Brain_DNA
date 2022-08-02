@@ -73,7 +73,7 @@ if __name__ == "__main__":
     folds_results = {}
     for group in tqdm(groups, desc = 'Groups: ', position = 0):
         folds_results[f'{group}'] = {}
-        for fold in tqdm(trained_folds, desc = 'Fols: ', position = 1):
+        for fold in tqdm(trained_folds, desc = 'Folds: ', position = 1):
             outer_fold = f'{fold.split(".")[0]}.0'
             with open(os.path.join(impf_cfg['IMPORTANT_FEATURES_DIR'], alg, group, f'{outer_fold}_combined.pkl'), 'rb') as file:
                 impf = pickle.load(file)    
@@ -104,12 +104,12 @@ if __name__ == "__main__":
             test_labels_int = np.array([get_int_label(label, group) for label in test_labels])
             
             test_value_counts = pd.Series(test_labels).value_counts()
-            eval_file = open(impf_cfg[f'MLP_{alg}_EVALUATION_RESULTS'], 'a+')
-            eval_file.write('\nTest set:\n')
-            eval_file.write(str(test_value_counts))
-            eval_file.write('\n')
-            eval_file.write(str(test_labels_int))
-            eval_file.close()
+            # eval_file = open(impf_cfg[f'MLP_{alg}_EVALUATION_RESULTS'], 'a+')
+            # eval_file.write('\nTest set:\n')
+            # eval_file.write(str(test_value_counts))
+            # eval_file.write('\n')
+            # eval_file.write(str(test_labels_int))
+            # eval_file.close()
             
             # Create datasets and Dataloaders
             train_dataset = CNS(train_features, train_labels_int, mode = 'train')
@@ -151,10 +151,11 @@ if __name__ == "__main__":
                 
                 tqdm.write(f'Running in {save} mode')
                 fold_results = train_impf_MLP.impf_run(group, alg, fold, train_loader, val_loader, test_loader, model, criterion, optimizer, impf_cfg, save)
-                fold_results['train_cfs'] = fold_results['train_cfs'].tolist()
-                fold_results['val_cfs'] = fold_results['val_cfs'].tolist()
-                fold_results['test_cfs'] = fold_results['test_cfs'].tolist()
-                folds_results[f'{group}'][f'{fold}'] = fold_results
+                
+            fold_results['train_cfs'] = fold_results['train_cfs'].tolist()
+            fold_results['val_cfs'] = fold_results['val_cfs'].tolist()
+            fold_results['test_cfs'] = fold_results['test_cfs'].tolist()
+            folds_results[f'{group}'][f'{fold}'] = fold_results
     
     # print(folds_results, type(fold_results))
     

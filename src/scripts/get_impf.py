@@ -53,6 +53,7 @@ def fold_rf_impf (group, fold):
     RF_MODEL_FILE = os.path.join(clf_cfg['RF_MODELS_DIR'], group, f'{fold}.joblib')
     rf = joblib.load(RF_MODEL_FILE)
     rf_feature_importance = rf.feature_importances_
+    rf_feature_importance = list(map(abs, rf_feature_importance))
     sorted_indexes = np.argsort(rf_feature_importance)
     imp_indexes = sorted_indexes[-(impf_cfg['N_IMPF']):]
     important_features = [features[i] for i in imp_indexes]
