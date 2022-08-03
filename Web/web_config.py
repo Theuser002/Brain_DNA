@@ -16,7 +16,7 @@ inner_fold_indexes = ['.1', '.2', '.3', '.4', '.5']
 algs = ['MLP', 'RF', 'LR', 'XGB']
 
 tissue_groups = [
-    'Embryonal', 'Glioblastoma', 'Glio-neuronal', 'Sella', 'Ependymal', 'Other glioma', 'Nerve', 'Pineal', 'Mesenchymal', 'Melanocytic', 'Plexus', 'Glioma IDH', 'Haematopoietic', 'Unknown'
+    'Embryonal', 'Glioblastoma', 'Glio-neuronal', 'Sella', 'Ependymal', 'Other glioma', 'Nerve', 'Pineal', 'Mesenchymal', 'Melanocytic', 'Plexus', 'Glioma IDH', 'Haematopoietic'
 ]
 
 cpg_info_path = '../Supplementary/humanmethylation450.csv'

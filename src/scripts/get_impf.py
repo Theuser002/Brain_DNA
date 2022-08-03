@@ -123,7 +123,7 @@ def outer_fold_impf(alg, group, outer_fold, save = False):
     IMPF_DIR =  os.path.join(impf_cfg['IMPORTANT_FEATURES_DIR'], alg)
     IMPF_FILE = os.path.join(IMPF_DIR, group, f'{outer_fold}_combined.pkl')
     combined_impf = []
-    for i in tqdm(range(0,6)):
+    for i in tqdmran(range(0,6)):
         fold = f'{fold_index}.{i}'
         impf = choose_impf_alg(alg, group, fold)
         combined_impf.append(set(impf))

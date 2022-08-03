@@ -42,8 +42,8 @@ def load_impf(outer_fold = '1.0', alg = 'RF', group = 'Embryonal'):
     return impf
 
 @st.cache
-# def check_contain_features(df, impf):
-    # return set(df.columns).issuperset(impf)
+def check_contain_features(df, impf):
+    return set(df.columns).issuperset(impf)
 
 @st.cache
 def get_ranked_impf(df, outer_fold = '1.0', alg = 'RF', group = 'Embryonal'):
@@ -76,10 +76,10 @@ try:
 
         # Get user's input
         with st.form(key = 'form_0'):
-            sample_index = st.selectbox('Choose ur sample: ', df.index)
-            alg = st.selectbox('Select important features algorithm: ', algs)
+            sample_index = st.selectbox('Select sample ID: ', df.index)
+            alg = st.selectbox('Select filtering algorithm: ', algs)
             group = st.selectbox('Select tissue origin: ', tissue_groups)
-            selected_fold = st.selectbox('Select a fold model: ', web_config.inner_folds)
+            selected_fold = st.selectbox('Select the version of predictor: ', web_config.inner_folds)
             submitted = st.form_submit_button(label = 'Submit')
             if submitted:
                 form_0_cache['sample_index'] = sample_index
