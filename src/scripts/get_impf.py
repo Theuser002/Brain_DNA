@@ -29,7 +29,10 @@ def fold_mlp_impf (group, fold):
     ## Load model
     MLP_BEST_STATES_FILE = os.path.join(clf_cfg['MLP_BEST_STATES_DIR'], group, f'{fold}.pth')
     mlp = DNAMLP(clf_cfg['n_features'], clf_cfg['n_classes'])
-    mlp.load_state_dict(torch.load(MLP_BEST_STATES_FILE))
+    if torch.cuda.is_available() is False:
+        mlp.load_state_dict(torch.load(MLP_BEST_STATES_FILE, map_location = torch.device('cpu')))
+    else:
+        mlp.load_state_dict(torch.load(MLP_BEST_STATES_FILE))
     mlp_weights = mlp.densenet[0].weight.detach().cpu().numpy()
     ## Define the way we calculate feature importance for mlp model: Take the first row (corresponding to the predicted class) elements
     mlp_feature_importance = mlp_weights[0]
