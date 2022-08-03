@@ -158,6 +158,7 @@ def ranked_impf_features(alg, group, outer_fold, save = False):
 if __name__ == "__main__": 
     print(f'Getting {impf_cfg["N_IMPF"]} important features')
     algs = utils.algs
+    algs = ['LR']
     groups = utils.positive_groups
     outer_folds = utils.outer_folds 
     
