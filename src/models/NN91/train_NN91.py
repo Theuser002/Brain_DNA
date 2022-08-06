@@ -156,7 +156,7 @@ def run(fold, train_loader, val_loader, model, criterion, optimizer, config, sav
     diff_threshold = config['nn91_diff_threshold']
     max_patience = config['nn91_max_patience']
     patience = 0
-    selected_metrics = ['train_acc', 'train_bs' 'train_precision', 'train_recall', 'train_auc', 'train_f1','train_cfs', 'val_acc', 'val_bs', 'val_precision', 'val_recall', 'val_auc', 'val_f1', 'val_cfs']
+    selected_metrics = ['train_acc', 'train_bs', 'train_precision', 'train_recall', 'train_auc', 'train_f1', 'train_cfs', 'val_acc', 'val_bs', 'val_precision', 'val_recall', 'val_auc', 'val_f1', 'val_cfs']
     
     for epoch in tqdm(range(1, n_epochs + 1), desc='Epoch: ', position=1):
         train_loss, train_acc, train_me, train_bs, train_auc, train_f1, train_precision, train_recall, train_cfs, train_probs, train_labels, train_logits = train_epoch(epoch, model, train_loader, criterion, optimizer, device)
@@ -176,8 +176,8 @@ def run(fold, train_loader, val_loader, model, criterion, optimizer, config, sav
         # history['val_f1s'].append(val_f1)
         
         tqdm.write(f'{fold} - {epoch}/{n_epochs}')
-        tqdm.write('train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %.3f | train_f1: %.3f' % (train_loss, train_acc, train_precision, train_recall, train_auc, train_f1))
-        tqdm.write('val_loss: %.5f | val_acc: %.3f | val_precision: %.3f | val_recall: %.3f | val_auc: %.3f | val_f1: %.3f' % (val_loss, val_acc, val_precision, val_recall, val_auc, val_f1))
+        tqdm.write('train_loss: %.5f | train_acc: %.3f | train_precision: %.3f | train_recall: %.3f | train_auc: %f | train_f1: %.3f' % (train_loss, train_acc, train_precision, train_recall, train_auc, train_f1))
+        tqdm.write('val_loss: %.5f | val_acc: %.3f | val_precision: %.3f | val_recall: %.3f | val_auc: %f | val_f1: %.3f' % (val_loss, val_acc, val_precision, val_recall, val_auc, val_f1))
         
         if val_loss == min(history['val_losses']):
             best_epoch_results = {'train_loss': train_loss, 'train_acc': train_acc, 'train_me': train_me, 'train_bs': train_bs, 'train_precision': train_precision, 'train_recall': train_recall, 'train_auc': train_auc, 'train_f1': train_f1, 'train_cfs': train_cfs, 'val_loss': val_loss, 'val_acc': val_acc, 'val_me': val_me, 'val_bs': val_bs, 'val_precision': val_precision,  'val_recall': val_recall, 'val_auc': val_auc, 'val_f1': val_f1, 'val_cfs': val_cfs}

@@ -9,6 +9,7 @@ import utils_91
 import train_NN91
 import json
 import pickle
+import time
 
 from Dataset import CNS
 from torch.utils.data import DataLoader
@@ -61,6 +62,9 @@ if __name__ == "__main__":
     else:
         trained_folds = [single_fold]
 
+    # Get start time
+    start_time = time.time()
+    
     folds_results = {}
     for fold in tqdm(trained_folds, desc='Folds: ', position=0):
         folds_results[f'{fold}'] = {}
@@ -110,7 +114,10 @@ if __name__ == "__main__":
         with open(os.path.join(clf_cfg['NN91_HISTORY_DIR'], f'{fold}.pkl'), 'wb') as handle:
             pickle.dump(fold_history, handle, protocol=pickle.HIGHEST_PROTOCOL)
         handle.close() 
-        
+    
+    # Get total runtime
+    print('Total runtime: %s seconds' % (time.time() - start_time))
+    
     with open(clf_cfg['NN91_EVALUATION_JSON'], 'w') as fp:
         json.dump(folds_results, fp)
     fp.close()
