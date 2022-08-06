@@ -11,20 +11,23 @@ data_config = {
 
 classifier_config = {
     'device': ('cuda' if torch.cuda.is_available() else 'cpu'),
+    
     'n_features': 10000,
     'n_classes': 91,
-    'NN91_BEST_STATES_DIR': os.path.join(root_dir, 'src/models/NN91/saved_best_states'),
-    'nn91_diff_threshold': 1e-3,
-    'nn91_max_patience': 5,
+
+    'nn91_lr': 1e-4,
+    'nn91_n_epochs': 30,
     'nn91_train_batch_size': 8,
     'nn91_val_batch_size': 16,
-    'NN91_FIRST_TIME': True,
-    'nn91_lr': 1e-4,
+    'nn91_max_patience': 5,
+    'nn91_diff_threshold': 1e-3,
     'nn91_weight_decay': 0,
-    'nn91_n_epochs': 30,
-    'NN91_EVALUATION_RESULTS': os.path.join(root_dir, 'src/models/NN91/NN91_evaluation.txt'),
     'nn91_threshold': 0.5,
     'nn91_dropout_rate': 0,
+    
+    'NN91_BEST_STATES_DIR': os.path.join(root_dir, 'src/models/NN91/saved_best_states'),
+    'NN91_FIRST_TIME': True,
+    'NN91_EVALUATION_RESULTS': os.path.join(root_dir, 'src/models/NN91/NN91_evaluation.txt'),
     'TRAIN_PROBS_DIR': os.path.join(root_dir, 'src/models/NN91/probs/train'),
     'VAL_PROBS_DIR': os.path.join(root_dir, 'src/models/NN91/probs/val'),
     'TRAIN_LABELS_DIR': os.path.join(root_dir, 'src/models/NN91/labels/train'),
